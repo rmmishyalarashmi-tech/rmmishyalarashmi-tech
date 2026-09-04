@@ -1,27 +1,1265 @@
-body {
-    margin: 0;
-    font-family: Georgia, serif;
-    background: #fff8fc;
-    color: #5b4656;
-    text-align: center;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Study Petal 🌷</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #fff8fb;
+      color: #4b3040;
+      line-height: 1.6;
+    }
+
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(255,255,255,0.96);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid #f2dce7;
+      padding: 15px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      color: #d45c91;
+      font-size: 1.45rem;
+      font-weight: 800;
+    }
+
+    nav a {
+      color: #70495b;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 600;
+    }
+
+    nav a:hover {
+      color: #d45c91;
+    }
+
+    .hero {
+      min-height: 88vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 70px 20px;
+      background:
+        radial-gradient(circle at 10% 15%, #ffdce9, transparent 30%),
+        radial-gradient(circle at 90% 85%, #f1ddff, transparent 30%),
+        #fff8fb;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .flower {
+      font-size: 4rem;
+      margin-bottom: 12px;
+    }
+
+    .hero h1 {
+      color: #cf5589;
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+
+    .tagline {
+      font-size: 1.35rem;
+      color: #765064;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .quote {
+      color: #8a6a7a;
+      font-style: italic;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .main-button {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 14px 28px;
+      border-radius: 30px;
+      background: #d45c91;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.2s;
+    }
+
+    .main-button:hover {
+      transform: translateY(-3px);
+      background: #c34d80;
+    }
+
+    section {
+      padding: 75px 7%;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #633d50;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #8a6978;
+      margin-bottom: 35px;
+    }
+
+    /* DISCOVER */
+
+    .discover-box {
+      max-width: 850px;
+      margin: auto;
+      background: white;
+      border: 1px solid #f1dce6;
+      border-radius: 25px;
+      padding: 35px;
+      box-shadow: 0 10px 35px rgba(110,65,88,0.08);
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 7px;
+      font-weight: 700;
+      color: #684356;
+    }
+
+    input {
+      width: 100%;
+      padding: 13px 15px;
+      border: 1px solid #e5c9d7;
+      border-radius: 13px;
+      background: #fffafd;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    input:focus {
+      border-color: #d45c91;
+      box-shadow: 0 0 0 3px rgba(212,92,145,0.1);
+    }
+
+    .discover-button {
+      width: 100%;
+      margin-top: 22px;
+      padding: 14px;
+      border: none;
+      border-radius: 14px;
+      background: #d45c91;
+      color: white;
+      font-size: 1rem;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .discover-button:hover {
+      background: #c34d80;
+    }
+
+    #result {
+      margin-top: 30px;
+    }
+
+    .welcome {
+      background: #fff0f6;
+      border-radius: 20px;
+      padding: 25px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .scientist-card {
+      display: grid;
+      grid-template-columns: 140px 1fr;
+      gap: 22px;
+      align-items: center;
+      background: white;
+      padding: 23px;
+      margin-top: 18px;
+      border-radius: 20px;
+      border: 1px solid #f0dbe5;
+      box-shadow: 0 6px 22px rgba(110,65,88,0.06);
+    }
+
+    .scientist-image {
+      width: 140px;
+      height: 140px;
+      border-radius: 20px;
+      object-fit: cover;
+      background: #f8e6ef;
+    }
+
+    .scientist-card h3 {
+      color: #c64f82;
+      margin-bottom: 7px;
+    }
+
+    .scientist-info {
+      color: #765869;
+      margin-bottom: 5px;
+    }
+
+    .sarcastic {
+      margin-top: 10px;
+      padding: 12px 15px;
+      background: #fff4f8;
+      border-radius: 14px;
+      color: #85556d;
+    }
+
+    .source-link {
+      display: inline-block;
+      margin-top: 10px;
+      color: #b44573;
+      text-decoration: none;
+      font-weight: 700;
+    }
+
+    .name-card {
+      margin-top: 20px;
+      background: #fff5f9;
+      padding: 25px;
+      border-radius: 20px;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 25px;
+      color: #89687a;
+    }
+
+    .error {
+      padding: 20px;
+      background: #fff0f0;
+      border-radius: 15px;
+      color: #a44f4f;
+      text-align: center;
+    }
+
+    /* NOTES */
+
+    .notes-section {
+      background: #fff0f6;
+    }
+
+    .search-box {
+      max-width: 650px;
+      margin: 0 auto 35px;
+    }
+
+    .notes-grid {
+      max-width: 1100px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+      gap: 22px;
+    }
+
+    .note-card {
+      background: white;
+      border: 1px solid #f1dce6;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 6px 20px rgba(110,65,88,0.06);
+      transition: 0.2s;
+    }
+
+    .note-card:hover {
+      transform: translateY(-4px);
+    }
+
+    .note-icon {
+      font-size: 2.2rem;
+      margin-bottom: 10px;
+    }
+
+    .note-card h3 {
+      color: #633d50;
+      margin-bottom: 8px;
+    }
+
+    .note-card p {
+      color: #806474;
+      margin-bottom: 18px;
+    }
+
+    .note-actions {
+      display: flex;
+      gap: 10px;
+    }
+
+    .note-actions a {
+      flex: 1;
+      text-align: center;
+      text-decoration: none;
+      padding: 9px;
+      border-radius: 12px;
+      font-weight: bold;
+    }
+
+    .read {
+      background: #d45c91;
+      color: white;
+    }
+
+    .download {
+      background: #f6e1eb;
+      color: #a0466e;
+    }
+
+    footer {
+      padding: 35px 20px;
+      background: #633d50;
+      color: #fff0f6;
+      text-align: center;
+    }
+
+    footer strong {
+      color: white;
+    }
+
+    @media (max-width: 700px) {
+
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .scientist-card {
+        grid-template-columns: 1fr;
+        text-align: center;
+      }
+
+      .scientist-image {
+        margin: auto;
+      }
+
+      nav {
+        padding: 14px 5%;
+      }
+
+      nav a {
+        margin-left: 8px;
+        font-size: 0.85rem;
+      }
+
+      section {
+        padding: 55px 5%;
+      }
+
+      .note-actions {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+<nav>
+
+  <div class="logo">
+    🌷 Study Petal
+  </div>
+
+  <div>
+    <a href="#discover">Discover</a>
+    <a href="#notes">Notes</a>
+  </div>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+  <div class="hero-content">
+
+    <div class="flower">🌷</div>
+
+    <h1>Study Petal</h1>
+
+    <p class="tagline">
+      Notes that bloom into knowledge.
+    </p>
+
+    <p class="quote">
+      “The beautiful thing about learning is that nobody can take it away from you.”
+    </p>
+
+    <a class="main-button" href="#discover">
+      ✨ Begin Your Journey
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- DISCOVER -->
+
+<section id="discover">
+
+  <h2 class="section-title">
+    🔬 Who Shares Your Birthday?
+  </h2>
+
+  <p class="section-subtitle">
+    Enter your name and birthday. Let's see who was doing science on your special day. 🌷
+  </p>
+
+
+  <div class="discover-box">
+
+    <div class="form-grid">
+
+      <div class="input-group">
+
+        <label for="name">
+          🌸 Your Name
+        </label>
+
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your name"
+          autocomplete="name"
+        >
+
+      </div>
+
+
+      <div class="input-group">
+
+        <label for="dob">
+          📅 Your Birthday
+        </label>
+
+        <input
+          id="dob"
+          type="date"
+          autocomplete="bday"
+        >
+
+      </div>
+
+    </div>
+
+
+    <button
+      class="discover-button"
+      onclick="discover()"
+    >
+      🌷 Discover My Scientist
+    </button>
+
+
+    <div id="result"></div>
+
+  </div>
+
+</section>
+
+
+<!-- NOTES -->
+
+<section
+  id="notes"
+  class="notes-section"
+>
+
+  <h2 class="section-title">
+    📚 Study Garden
+  </h2>
+
+  <p class="section-subtitle">
+    Your handwritten notes, slowly growing into a little library.
+  </p>
+
+
+  <div class="search-box">
+
+    <input
+      id="noteSearch"
+      type="search"
+      placeholder="🔎 Search your notes..."
+      autocomplete="off"
+      oninput="searchNotes()"
+    >
+
+  </div>
+
+
+  <div
+    class="notes-grid"
+    id="notesGrid"
+  >
+
+
+    <!-- NOTE 1 -->
+
+    <article
+      class="note-card"
+      data-title="SC BCC FCC Crystal Structure"
+    >
+
+      <div class="note-icon">🧊</div>
+
+      <h3>
+        SC, BCC & FCC Crystal Structure
+      </h3>
+
+      <p>
+        Atoms, coordination number, packing efficiency
+        and crystal structure diagrams.
+      </p>
+
+      <div class="note-actions">
+
+        <a
+          class="read"
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
+
+        <a
+          class="download"
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          download
+        >
+          ⬇ Download
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <!-- NOTE 2 -->
+
+    <article
+      class="note-card"
+      data-title="HCP Hexagonal Close Packed Structure"
+    >
+
+      <div class="note-icon">⬡</div>
+
+      <h3>
+        HCP Derivation
+      </h3>
+
+      <p>
+        Hexagonal Close Packed structure
+        and its derivation.
+      </p>
+
+      <div class="note-actions">
+
+        <a
+          class="read"
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
+
+        <a
+          class="download"
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          download
+        >
+          ⬇ Download
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <!-- NOTE 3 -->
+
+    <article
+      class="note-card"
+      data-title="Miller Indices d Spacing Cubic Lattice"
+    >
+
+      <div class="note-icon">📐</div>
+
+      <h3>
+        Miller Indices
+      </h3>
+
+      <p>
+        Procedure, derivation and d-spacing
+        in cubic lattice.
+      </p>
+
+      <div class="note-actions">
+
+        <a
+          class="read"
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
+
+        <a
+          class="download"
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          download
+        >
+          ⬇ Download
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  🌷 <strong>Study Petal</strong>
+
+  <br>
+
+  Notes that bloom into knowledge.
+
+  <br><br>
+
+  Notes that bloom. Students that grow. ♡
+
+</footer>
+
+
+<script>
+
+/* =====================================================
+   SCIENTIST DATABASE
+   ===================================================== */
+
+let scientists = [];
+
+
+/* =====================================================
+   LOAD scientists.json
+   ===================================================== */
+
+async function loadScientists() {
+
+  try {
+
+    const response =
+      await fetch("scientists.json");
+
+    if (!response.ok) {
+
+      throw new Error(
+        "scientists.json could not be loaded."
+      );
+
+    }
+
+    scientists =
+      await response.json();
+
+    console.log(
+      "Study Petal scientist database loaded:",
+      scientists.length,
+      "entries"
+    );
+
+  } catch (error) {
+
+    console.error(error);
+
+    scientists = [];
+
+  }
+
 }
 
-h1 {
-    font-size: 50px;
-    margin-top: 120px;
-    color: #c77d9b;
+
+/* =====================================================
+   DISCOVER
+   ===================================================== */
+
+async function discover() {
+
+  const name =
+    document
+      .getElementById("name")
+      .value
+      .trim();
+
+  const dob =
+    document
+      .getElementById("dob")
+      .value;
+
+  const result =
+    document
+      .getElementById("result");
+
+
+  if (!name || !dob) {
+
+    result.innerHTML = `
+
+      <div class="error">
+
+        🌷 Please enter your name and birthday, pookie!
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  if (scientists.length === 0) {
+
+    await loadScientists();
+
+  }
+
+
+  if (scientists.length === 0) {
+
+    result.innerHTML = `
+
+      <div class="error">
+
+        🌱 The scientist garden could not be loaded.
+
+        <br><br>
+
+        Make sure <strong>scientists.json</strong>
+        is in the same GitHub repository as
+        <strong>index.html</strong>.
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  const birthDate =
+    new Date(
+      dob + "T00:00:00"
+    );
+
+
+  const month =
+    String(
+      birthDate.getMonth() + 1
+    ).padStart(2, "0");
+
+
+  const day =
+    String(
+      birthDate.getDate()
+    ).padStart(2, "0");
+
+
+  const key =
+    `${month}-${day}`;
+
+
+  result.innerHTML = `
+
+    <div class="loading">
+
+      🌱 Searching the Study Petal library...
+
+      <br>
+
+      🔬 Finding your birthday scientist...
+
+    </div>
+
+  `;
+
+
+  /*
+    Find every scientist whose database
+    date matches the user's month and day.
+  */
+
+  const matches =
+    scientists.filter(
+      scientist =>
+        scientist.date === key
+    );
+
+
+  if (matches.length === 0) {
+
+    result.innerHTML = `
+
+      <div class="welcome">
+
+        <h3>
+          🌷 Hi ${escapeHTML(name)}!
+        </h3>
+
+        <p>
+          We haven't added a scientist for
+          your birthday yet.
+        </p>
+
+        <p>
+          The Study Petal garden is still growing. 🌱
+        </p>
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  let cards = "";
+
+
+  matches.forEach(
+    scientist => {
+
+      const scientistBirth =
+        parseHistoricalDate(
+          scientist.birthDate
+        );
+
+
+      let yearsAgo = null;
+
+
+      if (scientistBirth) {
+
+        yearsAgo =
+          calculateYearsAgo(
+            scientistBirth
+          );
+
+      }
+
+
+      let imageHTML = "";
+
+
+      if (scientist.image) {
+
+        imageHTML = `
+
+          <img
+            class="scientist-image"
+            src="${escapeAttribute(scientist.image)}"
+            alt="${escapeAttribute(scientist.name)}"
+            onerror="this.style.display='none'"
+          >
+
+        `;
+
+      } else {
+
+        imageHTML = `
+
+          <div
+            class="scientist-image"
+            style="
+              display:flex;
+              align-items:center;
+              justify-content:center;
+              font-size:3.5rem;
+            "
+          >
+            🔬
+          </div>
+
+        `;
+
+      }
+
+
+      let sourceHTML = "";
+
+
+      if (scientist.wikipedia) {
+
+        sourceHTML = `
+
+          <a
+            class="source-link"
+            href="${escapeAttribute(scientist.wikipedia)}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn more ↗
+          </a>
+
+        `;
+
+      }
+
+
+      cards += `
+
+        <div class="scientist-card">
+
+          ${imageHTML}
+
+          <div>
+
+            <h3>
+              🔬 ${escapeHTML(scientist.name)}
+            </h3>
+
+            <div class="scientist-info">
+
+              🎂 Born:
+              ${escapeHTML(
+                scientist.birthDate || "Unknown"
+              )}
+
+            </div>
+
+
+            ${
+              yearsAgo !== null
+              ? `
+
+                <div class="scientist-info">
+
+                  ⏳ They were born
+                  <strong>
+                    ${yearsAgo} years
+                  </strong>
+                  before you.
+
+                </div>
+
+                <div class="sarcastic">
+
+                  They were already busy changing
+                  the world while you hadn't even
+                  spawned yet. 😭🌷
+
+                  <br><br>
+
+                  No pressure, pookie.
+                  Your character arc is still loading. ✨
+
+                </div>
+
+              `
+              : ""
+            }
+
+
+            <div class="scientist-info">
+
+              🔬 Field:
+              ${escapeHTML(
+                scientist.field ||
+                "Science"
+              )}
+
+            </div>
+
+
+            <p>
+
+              ${escapeHTML(
+                scientist.description ||
+                "A remarkable contributor to science."
+              )}
+
+            </p>
+
+
+            ${sourceHTML}
+
+          </div>
+
+        </div>
+
+      `;
+
+    }
+  );
+
+
+  result.innerHTML = `
+
+    <div class="welcome">
+
+      <h3>
+        🌷 Hello, ${escapeHTML(name)}!
+      </h3>
+
+      <p>
+        Your birthday is
+        <strong>
+          ${formatPrettyDate(
+            birthDate
+          )}
+        </strong>.
+      </p>
+
+      <p>
+        And here are the scientific minds
+        sharing your calendar day. 🔬✨
+      </p>
+
+    </div>
+
+    ${cards}
+
+    <div class="name-card">
+
+      <h3>
+        💌 About Your Name
+      </h3>
+
+      <p>
+        <strong>
+          ${escapeHTML(name)}
+        </strong>
+      </p>
+
+      <p>
+        Your name has its own story,
+        just like your journey. 🌱
+      </p>
+
+      <p>
+        We'll add the automatic name-meaning
+        system next.
+      </p>
+
+    </div>
+
+  `;
+
 }
 
-p {
-    font-size: 20px;
+
+/* =====================================================
+   YEAR CALCULATION
+   ===================================================== */
+
+function calculateYearsAgo(birthDate) {
+
+  const today =
+    new Date();
+
+  let years =
+    today.getFullYear() -
+    birthDate.getFullYear();
+
+
+  const birthdayThisYear =
+    new Date(
+      today.getFullYear(),
+      birthDate.getMonth(),
+      birthDate.getDate()
+    );
+
+
+  if (today < birthdayThisYear) {
+
+    years--;
+
+  }
+
+
+  return years;
+
 }
 
-button {
-    padding: 14px 25px;
-    border: none;
-    border-radius: 25px;
-    background: #f3c4d7;
-    color: #5b4656;
-    font-size: 16px;
-    cursor: pointer;
+
+/* =====================================================
+   HISTORICAL DATE PARSER
+   ===================================================== */
+
+function parseHistoricalDate(value) {
+
+  if (!value) {
+    return null;
+  }
+
+
+  /*
+    Handles normal YYYY-MM-DD dates.
+  */
+
+  const normal =
+    /^(\d{4})-(\d{2})-(\d{2})$/.exec(
+      value
+    );
+
+
+  if (normal) {
+
+    const year =
+      Number(normal[1]);
+
+    const month =
+      Number(normal[2]);
+
+    const day =
+      Number(normal[3]);
+
+
+    return new Date(
+      year,
+      month - 1,
+      day
+    );
+
+  }
+
+
+  return null;
+
 }
+
+
+/* =====================================================
+   PRETTY DATE
+   ===================================================== */
+
+function formatPrettyDate(date) {
+
+  return date.toLocaleDateString(
+    "en-US",
+    {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    }
+  );
+
+}
+
+
+/* =====================================================
+   SEARCH NOTES
+   ===================================================== */
+
+function searchNotes() {
+
+  const search =
+    document
+      .getElementById("noteSearch")
+      .value
+      .toLowerCase()
+      .trim();
+
+
+  const notes =
+    document.querySelectorAll(
+      ".note-card"
+    );
+
+
+  notes.forEach(
+    note => {
+
+      const title =
+        note
+          .getAttribute("data-title")
+          .toLowerCase();
+
+
+      note.style.display =
+        title.includes(search)
+        ? ""
+        : "none";
+
+    }
+  );
+
+}
+
+
+/* =====================================================
+   SECURITY HELPERS
+   ===================================================== */
+
+function escapeHTML(value) {
+
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+}
+
+
+function escapeAttribute(value) {
+
+  return String(value || "")
+    .replace(/"/g, "&quot;");
+
+}
+
+
+/* =====================================================
+   STARTUP
+   ===================================================== */
+
+loadScientists();
+
+</script>
+
+</body>
+</html>
