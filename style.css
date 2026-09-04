@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background: #fff8fc;
+    color: #5b4656;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    margin-top: 120px;
+    color: #c77d9b;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 14px 25px;
+    border: none;
+    border-radius: 25px;
+    background: #f3c4d7;
+    color: #5b4656;
+    font-size: 16px;
+    cursor: pointer;
+}
