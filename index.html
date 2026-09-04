@@ -1,564 +1,1278 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Study Petal 🌷</title>
+<title>Study Petal 🌷</title>
 
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    body {
-      font-family: "Trebuchet MS", Arial, sans-serif;
-      background: #fff8fb;
-      color: #4a3040;
-      line-height: 1.6;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: #fff;
-      padding: 15px 8%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      box-shadow: 0 2px 12px rgba(120, 60, 90, 0.08);
-    }
+body {
+  font-family: "Trebuchet MS", Arial, sans-serif;
+  background: #fff8fb;
+  color: #4b3542;
+  line-height: 1.6;
+}
 
-    .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #d66b9c;
-    }
+/* NAVBAR */
 
-    nav a {
-      text-decoration: none;
-      color: #5a4050;
-      margin-left: 20px;
-      font-weight: bold;
-    }
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(10px);
+  padding: 15px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 18px rgba(120,60,90,0.08);
+}
 
-    nav a:hover {
-      color: #d66b9c;
-    }
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #cf5f91;
+}
 
-    .hero {
-      text-align: center;
-      padding: 80px 20px 60px;
-      background: linear-gradient(135deg, #ffe6f0, #fff8fb);
-    }
+nav a {
+  text-decoration: none;
+  color: #624657;
+  margin-left: 20px;
+  font-weight: bold;
+}
 
-    .hero h1 {
-      font-size: 3.2rem;
-      color: #c95789;
-      margin-bottom: 10px;
-    }
+nav a:hover {
+  color: #cf5f91;
+}
 
-    .hero p {
-      font-size: 1.15rem;
-      color: #725667;
-      margin-bottom: 25px;
-    }
+/* HERO */
 
-    .quote {
-      max-width: 700px;
-      margin: 25px auto;
-      padding: 20px;
-      background: white;
-      border-radius: 18px;
-      box-shadow: 0 5px 20px rgba(120, 60, 90, 0.08);
-      font-style: italic;
-    }
+.hero {
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 70px 20px;
+  background:
+    radial-gradient(circle at 10% 20%, #ffdce9 0, transparent 25%),
+    radial-gradient(circle at 90% 80%, #f8d9e7 0, transparent 25%),
+    linear-gradient(135deg, #fff0f6, #fffafd);
+}
 
-    section {
-      padding: 60px 8%;
-    }
+.hero-content {
+  max-width: 800px;
+}
 
-    .section-title {
-      text-align: center;
-      color: #c95789;
-      font-size: 2rem;
-      margin-bottom: 30px;
-    }
+.flower {
+  font-size: 4rem;
+  animation: float 3s ease-in-out infinite;
+}
 
-    .personal-box {
-      max-width: 650px;
-      margin: auto;
-      background: white;
-      padding: 30px;
-      border-radius: 22px;
-      box-shadow: 0 6px 25px rgba(120, 60, 90, 0.1);
-    }
+.hero h1 {
+  font-size: clamp(3rem, 8vw, 5.5rem);
+  color: #c65487;
+  margin: 10px 0;
+}
 
-    input {
-      width: 100%;
-      padding: 13px;
-      margin: 8px 0 15px;
-      border: 1px solid #edc5d6;
-      border-radius: 12px;
-      font-size: 1rem;
-    }
+.hero h2 {
+  font-size: 1.4rem;
+  font-weight: normal;
+  color: #79596a;
+  margin-bottom: 25px;
+}
 
-    button {
-      width: 100%;
-      padding: 13px;
-      border: none;
-      border-radius: 12px;
-      background: #d66b9c;
-      color: white;
-      font-size: 1rem;
-      font-weight: bold;
-      cursor: pointer;
-    }
+.hero p {
+  max-width: 600px;
+  margin: auto;
+  color: #806675;
+}
 
-    button:hover {
-      background: #c95789;
-    }
+@keyframes float {
+  0%,100% {
+    transform: translateY(0);
+  }
 
-    #result {
-      margin-top: 25px;
-      padding: 20px;
-      background: #fff0f6;
-      border-radius: 16px;
-      display: none;
-    }
+  50% {
+    transform: translateY(-10px);
+  }
+}
 
-    .notes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
-    }
+/* BUTTON */
 
-    .note-card {
-      background: white;
-      padding: 25px;
-      border-radius: 20px;
-      box-shadow: 0 5px 20px rgba(120, 60, 90, 0.08);
-      transition: transform 0.2s;
-    }
+.main-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 14px 28px;
+  border-radius: 30px;
+  background: #d56898;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+}
 
-    .note-card:hover {
-      transform: translateY(-5px);
-    }
+.main-button:hover {
+  transform: translateY(-2px);
+  background: #bd4f80;
+}
 
-    .note-card h3 {
-      color: #c95789;
-      margin-bottom: 10px;
-    }
+/* GENERAL */
 
-    .note-card p {
-      color: #725667;
-      margin-bottom: 18px;
-    }
+section {
+  padding: 70px 8%;
+}
 
-    .note-buttons {
-      display: flex;
-      gap: 10px;
-    }
+.section-title {
+  text-align: center;
+  color: #c65487;
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+}
 
-    .note-buttons a {
-      flex: 1;
-      text-align: center;
-      text-decoration: none;
-      padding: 10px;
-      border-radius: 10px;
-      background: #d66b9c;
-      color: white;
-      font-weight: bold;
-    }
+.section-subtitle {
+  text-align: center;
+  color: #806675;
+  margin-bottom: 35px;
+}
 
-    .note-buttons a.download {
-      background: #f1a6c5;
-    }
+/* DISCOVERY */
 
-    footer {
-      text-align: center;
-      padding: 30px;
-      background: #ffe6f0;
-      color: #725667;
-    }
+.discovery-box {
+  max-width: 750px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 28px;
+  box-shadow: 0 8px 30px rgba(120,60,90,0.1);
+}
 
-    .flower {
-      font-size: 2rem;
-    }
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
 
-    @media (max-width: 600px) {
-      .hero h1 {
-        font-size: 2.4rem;
-      }
+input {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #e7bfd0;
+  border-radius: 14px;
+  font-size: 1rem;
+  outline: none;
+}
 
-      nav {
-        padding: 15px 5%;
-      }
+input:focus {
+  border-color: #d56898;
+  box-shadow: 0 0 0 3px rgba(213,104,152,0.1);
+}
 
-      nav a {
-        margin-left: 10px;
-        font-size: 0.9rem;
-      }
-    }
-  </style>
+.discover-button {
+  width: 100%;
+  border: none;
+  padding: 14px;
+  margin-top: 20px;
+  border-radius: 14px;
+  background: #d56898;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.discover-button:hover {
+  background: #bd4f80;
+}
+
+/* RESULT */
+
+#result {
+  margin-top: 30px;
+  display: none;
+}
+
+.result-card {
+  background: #fff3f8;
+  border: 1px solid #f2d2df;
+  padding: 25px;
+  border-radius: 22px;
+  margin-top: 20px;
+}
+
+.result-card h3 {
+  color: #c65487;
+  margin-bottom: 10px;
+}
+
+.scientist-card {
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  margin-top: 15px;
+  box-shadow: 0 4px 15px rgba(120,60,90,0.07);
+}
+
+.scientist-card h4 {
+  font-size: 1.4rem;
+  color: #bd4f80;
+}
+
+.scientist-card p {
+  margin: 6px 0;
+}
+
+.scientist-image {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid #f5d6e3;
+}
+
+.learn-more {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+  color: #c65487;
+  font-weight: bold;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+}
+
+/* NOTES */
+
+.notes-section {
+  background: #fff;
+}
+
+.notes-search {
+  max-width: 600px;
+  margin: 0 auto 35px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+}
+
+.note-card {
+  background: #fffafc;
+  border: 1px solid #f0d6e1;
+  padding: 25px;
+  border-radius: 22px;
+  box-shadow: 0 5px 18px rgba(120,60,90,0.06);
+  transition: 0.2s;
+}
+
+.note-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(120,60,90,0.1);
+}
+
+.note-icon {
+  font-size: 2rem;
+}
+
+.note-card h3 {
+  color: #c65487;
+  margin: 8px 0;
+}
+
+.note-card p {
+  color: #806675;
+  min-height: 70px;
+}
+
+.note-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.note-buttons a {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+  text-decoration: none;
+  background: #d56898;
+  color: white;
+  font-weight: bold;
+}
+
+.note-buttons a.download {
+  background: #efabc7;
+}
+
+.no-notes {
+  text-align: center;
+  padding: 30px;
+  display: none;
+  color: #806675;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #ffe8f1;
+  color: #725465;
+}
+
+footer strong {
+  color: #c65487;
+}
+
+/* MOBILE */
+
+@media(max-width:600px) {
+
+  nav {
+    padding: 14px 5%;
+  }
+
+  nav a {
+    margin-left: 8px;
+    font-size: 0.85rem;
+  }
+
+  section {
+    padding: 55px 5%;
+  }
+
+  .discovery-box {
+    padding: 25px 20px;
+  }
+
+  .note-buttons {
+    flex-direction: column;
+  }
+
+}
+</style>
 </head>
 
 <body>
 
-  <!-- NAVIGATION -->
-  <nav>
-    <div class="logo">🌷 Study Petal</div>
+<!-- NAVIGATION -->
 
-    <div>
-      <a href="#home">Home</a>
-      <a href="#notes">Notes</a>
-    </div>
-  </nav>
+<nav>
+
+  <div class="logo">
+    🌷 Study Petal
+  </div>
+
+  <div>
+    <a href="#home">Home</a>
+    <a href="#discover">Discover</a>
+    <a href="#notes">Notes</a>
+  </div>
+
+</nav>
 
 
-  <!-- HERO -->
-  <section class="hero" id="home">
+<!-- HERO -->
+
+<section class="hero" id="home">
+
+  <div class="hero-content">
 
     <div class="flower">🌷</div>
 
     <h1>Study Petal</h1>
 
+    <h2>Notes that bloom into knowledge.</h2>
+
     <p>
-      Notes that bloom into knowledge.
+      A cozy little corner of the internet for students,
+      handwritten notes, curious minds and people who are
+      probably studying at the last minute. 📚😭
     </p>
 
-    <div class="quote">
-      “The beautiful thing about learning is that nobody can take it away from you.”
+    <a class="main-button" href="#discover">
+      Discover Something ✨
+    </a>
+
+  </div>
+
+</section>
+
+
+<!-- DISCOVER -->
+
+<section id="discover">
+
+  <h2 class="section-title">
+    ✨ Discover Your Study Petal
+  </h2>
+
+  <p class="section-subtitle">
+    Tell us a little about yourself.
+  </p>
+
+  <div class="discovery-box">
+
+    <label for="name">
+      🌷 Your name
+    </label>
+
+    <input
+      id="name"
+      type="text"
+      placeholder="Enter your name"
+    >
+
+    <label for="dob">
+      📅 Your date of birth
+    </label>
+
+    <input
+      id="dob"
+      type="date"
+    >
+
+    <button
+      class="discover-button"
+      onclick="discover()"
+    >
+      Discover ✨
+    </button>
+
+    <div id="result"></div>
+
+  </div>
+
+</section>
+
+
+<!-- NOTES -->
+
+<section class="notes-section" id="notes">
+
+  <h2 class="section-title">
+    📚 Notes Library
+  </h2>
+
+  <p class="section-subtitle">
+    A little note can help someone bloom. 🌷
+  </p>
+
+  <div class="notes-search">
+
+    <input
+      id="noteSearch"
+      type="text"
+      placeholder="🔍 Search your notes..."
+      oninput="searchNotes()"
+    >
+
+  </div>
+
+
+  <div class="notes-grid" id="notesGrid">
+
+
+    <!-- NOTE 1 -->
+
+    <div class="note-card" data-title="SC BCC FCC Crystal Structure">
+
+      <div class="note-icon">🧊</div>
+
+      <h3>
+        SC, BCC & FCC
+      </h3>
+
+      <p>
+        Crystal structures, atoms, coordination number
+        and packing efficiency.
+      </p>
+
+      <div class="note-buttons">
+
+        <a
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          target="_blank"
+        >
+          Read 📖
+        </a>
+
+        <a
+          class="download"
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          download
+        >
+          Download ↓
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- NOTE 2 -->
+
+    <div class="note-card" data-title="HCP Hexagonal Close Packed">
+
+      <div class="note-icon">⬡</div>
+
+      <h3>
+        HCP Derivation
+      </h3>
+
+      <p>
+        Hexagonal Close Packed structure and
+        its derivation.
+      </p>
+
+      <div class="note-buttons">
+
+        <a
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          target="_blank"
+        >
+          Read 📖
+        </a>
+
+        <a
+          class="download"
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          download
+        >
+          Download ↓
+        </a>
+
+      </div>
+
+    </div>
+
+
+    <!-- NOTE 3 -->
+
+    <div class="note-card" data-title="Miller Indices d Spacing Cubic Lattice">
+
+      <div class="note-icon">📐</div>
+
+      <h3>
+        Miller Indices
+      </h3>
+
+      <p>
+        Miller indices, procedure and d-spacing
+        in cubic lattice.
+      </p>
+
+      <div class="note-buttons">
+
+        <a
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          target="_blank"
+        >
+          Read 📖
+        </a>
+
+        <a
+          class="download"
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          download
+        >
+          Download ↓
+        </a>
+
+      </div>
+
+    </div>
+
+
+  </div>
+
+
+  <div class="no-notes" id="noNotes">
+
+    🌱 No notes found.
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+  🌷 <strong>Study Petal</strong>
+
+  <br>
+
+  Notes that bloom into knowledge.
+
+  <br><br>
+
+  Made with 📚 + ☕ + a little chaos.
+
+</footer>
+
+
+<script>
+
+/* =========================================
+   STUDENT DISCOVERY
+========================================= */
+
+async function discover() {
+
+  const name =
+    document.getElementById("name").value.trim();
+
+  const dob =
+    document.getElementById("dob").value;
+
+  const result =
+    document.getElementById("result");
+
+
+  if (!name || !dob) {
+
+    result.style.display = "block";
+
+    result.innerHTML = `
+      <div class="result-card">
+        🌷 Please enter both your name and birthday, pookie!
+      </div>
+    `;
+
+    return;
+  }
+
+
+  const birthDate =
+    new Date(dob + "T00:00:00");
+
+
+  const month =
+    birthDate.getMonth() + 1;
+
+  const day =
+    birthDate.getDate();
+
+  const monthName =
+    birthDate.toLocaleString(
+      "en-US",
+      { month: "long" }
+    );
+
+
+  result.style.display = "block";
+
+
+  result.innerHTML = `
+    <div class="loading">
+      🌱 Searching the world's knowledge...
       <br>
-      — B. B. King
+      🔬 Looking for your birthday scientist...
     </div>
-
-  </section>
-
-
-  <!-- PERSONALIZED SECTION -->
-  <section>
-
-    <h2 class="section-title">
-      A Little Something For You 🌸
-    </h2>
-
-    <div class="personal-box">
-
-      <label>Your Name</label>
-
-      <input
-        type="text"
-        id="name"
-        placeholder="Enter your name"
-      >
-
-      <label>Your Date of Birth</label>
-
-      <input
-        type="date"
-        id="dob"
-      >
-
-      <button onclick="showResult()">
-        Discover Your Study Petal 🌷
-      </button>
-
-      <div id="result"></div>
-
-    </div>
-
-  </section>
+  `;
 
 
-  <!-- NOTES -->
-  <section id="notes">
+  try {
 
-    <h2 class="section-title">
-      📚 Notes Library
-    </h2>
-
-    <div class="notes-grid">
+    const scientists =
+      await findScientists(month, day);
 
 
-      <!-- SC BCC FCC -->
-      <div class="note-card">
+    const meaning =
+      await findNameMeaning(name);
 
-        <h3>SC, BCC & FCC</h3>
 
-        <p>
-          Crystal structures, coordination number and packing efficiency.
-        </p>
+    let scientistHTML = "";
 
-        <div class="note-buttons">
 
-          <a
-            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
-            target="_blank"
-          >
-            Read 📖
-          </a>
+    if (scientists.length > 0) {
 
-          <a
-            class="download"
-            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
-            download
-          >
-            Download ↓
-          </a>
+      scientistHTML = `
+        <div class="result-card">
+
+          <h3>
+            🔬 Your Birthday Scientist
+          </h3>
+
+          <p>
+            You were born on
+            <strong>${monthName} ${day}</strong>.
+          </p>
+
+          <p>
+            And look who was born on the same day...
+          </p>
+
+          ${scientists.map(person => createScientistCard(person)).join("")}
 
         </div>
+      `;
 
-      </div>
+    } else {
 
+      scientistHTML = `
+        <div class="result-card">
 
-      <!-- HCP -->
-      <div class="note-card">
+          <h3>
+            🔬 Birthday Scientist
+          </h3>
 
-        <h3>HCP Derivation</h3>
+          <p>
+            We couldn't find a suitable scientist
+            for ${monthName} ${day} in our current data.
+          </p>
 
-        <p>
-          Hexagonal Close Packed structure and its derivation.
-        </p>
-
-        <div class="note-buttons">
-
-          <a
-            href="Hexagonal Close Packed Structure - Derivation .pdf"
-            target="_blank"
-          >
-            Read 📖
-          </a>
-
-          <a
-            class="download"
-            href="Hexagonal Close Packed Structure - Derivation .pdf"
-            download
-          >
-            Download ↓
-          </a>
+          <p>
+            The database is still growing. 🌱
+          </p>
 
         </div>
-
-      </div>
-
-
-      <!-- MILLER INDICES -->
-      <div class="note-card">
-
-        <h3>Miller Indices</h3>
-
-        <p>
-          Miller indices, procedure and d-spacing in cubic lattice.
-        </p>
-
-        <div class="note-buttons">
-
-          <a
-            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
-            target="_blank"
-          >
-            Read 📖
-          </a>
-
-          <a
-            class="download"
-            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
-            download
-          >
-            Download ↓
-          </a>
-
-        </div>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-  <!-- FOOTER -->
-  <footer>
-
-    🌷 Study Petal
-
-    <br>
-
-    Notes that bloom into knowledge.
-
-    <br><br>
-
-    Made with 📚 + ☕ + a little chaos.
-
-  </footer>
-
-
-  <script>
-
-    function showResult() {
-
-      const name =
-        document.getElementById("name").value.trim();
-
-      const dob =
-        document.getElementById("dob").value;
-
-      const result =
-        document.getElementById("result");
-
-
-      if (!name || !dob) {
-
-        result.style.display = "block";
-
-        result.innerHTML =
-          "🌷 Please enter both your name and date of birth, pookie!";
-
-        return;
-      }
-
-
-      const birthDate =
-        new Date(dob);
-
-      const month =
-        String(birthDate.getMonth() + 1).padStart(2, "0");
-
-      const day =
-        String(birthDate.getDate()).padStart(2, "0");
-
-      const birthday =
-        month + "-" + day;
-
-
-      /*
-        Scientist database.
-        More verified scientists can be added later.
-      */
-
-      const scientists = {
-
-        "01-08": {
-          name: "Stephen Hawking",
-          field: "Physics",
-          work: "black holes and cosmology"
-        },
-
-        "03-14": {
-          name: "Albert Einstein",
-          field: "Physics",
-          work: "the theory of relativity"
-        }
-
-      };
-
-
-      let scientist =
-        scientists[birthday];
-
-
-      let scientistHTML = "";
-
-
-      if (scientist) {
-
-        const birthYear =
-          birthday === "03-14" ? 1879 : 1942;
-
-        const yearsAgo =
-          new Date().getFullYear() - birthYear;
-
-
-        scientistHTML = `
-          <h3>🔬 Birthday Scientist</h3>
-
-          <p>
-            You share your birthday with
-            <strong>${scientist.name}</strong>!
-          </p>
-
-          <p>
-            They were working in ${scientist.field},
-            exploring ${scientist.work}.
-          </p>
-
-          <p>
-            That was about <strong>${yearsAgo} years ago</strong>.
-            No pressure, pookie. 😭🌷
-          </p>
-        `;
-
-      } else {
-
-        scientistHTML = `
-          <h3>🔬 Your Birthday Scientist</h3>
-
-          <p>
-            We're still growing our scientist database! 🌱
-          </p>
-
-          <p>
-            Study Petal will add more brilliant minds here soon.
-          </p>
-        `;
-
-      }
-
-
-      /*
-        Basic name meanings.
-        This can be expanded later.
-      */
-
-      const meanings = {
-
-        "monu":
-          "Monu is often used as a sweet nickname and carries a warm, affectionate feel. 🌷",
-
-        "rashmi":
-          "Rashmi is a name associated with a ray of light or sunshine. ✨",
-
-        "ravi":
-          "Ravi is a name associated with the Sun. ☀️",
-
-        "arun":
-          "Arun is associated with dawn or the reddish glow of sunrise. 🌅"
-
-      };
-
-
-      const meaning =
-        meanings[name.toLowerCase()] ||
-        "Your name has its own little story waiting to bloom. 🌸";
-
-
-      result.style.display = "block";
-
-
-      result.innerHTML = `
-
-        <h3>🌷 Hello, ${name}!</h3>
-
-        ${scientistHTML}
-
-        <hr style="margin:20px 0;border:none;border-top:1px solid #edc5d6;">
-
-        <h3>✨ Your Name</h3>
-
-        <p>
-          ${meaning}
-        </p>
-
       `;
 
     }
 
-  </script>
+
+    result.innerHTML = `
+
+      <div class="result-card">
+
+        <h3>
+          🌷 Hello, ${escapeHTML(name)}!
+        </h3>
+
+        <p>
+          Welcome to your little corner of Study Petal.
+        </p>
+
+      </div>
+
+      ${scientistHTML}
+
+      <div class="result-card">
+
+        <h3>
+          ✨ Your Name
+        </h3>
+
+        ${meaning}
+
+      </div>
+
+    `;
+
+
+  } catch(error) {
+
+    console.error(error);
+
+    result.innerHTML = `
+
+      <div class="result-card">
+
+        <h3>
+          🌷 Oops, pookie!
+        </h3>
+
+        <p>
+          Something went wrong while searching.
+        </p>
+
+        <p>
+          Please try again in a moment.
+        </p>
+
+      </div>
+
+    `;
+
+  }
+
+}
+
+
+/* =========================================
+   WIKIDATA SCIENTIST SEARCH
+========================================= */
+
+async function findScientists(month, day) {
+
+  const query = `
+
+    SELECT DISTINCT
+      ?person
+      ?personLabel
+      ?dob
+      ?description
+      ?image
+      ?article
+      (GROUP_CONCAT(DISTINCT ?occupationLabel; separator=", ") AS ?occupations)
+
+    WHERE {
+
+      ?person wdt:P31 wd:Q5;
+              wdt:P569 ?dob.
+
+      OPTIONAL {
+        ?person wdt:P106 ?occupation.
+        ?occupation rdfs:label ?occupationLabel.
+        FILTER(LANG(?occupationLabel) = "en")
+      }
+
+      OPTIONAL {
+        ?person wdt:P18 ?image.
+      }
+
+      OPTIONAL {
+        ?article schema:about ?person;
+                  schema:isPartOf <https://en.wikipedia.org/>.
+      }
+
+      OPTIONAL {
+        ?person schema:description ?description.
+        FILTER(LANG(?description) = "en")
+      }
+
+      FILTER(MONTH(?dob) = ${month})
+      FILTER(DAY(?dob) = ${day})
+
+      SERVICE wikibase:label {
+        bd:serviceParam wikibase:language "en".
+      }
+
+    }
+
+    GROUP BY
+      ?person
+      ?personLabel
+      ?dob
+      ?description
+      ?image
+      ?article
+
+    LIMIT 10
+
+  `;
+
+
+  const url =
+    "https://query.wikidata.org/sparql?query="
+    + encodeURIComponent(query)
+    + "&format=json";
+
+
+  const response =
+    await fetch(url, {
+      headers: {
+        "Accept": "application/sparql-results+json"
+      }
+    });
+
+
+  if (!response.ok) {
+    throw new Error("Wikidata request failed");
+  }
+
+
+  const data =
+    await response.json();
+
+
+  return data.results.bindings.map(item => ({
+
+    name:
+      item.personLabel?.value || "Unknown",
+
+    dob:
+      item.dob?.value || "",
+
+    description:
+      item.description?.value || "",
+
+    image:
+      item.image?.value || "",
+
+    article:
+      item.article?.value || "",
+
+    occupations:
+      item.occupations?.value || ""
+
+  }));
+
+}
+
+
+/* =========================================
+   SCIENTIST CARD
+========================================= */
+
+function createScientistCard(person) {
+
+  const year =
+    person.dob
+      ? new Date(person.dob).getUTCFullYear()
+      : null;
+
+
+  const yearsAgo =
+    year
+      ? new Date().getFullYear() - year
+      : null;
+
+
+  let imageHTML = "";
+
+  if (person.image) {
+
+    imageHTML = `
+      <img
+        class="scientist-image"
+        src="${escapeAttribute(person.image)}"
+        alt="${escapeAttribute(person.name)}"
+        loading="lazy"
+      >
+    `;
+
+  }
+
+
+  return `
+
+    <div class="scientist-card">
+
+      ${imageHTML}
+
+      <h4>
+        ${escapeHTML(person.name)}
+      </h4>
+
+      ${
+        year
+        ? `<p>🎂 Born: ${formatDate(person.dob)}</p>`
+        : ""
+      }
+
+      ${
+        yearsAgo !== null
+        ? `
+          <p>
+            ⏳ That's about
+            <strong>${yearsAgo} years ago</strong>.
+          </p>
+
+          <p>
+            No pressure, pookie. 😭🌷
+          </p>
+        `
+        : ""
+      }
+
+      ${
+        person.occupations
+        ? `
+          <p>
+            🔬 Field:
+            ${escapeHTML(person.occupations)}
+          </p>
+        `
+        : ""
+      }
+
+      ${
+        person.description
+        ? `
+          <p>
+            📖 ${escapeHTML(person.description)}
+          </p>
+        `
+        : ""
+      }
+
+      ${
+        person.article
+        ? `
+          <a
+            class="learn-more"
+            href="${escapeAttribute(person.article)}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn more ↗
+          </a>
+        `
+        : ""
+      }
+
+    </div>
+
+  `;
+
+}
+
+
+/* =========================================
+   NAME MEANING
+========================================= */
+
+async function findNameMeaning(name) {
+
+  /*
+    First try a free public name API.
+    If unavailable, give a transparent fallback.
+  */
+
+  try {
+
+    const url =
+      "https://www.behindthename.com/api/lookup.json?name="
+      + encodeURIComponent(name);
+
+
+    /*
+      Some name APIs require an API key.
+      We therefore don't pretend that every request
+      will work from a public GitHub Pages site.
+    */
+
+    const response =
+      await fetch(url);
+
+
+    if (response.ok) {
+
+      const data =
+        await response.json();
+
+
+      if (Array.isArray(data) && data.length > 0) {
+
+        const first =
+          data[0];
+
+
+        return `
+
+          <p>
+            Your name is <strong>
+            ${escapeHTML(name)}
+            </strong>.
+          </p>
+
+          ${
+            first.meaning
+            ? `
+              <p>
+                ✨ Meaning:
+                ${escapeHTML(first.meaning)}
+              </p>
+            `
+            : `
+              <p>
+                ✨ We found information about this name,
+                but a direct meaning was not available.
+              </p>
+            `
+          }
+
+          ${
+            first.gender
+            ? `
+              <p>
+                🌸 Usage:
+                ${escapeHTML(first.gender)}
+              </p>
+            `
+            : ""
+          }
+
+        `;
+
+      }
+
+    }
+
+  } catch(error) {
+
+    console.log("Name API unavailable");
+
+  }
+
+
+  /*
+    Useful starter meanings.
+    These are only a fallback, not the main system.
+  */
+
+  const knownMeanings = {
+
+    "rashmi":
+      "A name associated with a ray of light or sunshine. ✨",
+
+    "ravi":
+      "A name associated with the Sun. ☀️",
+
+    "arun":
+      "A name associated with dawn or the reddish glow of sunrise. 🌅",
+
+    "monu":
+      "A commonly used affectionate nickname with a warm, familiar feel. 🌷"
+
+  };
+
+
+  const meaning =
+    knownMeanings[name.toLowerCase()];
+
+
+  if (meaning) {
+
+    return `
+
+      <p>
+        <strong>${escapeHTML(name)}</strong>
+      </p>
+
+      <p>
+        ✨ ${meaning}
+      </p>
+
+      <p>
+        🌱 We'll expand the name database as Study Petal grows.
+      </p>
+
+    `;
+
+  }
+
+
+  return `
+
+    <p>
+      We couldn't find a reliable meaning for
+      <strong>${escapeHTML(name)}</strong> right now.
+    </p>
+
+    <p>
+      🌱 Study Petal is still growing its name database.
+    </p>
+
+  `;
+
+}
+
+
+/* =========================================
+   NOTES SEARCH
+========================================= */
+
+function searchNotes() {
+
+  const search =
+    document
+      .getElementById("noteSearch")
+      .value
+      .toLowerCase()
+      .trim();
+
+
+  const cards =
+    document.querySelectorAll(".note-card");
+
+
+  let visible =
+    0;
+
+
+  cards.forEach(card => {
+
+    const title =
+      card
+        .getAttribute("data-title")
+        .toLowerCase();
+
+
+    if (title.includes(search)) {
+
+      card.style.display = "block";
+
+      visible++;
+
+    } else {
+
+      card.style.display = "none";
+
+    }
+
+  });
+
+
+  document.getElementById("noNotes").style.display =
+    visible === 0 ? "block" : "none";
+
+}
+
+
+/* =========================================
+   HELPERS
+========================================= */
+
+function formatDate(dateString) {
+
+  const date =
+    new Date(dateString);
+
+
+  return date.toLocaleDateString(
+    "en-US",
+    {
+      month: "long",
+      day: "numeric",
+      year: "numeric"
+    }
+  );
+
+}
+
+
+function escapeHTML(value) {
+
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+}
+
+
+function escapeAttribute(value) {
+
+  return String(value)
+    .replace(/"/g, "&quot;");
+
+}
+
+</script>
 
 </body>
 </html>
