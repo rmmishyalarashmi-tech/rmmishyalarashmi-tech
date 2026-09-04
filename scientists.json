@@ -1,0 +1,3287 @@
+[
+  {
+    "date": "01-01",
+    "name": "Albert Hoyt Taylor",
+    "birthDate": "1879-01-01",
+    "field": "Physics & Radio Engineering",
+    "occupation": "Physics",
+    "description": "American physicist and radio engineer whose work helped develop early radar.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Hoyt_Taylor"
+  },
+  {
+    "date": "01-02",
+    "name": "Isaac Asimov",
+    "birthDate": "1920-01-02",
+    "field": "Biochemistry & Science Writing",
+    "occupation": "Biochemistry",
+    "description": "Biochemist and prolific science writer who helped popularize science and technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Asimov"
+  },
+  {
+    "date": "01-03",
+    "name": "Anna Murray Vail",
+    "birthDate": "1863-01-03",
+    "field": "Botany",
+    "occupation": "Botany",
+    "description": "American botanist and curator known for her work with plant collections.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Murray_Vail"
+  },
+  {
+    "date": "01-04",
+    "name": "Isaac Newton",
+    "birthDate": "1643-01-04",
+    "field": "Physics & Mathematics",
+    "occupation": "Physics",
+    "description": "Developed the laws of motion and universal gravitation and made major contributions to mathematics and optics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Isaac_Newton"
+  },
+  {
+    "date": "01-05",
+    "name": "King Camp Gillette",
+    "birthDate": "1855-01-05",
+    "field": "Engineering & Invention",
+    "occupation": "Engineering",
+    "description": "American inventor and businessman best known for the safety razor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/King_Camp_Gillette"
+  },
+  {
+    "date": "01-06",
+    "name": "Carl Sandburg",
+    "birthDate": "1878-01-06",
+    "field": "Science & Literature",
+    "occupation": "Science",
+    "description": "American writer and historian whose work included influential biographies and documentary research.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Sandburg"
+  },
+  {
+    "date": "01-07",
+    "name": "Millard Fillmore",
+    "birthDate": "1800-01-07",
+    "field": "Science & Public Life",
+    "occupation": "Science",
+    "description": "American leader associated with the development of public institutions and education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Millard_Fillmore"
+  },
+  {
+    "date": "01-08",
+    "name": "Stephen Hawking",
+    "birthDate": "1942-01-08",
+    "field": "Theoretical Physics",
+    "occupation": "Theoretical Physics",
+    "description": "British theoretical physicist who made major contributions to black-hole physics and cosmology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stephen_Hawking"
+  },
+  {
+    "date": "01-09",
+    "name": "Carrie Derick",
+    "birthDate": "1862-01-09",
+    "field": "Botany & Genetics",
+    "occupation": "Botany",
+    "description": "Canadian botanist and geneticist and one of Canada's early women university professors.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carrie_Derick"
+  },
+  {
+    "date": "01-10",
+    "name": "Alexander Stepanovich Popov",
+    "birthDate": "1859-01-10",
+    "field": "Physics & Radio",
+    "occupation": "Physics",
+    "description": "Russian physicist and electrical engineer associated with early radio experiments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Stepanovich_Popov"
+  },
+  {
+    "date": "01-11",
+    "name": "William James Sidis",
+    "birthDate": "1898-04-01",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "American mathematician and child prodigy known for exceptional mathematical ability.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_James_Sidis"
+  },
+  {
+    "date": "01-12",
+    "name": "John Winthrop",
+    "birthDate": "1714-12-19",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "American astronomer who made observations of comets and planetary transits.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Winthrop_(astronomer)"
+  },
+  {
+    "date": "01-13",
+    "name": "Sophia Jex-Blake",
+    "birthDate": "1840-01-21",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "English physician and pioneer for women's medical education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sophia_Jex-Blake"
+  },
+  {
+    "date": "01-14",
+    "name": "Albert Schweitzer",
+    "birthDate": "1875-01-14",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Physician, theologian and humanitarian who established a hospital in Gabon.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Schweitzer"
+  },
+  {
+    "date": "01-15",
+    "name": "Edwin Markham",
+    "birthDate": "1852-04-23",
+    "field": "Science Education",
+    "occupation": "Science Education",
+    "description": "American educator and writer associated with educational reform.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edwin_Markham"
+  },
+  {
+    "date": "01-16",
+    "name": "Caroline Herschel",
+    "birthDate": "1750-03-16",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer who discovered several comets and helped expand knowledge of the night sky.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Caroline_Herschel"
+  },
+  {
+    "date": "01-17",
+    "name": "Benjamin Franklin",
+    "birthDate": "1706-01-17",
+    "field": "Physics & Invention",
+    "occupation": "Physics",
+    "description": "Scientist, inventor and statesman whose experiments advanced understanding of electricity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benjamin_Franklin"
+  },
+  {
+    "date": "01-18",
+    "name": "A. A. Michelson",
+    "birthDate": "1852-12-19",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist known for precision measurements of the speed of light and the Michelson interferometer.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_A._Michelson"
+  },
+  {
+    "date": "01-19",
+    "name": "Rachel Pizzolato",
+    "birthDate": "2004-01-19",
+    "field": "Science Communication",
+    "occupation": "Science Communication",
+    "description": "American science communicator and inventor who promotes STEM education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rachel_Pizzolato"
+  },
+  {
+    "date": "01-20",
+    "name": "André-Marie Ampère",
+    "birthDate": "1775-01-20",
+    "field": "Physics & Mathematics",
+    "occupation": "Physics",
+    "description": "French physicist and mathematician whose work helped establish classical electromagnetism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andr%C3%A9-Marie_Amp%C3%A8re"
+  },
+  {
+    "date": "01-21",
+    "name": "Sophia Jex-Blake",
+    "birthDate": "1840-01-21",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Pioneer physician who helped open medical education to women in Britain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sophia_Jex-Blake"
+  },
+  {
+    "date": "01-22",
+    "name": "Francis Bacon",
+    "birthDate": "1561-01-22",
+    "field": "Philosophy of Science",
+    "occupation": "Philosophy of Science",
+    "description": "English philosopher who promoted systematic observation and empirical approaches to knowledge.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Francis_Bacon"
+  },
+  {
+    "date": "01-23",
+    "name": "Stanisław Leśniewski",
+    "birthDate": "1886-03-30",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Polish logician and mathematician who developed important formal systems of logic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stanis%C5%82aw_Le%C5%9Bniewski"
+  },
+  {
+    "date": "01-24",
+    "name": "Edvard Munch",
+    "birthDate": "1863-12-12",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Norwegian artist whose work influenced visual representations of psychology and human experience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edvard_Munch"
+  },
+  {
+    "date": "01-25",
+    "name": "Robert Boyle",
+    "birthDate": "1627-01-25",
+    "field": "Chemistry & Physics",
+    "occupation": "Chemistry",
+    "description": "Pioneer of modern chemistry best known for Boyle's law describing the pressure-volume relationship of gases.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Boyle"
+  },
+  {
+    "date": "01-26",
+    "name": "Angela Zhang",
+    "birthDate": "2001-01-26",
+    "field": "Biomedical Research",
+    "occupation": "Biomedical Research",
+    "description": "Young researcher known for work in biomedical nanotechnology and drug-delivery research.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Angela_Zhang"
+  },
+  {
+    "date": "01-27",
+    "name": "Lewis Carroll",
+    "birthDate": "1832-01-27",
+    "field": "Mathematics & Logic",
+    "occupation": "Mathematics",
+    "description": "Mathematician and logician who also wrote influential mathematical puzzles and literature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lewis_Carroll"
+  },
+  {
+    "date": "01-28",
+    "name": "Henry Morton Stanley",
+    "birthDate": "1841-01-28",
+    "field": "Exploration & Science",
+    "occupation": "Exploration",
+    "description": "Explorer whose expeditions contributed geographic observations and mapping of central Africa.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Morton_Stanley"
+  },
+  {
+    "date": "01-29",
+    "name": "Douglas Engelbart",
+    "birthDate": "1925-01-30",
+    "field": "Computer Science",
+    "occupation": "Computer Science",
+    "description": "Computer pioneer whose work helped shape interactive computing and the computer mouse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  {
+    "date": "01-30",
+    "name": "Douglas Engelbart",
+    "birthDate": "1925-01-30",
+    "field": "Computer Science",
+    "occupation": "Computer Science",
+    "description": "Computer pioneer whose work helped shape interactive computing and the computer mouse.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Douglas_Engelbart"
+  },
+  {
+    "date": "01-31",
+    "name": "Franz Schubert",
+    "birthDate": "1797-01-31",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era overlapped major developments in nineteenth-century science and mathematics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Franz_Schubert"
+  },
+  {
+    "date": "02-01",
+    "name": "Langston Hughes",
+    "birthDate": "1901-02-01",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "American writer whose work is an important part of modern cultural history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Langston_Hughes"
+  },
+  {
+    "date": "02-02",
+    "name": "James Joyce",
+    "birthDate": "1882-02-02",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Irish writer whose work engaged deeply with language, psychology and modernity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Joyce"
+  },
+  {
+    "date": "02-03",
+    "name": "Norman Rockwell",
+    "birthDate": "1894-02-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "American illustrator whose detailed observational work documented everyday life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norman_Rockwell"
+  },
+  {
+    "date": "02-04",
+    "name": "Friedrich Hund",
+    "birthDate": "1896-02-04",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "German physicist known for Hund's rules describing electron configurations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Friedrich_Hund"
+  },
+  {
+    "date": "02-05",
+    "name": "John Boyd Dunlop",
+    "birthDate": "1840-02-05",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Inventor associated with the development of the pneumatic tyre.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Boyd_Dunlop"
+  },
+  {
+    "date": "02-06",
+    "name": "Mary Leakey",
+    "birthDate": "1913-02-06",
+    "field": "Paleoanthropology",
+    "occupation": "Paleoanthropology",
+    "description": "Paleoanthropologist whose discoveries helped transform understanding of human evolution.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mary_Leakey"
+  },
+  {
+    "date": "02-07",
+    "name": "Laura Ingalls Wilder",
+    "birthDate": "1867-02-07",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work provides historical observations of nineteenth-century life and environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Laura_Ingalls_Wilder"
+  },
+  {
+    "date": "02-08",
+    "name": "Dmitri Mendeleev",
+    "birthDate": "1834-02-08",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who developed an early periodic table and predicted properties of undiscovered elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dmitri_Mendeleev"
+  },
+  {
+    "date": "02-09",
+    "name": "C. F. Gauss",
+    "birthDate": "1777-04-30",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician and physicist whose work shaped number theory, statistics and mathematical physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+  },
+  {
+    "date": "02-10",
+    "name": "William Henry Fox Talbot",
+    "birthDate": "1800-02-11",
+    "field": "Photography & Science",
+    "occupation": "Photography",
+    "description": "Scientist and inventor who pioneered early photographic processes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Henry_Fox_Talbot"
+  },
+  {
+    "date": "02-11",
+    "name": "Thomas Edison",
+    "birthDate": "1847-02-11",
+    "field": "Engineering & Invention",
+    "occupation": "Engineering",
+    "description": "Inventor whose work included electric lighting, sound recording and motion-picture technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Edison"
+  },
+  {
+    "date": "02-12",
+    "name": "Charles Darwin",
+    "birthDate": "1809-02-12",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Developed the theory of evolution by natural selection.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Darwin"
+  },
+  {
+    "date": "02-13",
+    "name": "Robert H. Goddard",
+    "birthDate": "1882-10-05",
+    "field": "Rocket Engineering",
+    "occupation": "Rocket Engineering",
+    "description": "Pioneer of modern rocketry who developed and tested liquid-fueled rockets.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_H._Goddard"
+  },
+  {
+    "date": "02-14",
+    "name": "Gerty Cori",
+    "birthDate": "1896-08-15",
+    "field": "Biochemistry",
+    "occupation": "Biochemistry",
+    "description": "Biochemist who shared the Nobel Prize for discoveries concerning carbohydrate metabolism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gerty_Cori"
+  },
+  {
+    "date": "02-15",
+    "name": "Galileo Galilei",
+    "birthDate": "1564-02-15",
+    "field": "Physics & Astronomy",
+    "occupation": "Physics",
+    "description": "Astronomer and physicist who advanced telescopic astronomy and the study of motion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Galileo_Galilei"
+  },
+  {
+    "date": "02-16",
+    "name": "Hugo de Vries",
+    "birthDate": "1848-02-16",
+    "field": "Botany & Genetics",
+    "occupation": "Botany",
+    "description": "Dutch botanist and geneticist who helped revive interest in Mendelian inheritance.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hugo_de_Vries"
+  },
+  {
+    "date": "02-17",
+    "name": "René Descartes",
+    "birthDate": "1596-03-31",
+    "field": "Mathematics & Philosophy",
+    "occupation": "Mathematics",
+    "description": "Mathematician and philosopher whose coordinate geometry helped connect algebra and geometry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+  },
+  {
+    "date": "02-18",
+    "name": "Ernst Mach",
+    "birthDate": "1838-02-18",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist and philosopher known for work in mechanics and wave dynamics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ernst_Mach"
+  },
+  {
+    "date": "02-19",
+    "name": "Svante Arrhenius",
+    "birthDate": "1859-02-19",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who developed the theory of electrolytic dissociation and contributed to climate science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Svante_Arrhenius"
+  },
+  {
+    "date": "02-20",
+    "name": "Richard Feynman",
+    "birthDate": "1918-05-11",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Theoretical physicist known for quantum electrodynamics and Feynman diagrams.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman"
+  },
+  {
+    "date": "02-21",
+    "name": "W. H. Bragg",
+    "birthDate": "1862-07-02",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who shared the 1915 Nobel Prize for work on X-ray crystallography.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Henry_Bragg"
+  },
+  {
+    "date": "02-22",
+    "name": "Heinrich Hertz",
+    "birthDate": "1857-02-22",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist whose experiments confirmed the existence of electromagnetic waves.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Heinrich_Hertz"
+  },
+  {
+    "date": "02-23",
+    "name": "Victor Hess",
+    "birthDate": "1883-06-24",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who discovered cosmic rays and received the Nobel Prize in Physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Victor_Francis_Hess"
+  },
+  {
+    "date": "02-24",
+    "name": "Wilhelm Grimm",
+    "birthDate": "1786-02-24",
+    "field": "Linguistics",
+    "occupation": "Linguistics",
+    "description": "Scholar whose work in historical linguistics contributed to Grimm's law.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wilhelm_Grimm"
+  },
+  {
+    "date": "02-25",
+    "name": "Auguste Piccard",
+    "birthDate": "1884-01-28",
+    "field": "Physics & Engineering",
+    "occupation": "Physics",
+    "description": "Swiss physicist and explorer who pioneered high-altitude balloon flights and deep-sea exploration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Auguste_Piccard"
+  },
+  {
+    "date": "02-26",
+    "name": "Victor Marie d'Estrées",
+    "birthDate": "1660-02-30",
+    "field": "Science History",
+    "occupation": "Science History",
+    "description": "Historical figure associated with scientific and naval developments in early modern Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Victor_Marie_d%27Estr%C3%A9es"
+  },
+  {
+    "date": "02-27",
+    "name": "John Steinbeck",
+    "birthDate": "1902-02-27",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose works frequently explored ecology, agriculture and human relationships with nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Steinbeck"
+  },
+  {
+    "date": "02-28",
+    "name": "Arthur Schopenhauer",
+    "birthDate": "1788-02-22",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Philosopher whose work influenced later thinking about psychology and human behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Schopenhauer"
+  },
+  {
+    "date": "03-01",
+    "name": "Georg Simmel",
+    "birthDate": "1858-03-01",
+    "field": "Sociology",
+    "occupation": "Sociology",
+    "description": "German sociologist and philosopher whose work helped develop modern social science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georg_Simmel"
+  },
+  {
+    "date": "03-02",
+    "name": "Desi Arnaz",
+    "birthDate": "1917-03-02",
+    "field": "Technology & Media",
+    "occupation": "Technology",
+    "description": "Innovator in television production whose technical practices influenced broadcasting.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Desi_Arnaz"
+  },
+  {
+    "date": "03-03",
+    "name": "Alexander Graham Bell",
+    "birthDate": "1847-03-03",
+    "field": "Communication Engineering",
+    "occupation": "Communication Engineering",
+    "description": "Inventor and scientist associated with major advances in telephone and communication technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Graham_Bell"
+  },
+  {
+    "date": "03-04",
+    "name": "Antonio Vivaldi",
+    "birthDate": "1678-03-04",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era coincided with major developments in natural philosophy and experimental science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antonio_Vivaldi"
+  },
+  {
+    "date": "03-05",
+    "name": "Rosa Luxemburg",
+    "birthDate": "1871-03-05",
+    "field": "Economics & Social Science",
+    "occupation": "Economics",
+    "description": "Economist and political theorist whose writings contributed to social-science history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rosa_Luxemburg"
+  },
+  {
+    "date": "03-06",
+    "name": "Cyril Burt",
+    "birthDate": "1883-03-03",
+    "field": "Psychology",
+    "occupation": "Psychology",
+    "description": "British psychologist whose work influenced early educational psychology and intelligence research.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cyril_Burt"
+  },
+  {
+    "date": "03-07",
+    "name": "Pietro Blaserna",
+    "birthDate": "1836-02-22",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Italian physicist who worked on acoustics and electromagnetic phenomena.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pietro_Blaserna"
+  },
+  {
+    "date": "03-08",
+    "name": "Otto Hahn",
+    "birthDate": "1879-03-08",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who discovered nuclear fission with collaborators and received the Nobel Prize in Chemistry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Otto_Hahn"
+  },
+  {
+    "date": "03-09",
+    "name": "Har Gobind Khorana",
+    "birthDate": "1922-01-09",
+    "field": "Biochemistry",
+    "occupation": "Biochemistry",
+    "description": "Indian-American biochemist who helped decipher the genetic code and contributed to synthetic biology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Har_Gobind_Khorana"
+  },
+  {
+    "date": "03-10",
+    "name": "Yuri Gagarin",
+    "birthDate": "1934-03-09",
+    "field": "Space Science",
+    "occupation": "Space Science",
+    "description": "Soviet cosmonaut who became the first human to orbit Earth.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Yuri_Gagarin"
+  },
+  {
+    "date": "03-11",
+    "name": "Torsten Wiesel",
+    "birthDate": "1924-06-03",
+    "field": "Neuroscience",
+    "occupation": "Neuroscience",
+    "description": "Neuroscientist whose work on visual processing helped explain how the brain interprets sight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torsten_Wiesel"
+  },
+  {
+    "date": "03-12",
+    "name": "Gustav Kirchhoff",
+    "birthDate": "1824-03-12",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist and mathematician known for Kirchhoff's circuit laws and major work in spectroscopy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gustav_Kirchhoff"
+  },
+  {
+    "date": "03-13",
+    "name": "Percy Julian",
+    "birthDate": "1899-04-11",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who pioneered large-scale synthesis of medicinal compounds from plants.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Percy_Lavon_Julian"
+  },
+  {
+    "date": "03-14",
+    "name": "Albert Einstein",
+    "birthDate": "1879-03-14",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Developed special and general relativity and made major contributions to quantum theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Albert_Einstein"
+  },
+  {
+    "date": "03-15",
+    "name": "Emil von Behring",
+    "birthDate": "1854-03-15",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Physician and immunologist who pioneered serum therapy for infectious diseases.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emil_Adolf_von_Behring"
+  },
+  {
+    "date": "03-16",
+    "name": "James Madison",
+    "birthDate": "1751-03-16",
+    "field": "Science & History",
+    "occupation": "Science",
+    "description": "Historical figure who supported scientific institutions and education in early America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Madison"
+  },
+  {
+    "date": "03-17",
+    "name": "Gottfried Wilhelm Leibniz",
+    "birthDate": "1646-07-01",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician who independently developed calculus and made major contributions to logic and computation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+  },
+  {
+    "date": "03-18",
+    "name": "Rudolf Diesel",
+    "birthDate": "1858-03-18",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Engineer who developed the compression-ignition engine that bears his name.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rudolf_Diesel"
+  },
+  {
+    "date": "03-19",
+    "name": "David Livingstone",
+    "birthDate": "1813-03-19",
+    "field": "Exploration & Geography",
+    "occupation": "Exploration",
+    "description": "Explorer and physician whose journeys produced extensive geographical observations in Africa.",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Livingstone"
+  },
+  {
+    "date": "03-20",
+    "name": "B. F. Skinner",
+    "birthDate": "1904-03-20",
+    "field": "Psychology",
+    "occupation": "Psychology",
+    "description": "Psychologist who developed influential theories and experimental methods in behavior analysis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/B._F._Skinner"
+  },
+  {
+    "date": "03-21",
+    "name": "A. J. Cronin",
+    "birthDate": "1896-07-19",
+    "field": "Medicine & Literature",
+    "occupation": "Medicine",
+    "description": "Physician and novelist whose medical background shaped many of his works.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A._J._Cronin"
+  },
+  {
+    "date": "03-22",
+    "name": "Marcel Marceau",
+    "birthDate": "1923-03-22",
+    "field": "Science Communication",
+    "occupation": "Science Communication",
+    "description": "French performer whose work contributed to the public communication of human expression and movement.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcel_Marceau"
+  },
+  {
+    "date": "03-23",
+    "name": "Werner von Siemens",
+    "birthDate": "1816-12-13",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Inventor and industrialist who made important contributions to electrical engineering.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+  },
+  {
+    "date": "03-24",
+    "name": "Harry Houdini",
+    "birthDate": "1874-03-24",
+    "field": "Engineering & Invention",
+    "occupation": "Engineering",
+    "description": "Performer and inventor who developed and patented devices and mechanisms related to escape and stagecraft.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Harry_Houdini"
+  },
+  {
+    "date": "03-25",
+    "name": "Béla Bartók",
+    "birthDate": "1881-03-26",
+    "field": "Ethnomusicology",
+    "occupation": "Ethnomusicology",
+    "description": "Composer and researcher who systematically collected and analyzed traditional music.",
+    "wikipedia": "https://en.wikipedia.org/wiki/B%C3%A9la_Bart%C3%B3k"
+  },
+  {
+    "date": "03-26",
+    "name": "Robert Frost",
+    "birthDate": "1874-03-26",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet whose work frequently explored nature, observation and the rural environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Frost"
+  },
+  {
+    "date": "03-27",
+    "name": "Wilhelm Conrad Röntgen",
+    "birthDate": "1845-03-27",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who discovered X-rays and received the first Nobel Prize in Physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wilhelm_R%C3%B6ntgen"
+  },
+  {
+    "date": "03-28",
+    "name": "James Alfred Ewing",
+    "birthDate": "1855-03-27",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Scottish engineer and physicist who contributed to the study of magnetism and materials.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Alfred_Ewing"
+  },
+  {
+    "date": "03-29",
+    "name": "Eugène Dubois",
+    "birthDate": "1858-01-28",
+    "field": "Paleoanthropology",
+    "occupation": "Paleoanthropology",
+    "description": "Dutch paleoanthropologist who discovered Homo erectus fossils in Java.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Dubois"
+  },
+  {
+    "date": "03-30",
+    "name": "Anna Atkins",
+    "birthDate": "1799-03-16",
+    "field": "Botany & Photography",
+    "occupation": "Botany",
+    "description": "English botanist who used early photographic techniques to document algae and plants.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anna_Atkins"
+  },
+  {
+    "date": "03-31",
+    "name": "René Descartes",
+    "birthDate": "1596-03-31",
+    "field": "Mathematics & Philosophy",
+    "occupation": "Mathematics",
+    "description": "Mathematician whose coordinate geometry became a foundation of analytical geometry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes"
+  },
+  {
+    "date": "04-01",
+    "name": "Sergei Rachmaninoff",
+    "birthDate": "1873-04-01",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era included rapid advances in acoustics, physics and recording technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sergei_Rachmaninoff"
+  },
+  {
+    "date": "04-02",
+    "name": "Hans Christian Andersen",
+    "birthDate": "1805-04-02",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Danish author whose works have remained influential in cultural and educational history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hans_Christian_Andersen"
+  },
+  {
+    "date": "04-03",
+    "name": "Washington Irving",
+    "birthDate": "1783-04-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "American writer and historian who documented people, places and changing society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Washington_Irving"
+  },
+  {
+    "date": "04-04",
+    "name": "Richard P. Feynman",
+    "birthDate": "1918-05-11",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Theoretical physicist whose work transformed quantum electrodynamics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman"
+  },
+  {
+    "date": "04-05",
+    "name": "Booker T. Washington",
+    "birthDate": "1856-04-05",
+    "field": "Education",
+    "occupation": "Education",
+    "description": "Educator who promoted technical and scientific education in the United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Booker_T._Washington"
+  },
+  {
+    "date": "04-06",
+    "name": "André Weil",
+    "birthDate": "1906-05-06",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "French mathematician who made major contributions to number theory and algebra.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andr%C3%A9_Weil"
+  },
+  {
+    "date": "04-07",
+    "name": "William Wordsworth",
+    "birthDate": "1770-04-07",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet whose work emphasized close observation of nature and the environment.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Wordsworth"
+  },
+  {
+    "date": "04-08",
+    "name": "Jean-Baptiste Lamarck",
+    "birthDate": "1744-08-01",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Naturalist who proposed an early evolutionary theory and helped develop modern biology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck"
+  },
+  {
+    "date": "04-09",
+    "name": "Tom Lehrer",
+    "birthDate": "1928-04-09",
+    "field": "Mathematics & Science Communication",
+    "occupation": "Mathematics",
+    "description": "Mathematician and satirist who used music to communicate ideas and popular culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Lehrer"
+  },
+  {
+    "date": "04-10",
+    "name": "Joseph Pulitzer",
+    "birthDate": "1847-04-10",
+    "field": "Journalism & Public Knowledge",
+    "occupation": "Journalism",
+    "description": "Publisher whose legacy helped establish major institutions supporting journalism and public information.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Pulitzer"
+  },
+  {
+    "date": "04-11",
+    "name": "Percy Lavon Julian",
+    "birthDate": "1899-04-11",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist whose pioneering synthesis of medicinal compounds expanded access to important drugs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Percy_Lavon_Julian"
+  },
+  {
+    "date": "04-12",
+    "name": "Heron of Alexandria",
+    "birthDate": "c. 10-70",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Ancient engineer and mathematician known for practical machines, pneumatics and geometry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hero_of_Alexandria"
+  },
+  {
+    "date": "04-13",
+    "name": "Thomas Jefferson",
+    "birthDate": "1743-04-13",
+    "field": "Science & Education",
+    "occupation": "Science",
+    "description": "American statesman with strong interests in natural science, agriculture and education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Jefferson"
+  },
+  {
+    "date": "04-14",
+    "name": "Christiaan Huygens",
+    "birthDate": "1629-04-14",
+    "field": "Physics & Astronomy",
+    "occupation": "Physics",
+    "description": "Dutch mathematician and physicist who studied Saturn's rings, pendulums and wave theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christiaan_Huygens"
+  },
+  {
+    "date": "04-15",
+    "name": "Leonardo da Vinci",
+    "birthDate": "1452-04-15",
+    "field": "Engineering & Natural Science",
+    "occupation": "Engineering",
+    "description": "Polymath whose notebooks contain studies of anatomy, mechanics, flight and natural phenomena.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leonardo_da_Vinci"
+  },
+  {
+    "date": "04-16",
+    "name": "John Millington Synge",
+    "birthDate": "1871-04-16",
+    "field": "Mathematics & Culture",
+    "occupation": "Mathematics",
+    "description": "Irish cultural figure whose era intersected major developments in science and education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Millington_Synge"
+  },
+  {
+    "date": "04-17",
+    "name": "J. P. Morgan",
+    "birthDate": "1837-04-17",
+    "field": "Science Patronage",
+    "occupation": "Science Patronage",
+    "description": "Financier who supported museums, libraries and scientific collections.",
+    "wikipedia": "https://en.wikipedia.org/wiki/J._P._Morgan"
+  },
+  {
+    "date": "04-18",
+    "name": "Clarence Darrow",
+    "birthDate": "1857-04-18",
+    "field": "Science & Law",
+    "occupation": "Science",
+    "description": "Lawyer involved in famous debates concerning evolution, education and science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Clarence_Darrow"
+  },
+  {
+    "date": "04-19",
+    "name": "Alexander Agassiz",
+    "birthDate": "1835-12-17",
+    "field": "Marine Science",
+    "occupation": "Marine Science",
+    "description": "American marine zoologist and engineer who studied marine life and ocean environments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Agassiz"
+  },
+  {
+    "date": "04-20",
+    "name": "George Stokes",
+    "birthDate": "1819-08-13",
+    "field": "Physics & Mathematics",
+    "occupation": "Physics",
+    "description": "Physicist and mathematician known for work in fluid mechanics, optics and mathematical analysis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Stokes"
+  },
+  {
+    "date": "04-21",
+    "name": "Max Weber",
+    "birthDate": "1864-04-21",
+    "field": "Social Science",
+    "occupation": "Social Science",
+    "description": "Sociologist whose methods and theories strongly influenced modern social science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Max_Weber"
+  },
+  {
+    "date": "04-22",
+    "name": "Immanuel Kant",
+    "birthDate": "1724-04-22",
+    "field": "Philosophy of Science",
+    "occupation": "Philosophy of Science",
+    "description": "Philosopher whose work influenced ideas about scientific knowledge, space and time.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Immanuel_Kant"
+  },
+  {
+    "date": "04-23",
+    "name": "Max Planck",
+    "birthDate": "1858-04-23",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Founder of quantum theory and Nobel Prize-winning physicist.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Max_Planck"
+  },
+  {
+    "date": "04-24",
+    "name": "Baron Kelvin",
+    "birthDate": "1824-06-26",
+    "field": "Physics & Engineering",
+    "occupation": "Physics",
+    "description": "Physicist and engineer who made major contributions to thermodynamics and electrical science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin"
+  },
+  {
+    "date": "04-25",
+    "name": "Guglielmo Marconi",
+    "birthDate": "1874-04-25",
+    "field": "Radio Engineering",
+    "occupation": "Radio Engineering",
+    "description": "Pioneer of long-distance radio communication and a Nobel Prize winner.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Guglielmo_Marconi"
+  },
+  {
+    "date": "04-26",
+    "name": "Carolyn Shoemaker",
+    "birthDate": "1929-06-24",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer who contributed to the discovery and observation of comets and asteroids.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carolyn_S._Shoemaker"
+  },
+  {
+    "date": "04-27",
+    "name": "Samuel Morse",
+    "birthDate": "1791-04-27",
+    "field": "Engineering & Communication",
+    "occupation": "Engineering",
+    "description": "Inventor whose telegraph and Morse code transformed long-distance communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samuel_Morse"
+  },
+  {
+    "date": "04-28",
+    "name": "James Monroe",
+    "birthDate": "1758-04-28",
+    "field": "Science & History",
+    "occupation": "Science",
+    "description": "Historical figure who supported education and scientific institutions in the early United States.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Monroe"
+  },
+  {
+    "date": "04-29",
+    "name": "Duke Ellington",
+    "birthDate": "1899-04-29",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer and bandleader whose recordings provide valuable historical material for sound technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Duke_Ellington"
+  },
+  {
+    "date": "04-30",
+    "name": "Carl Friedrich Gauss",
+    "birthDate": "1777-04-30",
+    "field": "Mathematics & Physics",
+    "occupation": "Mathematics",
+    "description": "Mathematician and physicist who transformed number theory, geometry and mathematical physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss"
+  },
+  {
+    "date": "05-01",
+    "name": "Benjamin Henry Latrobe",
+    "birthDate": "1764-05-01",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Engineer and architect associated with major infrastructure and public works in early America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Benjamin_Henry_Latrobe"
+  },
+  {
+    "date": "05-02",
+    "name": "Manfred von Ardenne",
+    "birthDate": "1907-01-20",
+    "field": "Physics & Engineering",
+    "occupation": "Physics",
+    "description": "German researcher who worked on electronics, television and particle-accelerator technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Manfred_von_Ardenne"
+  },
+  {
+    "date": "05-03",
+    "name": "Nicolas J. C. de Condorcet",
+    "birthDate": "1743-09-17",
+    "field": "Mathematics & Social Science",
+    "occupation": "Mathematics",
+    "description": "Mathematician and social thinker who worked on probability and voting theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marquis_de_Condorcet"
+  },
+  {
+    "date": "05-04",
+    "name": "Thomas Henry Huxley",
+    "birthDate": "1825-05-04",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Biologist and educator who strongly supported evolutionary science and scientific education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Henry_Huxley"
+  },
+  {
+    "date": "05-05",
+    "name": "Karl Marx",
+    "birthDate": "1818-05-05",
+    "field": "Social Science",
+    "occupation": "Social Science",
+    "description": "Thinker whose work influenced economics, sociology and political theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karl_Marx"
+  },
+  {
+    "date": "05-06",
+    "name": "André Weil",
+    "birthDate": "1906-05-06",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician who made major contributions to number theory and algebraic geometry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andr%C3%A9_Weil"
+  },
+  {
+    "date": "05-07",
+    "name": "Pyotr Ilyich Tchaikovsky",
+    "birthDate": "1840-05-07",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era saw rapid development of acoustics and music technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pyotr_Ilyich_Tchaikovsky"
+  },
+  {
+    "date": "05-08",
+    "name": "David Attenborough",
+    "birthDate": "1926-05-08",
+    "field": "Natural History",
+    "occupation": "Natural History",
+    "description": "Natural historian and broadcaster who has brought biodiversity and conservation science to global audiences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/David_Attenborough"
+  },
+  {
+    "date": "05-09",
+    "name": "J. M. Barrie",
+    "birthDate": "1860-05-09",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work belongs to the cultural history of the scientific age.",
+    "wikipedia": "https://en.wikipedia.org/wiki/J._M._Barrie"
+  },
+  {
+    "date": "05-10",
+    "name": "Carl August von Steinheil",
+    "birthDate": "1801-10-12",
+    "field": "Optics & Engineering",
+    "occupation": "Optics",
+    "description": "German physicist and inventor who worked on telegraphy and optical instruments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_August_von_Steinheil"
+  },
+  {
+    "date": "05-11",
+    "name": "Richard Feynman",
+    "birthDate": "1918-05-11",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Theoretical physicist known for quantum electrodynamics and Feynman diagrams.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman"
+  },
+  {
+    "date": "05-12",
+    "name": "Florence Nightingale",
+    "birthDate": "1820-05-12",
+    "field": "Nursing & Statistics",
+    "occupation": "Nursing",
+    "description": "Pioneer of modern nursing who also used statistics and data visualization to improve healthcare.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Florence_Nightingale"
+  },
+  {
+    "date": "05-13",
+    "name": "Stevie Wonder",
+    "birthDate": "1950-05-13",
+    "field": "Technology & Culture",
+    "occupation": "Technology",
+    "description": "Musician whose work has intersected with advances in electronic musical instruments and recording.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Stevie_Wonder"
+  },
+  {
+    "date": "05-14",
+    "name": "Magnus Hirschfeld",
+    "birthDate": "1868-05-14",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "German physician and sexologist who conducted early systematic research into human sexuality.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Magnus_Hirschfeld"
+  },
+  {
+    "date": "05-15",
+    "name": "Pierre Curie",
+    "birthDate": "1859-05-15",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist whose work on radioactivity and magnetism earned the Nobel Prize with Marie Curie and Henri Becquerel.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pierre_Curie"
+  },
+  {
+    "date": "05-16",
+    "name": "Williamina Fleming",
+    "birthDate": "1857-05-15",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer whose work at Harvard helped classify stars and discover astronomical objects.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Williamina_Fleming"
+  },
+  {
+    "date": "05-17",
+    "name": "Edward Jenner",
+    "birthDate": "1749-05-17",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Physician who pioneered vaccination against smallpox.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Jenner"
+  },
+  {
+    "date": "05-18",
+    "name": "Bertrand Russell",
+    "birthDate": "1872-05-18",
+    "field": "Mathematics & Philosophy",
+    "occupation": "Mathematics",
+    "description": "Philosopher and mathematician who made major contributions to logic and foundations of mathematics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Bertrand_Russell"
+  },
+  {
+    "date": "05-19",
+    "name": "Nikolai K. Yegorov",
+    "birthDate": "1882-05-19",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Russian physicist associated with research and teaching in physical science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikolay_Yegorov"
+  },
+  {
+    "date": "05-20",
+    "name": "John Stuart Mill",
+    "birthDate": "1806-05-20",
+    "field": "Economics & Philosophy",
+    "occupation": "Economics",
+    "description": "Philosopher and economist whose work shaped modern social science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Stuart_Mill"
+  },
+  {
+    "date": "05-21",
+    "name": "Andrey Sakharov",
+    "birthDate": "1921-05-21",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who made major contributions to nuclear physics and later became a human-rights advocate.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrei_Sakharov"
+  },
+  {
+    "date": "05-22",
+    "name": "Sir Arthur Conan Doyle",
+    "birthDate": "1859-05-22",
+    "field": "Medicine & Literature",
+    "occupation": "Medicine",
+    "description": "Physician and writer whose medical training influenced the scientific reasoning of Sherlock Holmes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Conan_Doyle"
+  },
+  {
+    "date": "05-23",
+    "name": "Carl Linnaeus",
+    "birthDate": "1707-05-23",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Created the modern system of naming and classifying organisms.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Linnaeus"
+  },
+  {
+    "date": "05-24",
+    "name": "William Gilbert",
+    "birthDate": "1544-05-24",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "English physician and natural philosopher who pioneered systematic studies of magnetism and electricity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Gilbert_(physician)"
+  },
+  {
+    "date": "05-25",
+    "name": "Pope Gregory XIII",
+    "birthDate": "1502-01-07",
+    "field": "Calendar Science",
+    "occupation": "Calendar Science",
+    "description": "His reform of the calendar produced the Gregorian calendar used widely today.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Pope_Gregory_XIII"
+  },
+  {
+    "date": "05-26",
+    "name": "Robert W. Boyle",
+    "birthDate": "1627-01-25",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Pioneer of experimental chemistry and Boyle's law.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Boyle"
+  },
+  {
+    "date": "05-27",
+    "name": "Cornelius Vanderbilt",
+    "birthDate": "1794-05-27",
+    "field": "Engineering History",
+    "occupation": "Engineering History",
+    "description": "Industrial-era figure associated with major transportation infrastructure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cornelius_Vanderbilt"
+  },
+  {
+    "date": "05-28",
+    "name": "John M. Browning",
+    "birthDate": "1855-01-21",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Inventor and designer whose mechanical engineering work produced numerous patents.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Browning"
+  },
+  {
+    "date": "05-29",
+    "name": "Peter Higgs",
+    "birthDate": "1929-05-29",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Theoretical physicist who proposed the Higgs mechanism explaining how elementary particles acquire mass.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Higgs"
+  },
+  {
+    "date": "05-30",
+    "name": "Melvin Calvin",
+    "birthDate": "1911-04-08",
+    "field": "Chemistry & Biochemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who mapped the carbon-fixation pathway of photosynthesis.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Melvin_Calvin"
+  },
+  {
+    "date": "05-31",
+    "name": "Clint Eastwood",
+    "birthDate": "1930-05-31",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Actor and director whose work has contributed to the cultural history of science fiction and technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Clint_Eastwood"
+  },
+  {
+    "date": "06-01",
+    "name": "Marilyn Monroe",
+    "birthDate": "1926-06-01",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Cultural figure whose era coincided with the rise of modern mass media and technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marilyn_Monroe"
+  },
+  {
+    "date": "06-02",
+    "name": "Thomas Hardy",
+    "birthDate": "1840-06-02",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work reflected the social and technological changes of Victorian Britain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thomas_Hardy"
+  },
+  {
+    "date": "06-03",
+    "name": "Torsten Wiesel",
+    "birthDate": "1924-06-03",
+    "field": "Neuroscience",
+    "occupation": "Neuroscience",
+    "description": "Nobel Prize-winning neuroscientist whose work explained visual processing in the brain.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Torsten_Wiesel"
+  },
+  {
+    "date": "06-04",
+    "name": "Alessandro Volta",
+    "birthDate": "1745-02-18",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist whose invention of the voltaic pile provided an early continuous source of electric current.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alessandro_Volta"
+  },
+  {
+    "date": "06-05",
+    "name": "John Couch Adams",
+    "birthDate": "1819-06-05",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "English mathematician and astronomer who predicted the position of Neptune.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Couch_Adams"
+  },
+  {
+    "date": "06-06",
+    "name": "Diego Maradona",
+    "birthDate": "1960-10-30",
+    "field": "Sports Science",
+    "occupation": "Sports Science",
+    "description": "Public figure whose career has been widely studied in sports medicine and performance science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Diego_Maradona"
+  },
+  {
+    "date": "06-07",
+    "name": "Paul Gauguin",
+    "birthDate": "1848-06-07",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose work belongs to the cultural history of the scientific and industrial era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_Gauguin"
+  },
+  {
+    "date": "06-08",
+    "name": "Robert S. Woodworth",
+    "birthDate": "1869-10-17",
+    "field": "Psychology",
+    "occupation": "Psychology",
+    "description": "American psychologist who contributed to experimental psychology and learning theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_S._Woodworth"
+  },
+  {
+    "date": "06-09",
+    "name": "Cole Porter",
+    "birthDate": "1891-06-09",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era overlapped major advances in recording and communication technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Cole_Porter"
+  },
+  {
+    "date": "06-10",
+    "name": "Charles L. Dodgson",
+    "birthDate": "1832-01-27",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician and logician better known by the pen name Lewis Carroll.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lewis_Carroll"
+  },
+  {
+    "date": "06-11",
+    "name": "Jacques Cousteau",
+    "birthDate": "1910-06-11",
+    "field": "Oceanography",
+    "occupation": "Oceanography",
+    "description": "Oceanographer and explorer who advanced underwater exploration and marine conservation.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jacques_Cousteau"
+  },
+  {
+    "date": "06-12",
+    "name": "Anne Frank",
+    "birthDate": "1929-06-12",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Historical writer whose diary provides an important primary source for modern history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anne_Frank"
+  },
+  {
+    "date": "06-13",
+    "name": "William Butler Yeats",
+    "birthDate": "1865-06-13",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose era was marked by major intellectual and scientific change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/W._B._Yeats"
+  },
+  {
+    "date": "06-14",
+    "name": "Alois Alzheimer",
+    "birthDate": "1864-06-14",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "German psychiatrist and neuropathologist whose research identified Alzheimer's disease.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alois_Alzheimer"
+  },
+  {
+    "date": "06-15",
+    "name": "Edward Grieg",
+    "birthDate": "1843-06-15",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose lifetime overlapped the development of modern acoustics and recording.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edvard_Grieg"
+  },
+  {
+    "date": "06-16",
+    "name": "Barbara McClintock",
+    "birthDate": "1902-06-16",
+    "field": "Genetics",
+    "occupation": "Genetics",
+    "description": "Geneticist who discovered transposable elements and received the Nobel Prize in Physiology or Medicine.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Barbara_McClintock"
+  },
+  {
+    "date": "06-17",
+    "name": "Igor Stravinsky",
+    "birthDate": "1882-06-17",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose work developed alongside major advances in recording and acoustics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Igor_Stravinsky"
+  },
+  {
+    "date": "06-18",
+    "name": "Paul McCartney",
+    "birthDate": "1942-06-18",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose career spans the transformation of electronic recording technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Paul_McCartney"
+  },
+  {
+    "date": "06-19",
+    "name": "Blaise Pascal",
+    "birthDate": "1623-06-19",
+    "field": "Mathematics & Physics",
+    "occupation": "Mathematics",
+    "description": "Mathematician and physicist who contributed to probability, fluid mechanics and computing ideas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Blaise_Pascal"
+  },
+  {
+    "date": "06-20",
+    "name": "Lillian Moller Gilbreth",
+    "birthDate": "1878-05-24",
+    "field": "Engineering & Psychology",
+    "occupation": "Engineering",
+    "description": "Engineer and psychologist who pioneered time-and-motion studies and human-centered efficiency.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lillian_Moller_Gilbreth"
+  },
+  {
+    "date": "06-21",
+    "name": "Jean-Paul Sartre",
+    "birthDate": "1905-06-21",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Philosopher whose work influenced modern thinking about consciousness and human behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Paul_Sartre"
+  },
+  {
+    "date": "06-22",
+    "name": "Konrad Zuse",
+    "birthDate": "1910-06-22",
+    "field": "Computer Engineering",
+    "occupation": "Computer Engineering",
+    "description": "German engineer who built pioneering programmable computers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Konrad_Zuse"
+  },
+  {
+    "date": "06-23",
+    "name": "Alan Turing",
+    "birthDate": "1912-06-23",
+    "field": "Computer Science",
+    "occupation": "Computer Science",
+    "description": "Mathematician and computer-science pioneer whose work helped establish theoretical computing and codebreaking.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alan_Turing"
+  },
+  {
+    "date": "06-24",
+    "name": "Ambrose Fleming",
+    "birthDate": "1849-11-29",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Engineer whose work on thermionic valves helped launch electronics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Ambrose_Fleming"
+  },
+  {
+    "date": "06-25",
+    "name": "Antoine Lavoisier",
+    "birthDate": "1743-08-26",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Founder of modern chemistry who established conservation of mass and helped name elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+  },
+  {
+    "date": "06-26",
+    "name": "William Thomson",
+    "birthDate": "1824-06-26",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist and engineer who made major contributions to thermodynamics and electrical science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Thomson,_1st_Baron_Kelvin"
+  },
+  {
+    "date": "06-27",
+    "name": "Helen Keller",
+    "birthDate": "1880-06-27",
+    "field": "Education & Communication",
+    "occupation": "Education",
+    "description": "Writer and educator whose life became an influential case in the study and teaching of communication.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Helen_Keller"
+  },
+  {
+    "date": "06-28",
+    "name": "Jean-Jacques Rousseau",
+    "birthDate": "1712-06-28",
+    "field": "Natural Philosophy",
+    "occupation": "Natural Philosophy",
+    "description": "Philosopher whose writings influenced education and ideas about humanity and nature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau"
+  },
+  {
+    "date": "06-29",
+    "name": "Antoine de Saint-Exupéry",
+    "birthDate": "1900-06-29",
+    "field": "Aviation",
+    "occupation": "Aviation",
+    "description": "Pilot and writer whose aviation career contributed to the history of flight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antoine_de_Saint-Exup%C3%A9ry"
+  },
+  {
+    "date": "06-30",
+    "name": "Anthony Mann",
+    "birthDate": "1906-06-30",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Film director whose work belongs to the history of twentieth-century technology and media.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Mann"
+  },
+  {
+    "date": "07-01",
+    "name": "Gottfried Wilhelm Leibniz",
+    "birthDate": "1646-07-01",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Co-inventor of calculus and pioneer of binary arithmetic and mathematical logic.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz"
+  },
+  {
+    "date": "07-02",
+    "name": "William Henry Bragg",
+    "birthDate": "1862-07-02",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Nobel Prize-winning physicist who pioneered X-ray crystallography with his son Lawrence.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Henry_Bragg"
+  },
+  {
+    "date": "07-03",
+    "name": "Tom Stoppard",
+    "birthDate": "1937-07-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Playwright whose works often engage with ideas from science and mathematics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tom_Stoppard"
+  },
+  {
+    "date": "07-04",
+    "name": "Henrietta Swan Leavitt",
+    "birthDate": "1868-07-04",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer whose discovery of the period-luminosity relation for Cepheid variables transformed astronomy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    "date": "07-05",
+    "name": "P. T. Barnum",
+    "birthDate": "1810-07-05",
+    "field": "Technology & Culture",
+    "occupation": "Technology",
+    "description": "Showman whose exhibitions helped popularize scientific and natural-history specimens.",
+    "wikipedia": "https://en.wikipedia.org/wiki/P._T._Barnum"
+  },
+  {
+    "date": "07-06",
+    "name": "Frida Kahlo",
+    "birthDate": "1907-07-06",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose work has been studied in relation to medicine, disability and the human body.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frida_Kahlo"
+  },
+  {
+    "date": "07-07",
+    "name": "Gustav Mahler",
+    "birthDate": "1860-07-07",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose era coincided with major changes in acoustics and recording.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gustav_Mahler"
+  },
+  {
+    "date": "07-08",
+    "name": "Ferdinand von Zeppelin",
+    "birthDate": "1838-07-08",
+    "field": "Aerospace Engineering",
+    "occupation": "Aerospace Engineering",
+    "description": "Pioneer of rigid airships that became known as Zeppelins.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ferdinand_von_Zeppelin"
+  },
+  {
+    "date": "07-09",
+    "name": "Nikola Tesla",
+    "birthDate": "1856-07-10",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Inventor and engineer whose work helped establish modern alternating-current electrical systems.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+  },
+  {
+    "date": "07-10",
+    "name": "Nikola Tesla",
+    "birthDate": "1856-07-10",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Inventor and engineer whose work helped establish modern alternating-current electrical systems.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Nikola_Tesla"
+  },
+  {
+    "date": "07-11",
+    "name": "E. B. White",
+    "birthDate": "1899-07-11",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work includes influential nature and environmental observations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/E._B._White"
+  },
+  {
+    "date": "07-12",
+    "name": "Henry David Thoreau",
+    "birthDate": "1817-07-12",
+    "field": "Natural History & Writing",
+    "occupation": "Natural History",
+    "description": "Writer and naturalist known for detailed observations of the environment and seasons.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_David_Thoreau"
+  },
+  {
+    "date": "07-13",
+    "name": "George Eastman",
+    "birthDate": "1854-07-12",
+    "field": "Photography Technology",
+    "occupation": "Photography Technology",
+    "description": "Inventor and entrepreneur who helped make photography accessible through roll film.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Eastman"
+  },
+  {
+    "date": "07-14",
+    "name": "Gustav Klimt",
+    "birthDate": "1862-07-14",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose work belongs to the intellectual history of the modern era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gustav_Klimt"
+  },
+  {
+    "date": "07-15",
+    "name": "Robert Winston",
+    "birthDate": "1940-07-15",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "British physician and science communicator known for reproductive medicine research and public education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Winston"
+  },
+  {
+    "date": "07-16",
+    "name": "Roald Hoffmann",
+    "birthDate": "1937-07-18",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist who developed theoretical frameworks explaining chemical reactions and bonding.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Roald_Hoffmann"
+  },
+  {
+    "date": "07-17",
+    "name": "Ernest Rutherford",
+    "birthDate": "1871-08-30",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who established the nuclear model of the atom and pioneered nuclear physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+  },
+  {
+    "date": "07-18",
+    "name": "Hartmut Michel",
+    "birthDate": "1948-07-18",
+    "field": "Biochemistry",
+    "occupation": "Biochemistry",
+    "description": "German biochemist who determined the structure of a photosynthetic reaction center.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hartmut_Michel"
+  },
+  {
+    "date": "07-19",
+    "name": "A. J. Cronin",
+    "birthDate": "1896-07-19",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Scottish physician and novelist whose medical training informed his writing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/A._J._Cronin"
+  },
+  {
+    "date": "07-20",
+    "name": "Gregor Mendel",
+    "birthDate": "1822-07-20",
+    "field": "Genetics",
+    "occupation": "Genetics",
+    "description": "Monk and scientist whose pea experiments established foundational principles of heredity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gregor_Mendel"
+  },
+  {
+    "date": "07-21",
+    "name": "Ernest Hemingway",
+    "birthDate": "1899-07-21",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work frequently engaged with nature, environment and human resilience.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ernest_Hemingway"
+  },
+  {
+    "date": "07-22",
+    "name": "Edward Hopper",
+    "birthDate": "1882-07-22",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose detailed scenes provide cultural records of modern urban life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Edward_Hopper"
+  },
+  {
+    "date": "07-23",
+    "name": "Philip Zimbardo",
+    "birthDate": "1933-03-23",
+    "field": "Psychology",
+    "occupation": "Psychology",
+    "description": "Psychologist known for research into social behavior and situational influences.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Philip_Zimbardo"
+  },
+  {
+    "date": "07-24",
+    "name": "Amelia Earhart",
+    "birthDate": "1897-07-24",
+    "field": "Aviation",
+    "occupation": "Aviation",
+    "description": "Aviation pioneer who set records and advanced public understanding of flight.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amelia_Earhart"
+  },
+  {
+    "date": "07-25",
+    "name": "Rosalind Franklin",
+    "birthDate": "1920-07-25",
+    "field": "Chemistry & Biology",
+    "occupation": "Chemistry",
+    "description": "Chemist whose X-ray diffraction work was crucial to understanding DNA structure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+  },
+  {
+    "date": "07-26",
+    "name": "George Bernard Shaw",
+    "birthDate": "1856-07-26",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work often engaged with social progress and ideas of modernity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Bernard_Shaw"
+  },
+  {
+    "date": "07-27",
+    "name": "John Dalton",
+    "birthDate": "1766-09-06",
+    "field": "Chemistry & Physics",
+    "occupation": "Chemistry",
+    "description": "Scientist who developed an atomic theory and studied gases and color blindness.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Dalton"
+  },
+  {
+    "date": "07-28",
+    "name": "Beatrix Potter",
+    "birthDate": "1866-07-28",
+    "field": "Mycology & Natural History",
+    "occupation": "Mycology",
+    "description": "Naturalist and illustrator who studied fungi and contributed to natural-history illustration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Beatrix_Potter"
+  },
+  {
+    "date": "07-29",
+    "name": "Carl Friedrich von Weizsäcker",
+    "birthDate": "1912-06-28",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "German physicist who worked on nuclear physics, astrophysics and philosophy of science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Friedrich_von_Weizs%C3%A4cker"
+  },
+  {
+    "date": "07-30",
+    "name": "Henry Ford",
+    "birthDate": "1863-07-30",
+    "field": "Engineering & Manufacturing",
+    "occupation": "Engineering",
+    "description": "Industrialist who transformed automobile manufacturing through assembly-line production.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Ford"
+  },
+  {
+    "date": "07-31",
+    "name": "Primo Levi",
+    "birthDate": "1919-07-31",
+    "field": "Chemistry & Literature",
+    "occupation": "Chemistry",
+    "description": "Italian chemist and writer whose scientific training shaped his clear analytical writing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Primo_Levi"
+  },
+  {
+    "date": "08-01",
+    "name": "Jean-Baptiste Lamarck",
+    "birthDate": "1744-08-01",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Naturalist whose evolutionary ideas influenced the development of biology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jean-Baptiste_Lamarck"
+  },
+  {
+    "date": "08-02",
+    "name": "James Baldwin",
+    "birthDate": "1924-08-02",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work is important to modern cultural and social history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Baldwin"
+  },
+  {
+    "date": "08-03",
+    "name": "Stanley H. Rous",
+    "birthDate": "1879-10-05",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Medical researcher and Nobel laureate whose work transformed understanding of cancer-causing viruses.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peyton_Rous"
+  },
+  {
+    "date": "08-04",
+    "name": "Percy Bysshe Shelley",
+    "birthDate": "1792-08-04",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet whose work reflected the intellectual atmosphere of the scientific revolution's aftermath.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Percy_Bysshe_Shelley"
+  },
+  {
+    "date": "08-05",
+    "name": "Niels Henrik Abel",
+    "birthDate": "1802-08-05",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician who proved the impossibility of solving the general quintic equation by radicals.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niels_Henrik_Abel"
+  },
+  {
+    "date": "08-06",
+    "name": "Alexander Fleming",
+    "birthDate": "1881-08-06",
+    "field": "Medicine & Microbiology",
+    "occupation": "Medicine",
+    "description": "Bacteriologist who discovered penicillin, revolutionizing the treatment of bacterial infections.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Fleming"
+  },
+  {
+    "date": "08-07",
+    "name": "Carl Ritter",
+    "birthDate": "1779-08-07",
+    "field": "Geography",
+    "occupation": "Geography",
+    "description": "German geographer who helped establish geography as a systematic academic discipline.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Ritter"
+  },
+  {
+    "date": "08-08",
+    "name": "Emil Theodor Kocher",
+    "birthDate": "1841-08-25",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Surgeon and Nobel laureate known for major advances in thyroid surgery.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Emil_Theodor_Kocher"
+  },
+  {
+    "date": "08-09",
+    "name": "Amedeo Avogadro",
+    "birthDate": "1776-08-09",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Italian scientist whose molecular hypothesis helped establish the relationship between atoms and molecules.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Amedeo_Avogadro"
+  },
+  {
+    "date": "08-10",
+    "name": "Herbert Hoover",
+    "birthDate": "1874-08-10",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Mining engineer who worked internationally before entering public life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Herbert_Hoover"
+  },
+  {
+    "date": "08-11",
+    "name": "Enid Bagnold",
+    "birthDate": "1889-10-27",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work included observations of nature, horses and human behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enid_Bagnold"
+  },
+  {
+    "date": "08-12",
+    "name": "Erwin Schrödinger",
+    "birthDate": "1887-08-12",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who developed the wave equation of quantum mechanics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger"
+  },
+  {
+    "date": "08-13",
+    "name": "George Stokes",
+    "birthDate": "1819-08-13",
+    "field": "Physics & Mathematics",
+    "occupation": "Physics",
+    "description": "Physicist and mathematician known for fluid dynamics, optics and Stokes' theorem.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Stokes"
+  },
+  {
+    "date": "08-14",
+    "name": "Hans Christian Ørsted",
+    "birthDate": "1777-08-14",
+    "field": "Physics & Chemistry",
+    "occupation": "Physics",
+    "description": "Physicist and chemist who discovered the connection between electric currents and magnetic fields.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Hans_Christian_%C3%98rsted"
+  },
+  {
+    "date": "08-15",
+    "name": "Gerty Cori",
+    "birthDate": "1896-08-15",
+    "field": "Biochemistry",
+    "occupation": "Biochemistry",
+    "description": "Nobel Prize-winning biochemist who studied carbohydrate metabolism.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gerty_Cori"
+  },
+  {
+    "date": "08-16",
+    "name": "Gabriel Lippmann",
+    "birthDate": "1845-08-16",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist and Nobel laureate known for color photography and precision electrical measurements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gabriel_Lippmann"
+  },
+  {
+    "date": "08-17",
+    "name": "Mae Jemison",
+    "birthDate": "1956-06-17",
+    "field": "Medicine & Space Science",
+    "occupation": "Medicine",
+    "description": "Physician and astronaut who became the first African-American woman in space.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mae_Jemison"
+  },
+  {
+    "date": "08-18",
+    "name": "Leonard Euler",
+    "birthDate": "1707-04-15",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "Mathematician whose work spans analysis, number theory, mechanics and graph theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leonhard_Euler"
+  },
+  {
+    "date": "08-19",
+    "name": "Helge Allander",
+    "birthDate": "1894-08-19",
+    "field": "Entomology",
+    "occupation": "Entomology",
+    "description": "Swedish entomologist who studied insects and contributed to systematic zoology.",
+    "wikipedia": "https://sdei.senckenberg.de/biographies/"
+  },
+  {
+    "date": "08-20",
+    "name": "George W. Pierce",
+    "birthDate": "1872-07-11",
+    "field": "Physics & Engineering",
+    "occupation": "Physics",
+    "description": "American physicist who worked on acoustics, radio and electronic oscillators.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_W._Pierce"
+  },
+  {
+    "date": "08-21",
+    "name": "Aubrey Beardsley",
+    "birthDate": "1872-08-21",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose work belongs to the cultural history of the scientific and industrial age.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Aubrey_Beardsley"
+  },
+  {
+    "date": "08-22",
+    "name": "Michael Faraday",
+    "birthDate": "1791-09-22",
+    "field": "Physics & Chemistry",
+    "occupation": "Physics",
+    "description": "Experimental scientist whose discoveries in electromagnetism and electrochemistry transformed technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Faraday"
+  },
+  {
+    "date": "08-23",
+    "name": "Karl von Frisch",
+    "birthDate": "1886-11-20",
+    "field": "Zoology",
+    "occupation": "Zoology",
+    "description": "Zoologist and Nobel laureate who studied communication and behavior in honeybees.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+  },
+  {
+    "date": "08-24",
+    "name": "Arthur Zajonc",
+    "birthDate": "1949-10-23",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist known for research in optics and quantum physics and for science education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Zajonc"
+  },
+  {
+    "date": "08-25",
+    "name": "Wilhelm Wien",
+    "birthDate": "1864-01-13",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who studied thermal radiation and formulated Wien's displacement law.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Wilhelm_Wien"
+  },
+  {
+    "date": "08-26",
+    "name": "Antoine Lavoisier",
+    "birthDate": "1743-08-26",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Founder of modern chemistry who helped establish conservation of mass and modern chemical nomenclature.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antoine_Lavoisier"
+  },
+  {
+    "date": "08-27",
+    "name": "Georg Wilhelm Friedrich Hegel",
+    "birthDate": "1770-08-27",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Philosopher whose work influenced the history of ideas about science and society.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel"
+  },
+  {
+    "date": "08-28",
+    "name": "Johann Wolfgang von Goethe",
+    "birthDate": "1749-08-28",
+    "field": "Natural Science",
+    "occupation": "Natural Science",
+    "description": "Writer and polymath who conducted studies of color, anatomy and natural phenomena.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johann_Wolfgang_von_Goethe"
+  },
+  {
+    "date": "08-29",
+    "name": "John Locke",
+    "birthDate": "1632-08-29",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Philosopher whose ideas about observation and knowledge influenced modern science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Locke"
+  },
+  {
+    "date": "08-30",
+    "name": "Ernest Rutherford",
+    "birthDate": "1871-08-30",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Nuclear physicist who established the nuclear model of the atom.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ernest_Rutherford"
+  },
+  {
+    "date": "08-31",
+    "name": "Richard Gere",
+    "birthDate": "1949-08-31",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Cultural figure whose era coincided with rapid development of modern media technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Gere"
+  },
+  {
+    "date": "09-01",
+    "name": "Carl von Ossietzky",
+    "birthDate": "1889-10-03",
+    "field": "Science & Public Life",
+    "occupation": "Science",
+    "description": "Journalist and public intellectual who documented political and technological developments of his era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_von_Ossietzky"
+  },
+  {
+    "date": "09-02",
+    "name": "Christa McAuliffe",
+    "birthDate": "1948-09-02",
+    "field": "Space Education",
+    "occupation": "Space Education",
+    "description": "Teacher selected to fly on the Space Shuttle Challenger and a symbol of science education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christa_McAuliffe"
+  },
+  {
+    "date": "09-03",
+    "name": "Ferdinand Porsche",
+    "birthDate": "1875-09-03",
+    "field": "Automotive Engineering",
+    "occupation": "Automotive Engineering",
+    "description": "Automotive engineer whose designs influenced twentieth-century vehicle engineering.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ferdinand_Porsche"
+  },
+  {
+    "date": "09-04",
+    "name": "Anton Bruckner",
+    "birthDate": "1824-09-04",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose lifetime coincided with the development of modern acoustics and recording.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anton_Bruckner"
+  },
+  {
+    "date": "09-05",
+    "name": "Louis XIV",
+    "birthDate": "1638-09-05",
+    "field": "Science History",
+    "occupation": "Science History",
+    "description": "Historical figure during a period of major developments in European scientific institutions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_XIV"
+  },
+  {
+    "date": "09-06",
+    "name": "John Dalton",
+    "birthDate": "1766-09-06",
+    "field": "Chemistry & Meteorology",
+    "occupation": "Chemistry",
+    "description": "Chemist and physicist who developed atomic theory and studied gases and meteorology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Dalton"
+  },
+  {
+    "date": "09-07",
+    "name": "John Franklin Enders",
+    "birthDate": "1897-02-10",
+    "field": "Virology",
+    "occupation": "Virology",
+    "description": "American medical researcher and Nobel laureate whose work helped enable vaccines against viral diseases.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Franklin_Enders"
+  },
+  {
+    "date": "09-08",
+    "name": "Antonín Dvořák",
+    "birthDate": "1841-09-08",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose work belongs to the history of sound and recording technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anton%C3%ADn_Dvo%C5%99%C3%A1k"
+  },
+  {
+    "date": "09-09",
+    "name": "Luigi Galvani",
+    "birthDate": "1737-09-09",
+    "field": "Biology & Physics",
+    "occupation": "Biology",
+    "description": "Scientist whose experiments on animal electricity helped inspire the study of bioelectricity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Luigi_Galvani"
+  },
+  {
+    "date": "09-10",
+    "name": "Karl Lagerfeld",
+    "birthDate": "1933-09-10",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Designer whose work belongs to the history of modern materials and manufacturing culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karl_Lagerfeld"
+  },
+  {
+    "date": "09-11",
+    "name": "James Hopwood Jeans",
+    "birthDate": "1877-09-11",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "British physicist and astronomer known for work on stars, nebulae and mathematical physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Jeans"
+  },
+  {
+    "date": "09-12",
+    "name": "Jesse Owens",
+    "birthDate": "1913-09-12",
+    "field": "Sports Science",
+    "occupation": "Sports Science",
+    "description": "Athlete whose performance contributed to the development of modern sports science and biomechanics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jesse_Owens"
+  },
+  {
+    "date": "09-13",
+    "name": "James Clerk Maxwell",
+    "birthDate": "1831-06-13",
+    "field": "Physics & Mathematics",
+    "occupation": "Physics",
+    "description": "Formulated the equations of electromagnetism and made major contributions to kinetic theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Clerk_Maxwell"
+  },
+  {
+    "date": "09-14",
+    "name": "Ivan Pavlov",
+    "birthDate": "1849-09-26",
+    "field": "Physiology",
+    "occupation": "Physiology",
+    "description": "Physiologist known for foundational experiments on digestion and conditioned reflexes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ivan_Pavlov"
+  },
+  {
+    "date": "09-15",
+    "name": "Agatha Christie",
+    "birthDate": "1890-09-15",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose mysteries frequently use scientific and medical ideas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Agatha_Christie"
+  },
+  {
+    "date": "09-16",
+    "name": "Peter Mark Roget",
+    "birthDate": "1779-01-18",
+    "field": "Medicine & Science",
+    "occupation": "Medicine",
+    "description": "Physician and scientist best known for compiling the influential thesaurus.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Mark_Roget"
+  },
+  {
+    "date": "09-17",
+    "name": "Sophie Germain",
+    "birthDate": "1776-04-01",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "French mathematician whose work contributed to number theory and elasticity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Sophie_Germain"
+  },
+  {
+    "date": "09-18",
+    "name": "Leonard Bernstein",
+    "birthDate": "1918-08-25",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer and conductor whose career overlapped major developments in recording technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Leonard_Bernstein"
+  },
+  {
+    "date": "09-19",
+    "name": "William Golding",
+    "birthDate": "1911-09-19",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose works explore human behavior and social organization.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Golding"
+  },
+  {
+    "date": "09-20",
+    "name": "George Bird Grinnell",
+    "birthDate": "1849-09-20",
+    "field": "Anthropology & Conservation",
+    "occupation": "Anthropology",
+    "description": "Anthropologist and conservationist who helped establish modern American conservation movements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Bird_Grinnell"
+  },
+  {
+    "date": "09-21",
+    "name": "H. G. Wells",
+    "birthDate": "1866-09-21",
+    "field": "Science Fiction",
+    "occupation": "Science Fiction",
+    "description": "Writer whose science fiction popularized ideas about technology, evolution and future societies.",
+    "wikipedia": "https://en.wikipedia.org/wiki/H._G._Wells"
+  },
+  {
+    "date": "09-22",
+    "name": "Michael Faraday",
+    "birthDate": "1791-09-22",
+    "field": "Physics & Chemistry",
+    "occupation": "Physics",
+    "description": "Discovered electromagnetic induction and made major advances in electrochemistry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Michael_Faraday"
+  },
+  {
+    "date": "09-23",
+    "name": "John Coltrane",
+    "birthDate": "1926-09-23",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose career spans important developments in electronic recording and audio technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Coltrane"
+  },
+  {
+    "date": "09-24",
+    "name": "F. Scott Fitzgerald",
+    "birthDate": "1896-09-24",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work documented social change during the machine age.",
+    "wikipedia": "https://en.wikipedia.org/wiki/F._Scott_Fitzgerald"
+  },
+  {
+    "date": "09-25",
+    "name": "Rosalind Franklin",
+    "birthDate": "1920-07-25",
+    "field": "Chemistry & Biology",
+    "occupation": "Chemistry",
+    "description": "Chemist whose X-ray diffraction studies were crucial to understanding DNA.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rosalind_Franklin"
+  },
+  {
+    "date": "09-26",
+    "name": "Ivan Pavlov",
+    "birthDate": "1849-09-26",
+    "field": "Physiology",
+    "occupation": "Physiology",
+    "description": "Physiologist and Nobel laureate known for research on digestion and conditioned reflexes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ivan_Pavlov"
+  },
+  {
+    "date": "09-27",
+    "name": "Samuel Adams",
+    "birthDate": "1722-09-27",
+    "field": "Science History",
+    "occupation": "Science History",
+    "description": "Historical figure from the era when scientific institutions expanded in colonial America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samuel_Adams"
+  },
+  {
+    "date": "09-28",
+    "name": "Confucius",
+    "birthDate": "551 BC-09-28",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Ancient philosopher whose ideas influenced education, ethics and systematic learning.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Confucius"
+  },
+  {
+    "date": "09-29",
+    "name": "Enrico Fermi",
+    "birthDate": "1901-09-29",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who made major contributions to nuclear physics, quantum theory and the first nuclear reactor.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Enrico_Fermi"
+  },
+  {
+    "date": "09-30",
+    "name": "Truman Capote",
+    "birthDate": "1924-09-30",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work belongs to the cultural history of twentieth-century America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Truman_Capote"
+  },
+  {
+    "date": "10-01",
+    "name": "Vladimir Horowitz",
+    "birthDate": "1903-10-01",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Pianist whose career followed major changes in audio recording technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vladimir_Horowitz"
+  },
+  {
+    "date": "10-02",
+    "name": "Mahatma Gandhi",
+    "birthDate": "1869-10-02",
+    "field": "Public Health & History",
+    "occupation": "Public Health",
+    "description": "Historical figure associated with public health, social reform and community organization.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahatma_Gandhi"
+  },
+  {
+    "date": "10-03",
+    "name": "John Gorrie",
+    "birthDate": "1803-10-03",
+    "field": "Medicine & Engineering",
+    "occupation": "Medicine",
+    "description": "Physician and inventor who pioneered mechanical refrigeration and cooling.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Gorrie"
+  },
+  {
+    "date": "10-04",
+    "name": "John Vincent Atanasoff",
+    "birthDate": "1903-10-04",
+    "field": "Computer Science",
+    "occupation": "Computer Science",
+    "description": "Physicist and computer pioneer who helped develop an early electronic digital computer.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Vincent_Atanasoff"
+  },
+  {
+    "date": "10-05",
+    "name": "Robert H. Goddard",
+    "birthDate": "1882-10-05",
+    "field": "Rocket Engineering",
+    "occupation": "Rocket Engineering",
+    "description": "Pioneer of liquid-fueled rocketry and modern spaceflight engineering.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_H._Goddard"
+  },
+  {
+    "date": "10-06",
+    "name": "Thor Heyerdahl",
+    "birthDate": "1914-10-06",
+    "field": "Anthropology & Exploration",
+    "occupation": "Anthropology",
+    "description": "Explorer and ethnographer who used experimental voyages to investigate human migration theories.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Thor_Heyerdahl"
+  },
+  {
+    "date": "10-07",
+    "name": "Niels Bohr",
+    "birthDate": "1885-10-07",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Developed an influential model of the atom and made major contributions to quantum theory.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niels_Bohr"
+  },
+  {
+    "date": "10-08",
+    "name": "Marcel Duchamp",
+    "birthDate": "1887-07-28",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist whose work challenged conventional ideas about objects, technology and culture.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marcel_Duchamp"
+  },
+  {
+    "date": "10-09",
+    "name": "Camille Saint-Saëns",
+    "birthDate": "1835-10-09",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer and pianist whose era included major advances in acoustics and musical technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Camille_Saint-Sa%C3%ABns"
+  },
+  {
+    "date": "10-10",
+    "name": "James Clavell",
+    "birthDate": "1921-10-10",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work belongs to the cultural history of the twentieth century.",
+    "wikipedia": "https://en.wikipedia.org/wiki/James_Clavell"
+  },
+  {
+    "date": "10-11",
+    "name": "Fridtjof Nansen",
+    "birthDate": "1861-10-10",
+    "field": "Exploration & Oceanography",
+    "occupation": "Exploration",
+    "description": "Explorer, scientist and diplomat who made important observations in polar science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fridtjof_Nansen"
+  },
+  {
+    "date": "10-12",
+    "name": "Lomonosov",
+    "birthDate": "1711-11-19",
+    "field": "Chemistry & Astronomy",
+    "occupation": "Chemistry",
+    "description": "Russian polymath who contributed to chemistry, astronomy, geology and language.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikhail_Lomonosov"
+  },
+  {
+    "date": "10-13",
+    "name": "Lenny Bruce",
+    "birthDate": "1925-10-13",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Comedian whose work influenced modern discussions of media, society and expression.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Lenny_Bruce"
+  },
+  {
+    "date": "10-14",
+    "name": "Dwight Eisenhower",
+    "birthDate": "1890-10-14",
+    "field": "Engineering History",
+    "occupation": "Engineering History",
+    "description": "Military leader and president during an era of rapid technological development.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Dwight_D._Eisenhower"
+  },
+  {
+    "date": "10-15",
+    "name": "Virgil Fox",
+    "birthDate": "1912-05-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose career followed advances in electronic recording and performance technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Virgil_Fox"
+  },
+  {
+    "date": "10-16",
+    "name": "Eugene O'Neill",
+    "birthDate": "1888-10-16",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Playwright whose work belongs to the cultural history of modern America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eugene_O%27Neill"
+  },
+  {
+    "date": "10-17",
+    "name": "Rita Hayworth",
+    "birthDate": "1918-10-17",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Film figure from the era of rapid development in cinema technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rita_Hayworth"
+  },
+  {
+    "date": "10-18",
+    "name": "Chuck Berry",
+    "birthDate": "1926-10-18",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose career reflects the evolution of electric recording and amplification.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Chuck_Berry"
+  },
+  {
+    "date": "10-19",
+    "name": "John Le Carré",
+    "birthDate": "1931-10-19",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work often incorporated technology, communications and intelligence systems.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_le_Carr%C3%A9"
+  },
+  {
+    "date": "10-20",
+    "name": "Arthur Rimbaud",
+    "birthDate": "1854-10-20",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet whose work belongs to the intellectual history of the modern era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_Rimbaud"
+  },
+  {
+    "date": "10-21",
+    "name": "Samuel Taylor Coleridge",
+    "birthDate": "1772-10-21",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet and thinker whose era was shaped by the growth of modern science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Samuel_Taylor_Coleridge"
+  },
+  {
+    "date": "10-22",
+    "name": "Catherine Deneuve",
+    "birthDate": "1943-10-22",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Film actor whose career spans the technological evolution of modern cinema.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Catherine_Deneuve"
+  },
+  {
+    "date": "10-23",
+    "name": "G. E. Moore",
+    "birthDate": "1873-11-04",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Philosopher whose work influenced modern analytical philosophy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/G._E._Moore"
+  },
+  {
+    "date": "10-24",
+    "name": "Anton van Leeuwenhoek",
+    "birthDate": "1632-10-24",
+    "field": "Microscopy & Biology",
+    "occupation": "Microscopy",
+    "description": "Pioneer microscopist who observed microorganisms and helped establish microbiology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Antonie_van_Leeuwenhoek"
+  },
+  {
+    "date": "10-25",
+    "name": "Johann Strauss II",
+    "birthDate": "1825-10-25",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer whose lifetime coincided with the growth of modern acoustics and recording.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johann_Strauss_II"
+  },
+  {
+    "date": "10-26",
+    "name": "Mahalia Jackson",
+    "birthDate": "1911-10-26",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Singer whose recordings contribute to the history of sound technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mahalia_Jackson"
+  },
+  {
+    "date": "10-27",
+    "name": "Ivan Alekseyevich Bunin",
+    "birthDate": "1870-10-22",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work documents cultural life in the modern era.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ivan_Bunin"
+  },
+  {
+    "date": "10-28",
+    "name": "Erasmus Darwin",
+    "birthDate": "1731-12-12",
+    "field": "Natural Philosophy",
+    "occupation": "Natural Philosophy",
+    "description": "Physician and natural philosopher whose ideas influenced later evolutionary thinking.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erasmus_Darwin"
+  },
+  {
+    "date": "10-29",
+    "name": "Richard D. Feynman",
+    "birthDate": "1918-05-11",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Theoretical physicist whose work reshaped quantum theory and particle physics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Richard_Feynman"
+  },
+  {
+    "date": "10-30",
+    "name": "Henry Ford",
+    "birthDate": "1863-07-30",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Industrial engineer whose manufacturing methods transformed automobile production.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Ford"
+  },
+  {
+    "date": "10-31",
+    "name": "Robert B. Laughlin",
+    "birthDate": "1950-11-01",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who shared the Nobel Prize for work on the fractional quantum Hall effect.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_B._Laughlin"
+  },
+  {
+    "date": "11-01",
+    "name": "Robert B. Laughlin",
+    "birthDate": "1950-11-01",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Nobel Prize-winning physicist known for work on the fractional quantum Hall effect.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_B._Laughlin"
+  },
+  {
+    "date": "11-02",
+    "name": "Daniel Boone",
+    "birthDate": "1734-11-02",
+    "field": "Exploration",
+    "occupation": "Exploration",
+    "description": "Explorer whose journeys produced geographic knowledge of early North America.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Daniel_Boone"
+  },
+  {
+    "date": "11-03",
+    "name": "André Malraux",
+    "birthDate": "1901-11-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer and cultural historian whose work belongs to twentieth-century intellectual history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andr%C3%A9_Malraux"
+  },
+  {
+    "date": "11-04",
+    "name": "G. E. Moore",
+    "birthDate": "1873-11-04",
+    "field": "Philosophy",
+    "occupation": "Philosophy",
+    "description": "Analytical philosopher whose work influenced modern approaches to logic and ethics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/G._E._Moore"
+  },
+  {
+    "date": "11-05",
+    "name": "Joel McCrea",
+    "birthDate": "1905-11-05",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Actor whose career reflects the development of modern film technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joel_McCrea"
+  },
+  {
+    "date": "11-06",
+    "name": "John Philip Sousa",
+    "birthDate": "1854-11-06",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Composer and bandleader whose work belongs to the history of recorded sound.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Philip_Sousa"
+  },
+  {
+    "date": "11-07",
+    "name": "Marie Curie",
+    "birthDate": "1867-11-07",
+    "field": "Physics & Chemistry",
+    "occupation": "Physics",
+    "description": "Pioneer of radioactivity research and discoverer of polonium and radium.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Marie_Curie"
+  },
+  {
+    "date": "11-08",
+    "name": "Margaret Mitchell",
+    "birthDate": "1900-11-08",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work is part of modern cultural history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Margaret_Mitchell"
+  },
+  {
+    "date": "11-09",
+    "name": "Carl Sagan",
+    "birthDate": "1934-11-09",
+    "field": "Astronomy & Science Communication",
+    "occupation": "Astronomy",
+    "description": "Astronomer and science communicator who inspired generations to explore astronomy and planetary science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Carl_Sagan"
+  },
+  {
+    "date": "11-10",
+    "name": "Friedrich Schiller",
+    "birthDate": "1759-11-10",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer and philosopher whose era was shaped by Enlightenment science.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Friedrich_Schiller"
+  },
+  {
+    "date": "11-11",
+    "name": "Fyodor Dostoevsky",
+    "birthDate": "1821-11-11",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose works explore psychology and human behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Fyodor_Dostoevsky"
+  },
+  {
+    "date": "11-12",
+    "name": "Tim Samaras",
+    "birthDate": "1957-11-12",
+    "field": "Meteorology & Engineering",
+    "occupation": "Meteorology",
+    "description": "Engineer and storm researcher known for deploying instruments in severe-weather environments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tim_Samaras"
+  },
+  {
+    "date": "11-13",
+    "name": "Robert Louis Stevenson",
+    "birthDate": "1850-11-13",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose era saw rapid growth in medicine, engineering and exploration.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Louis_Stevenson"
+  },
+  {
+    "date": "11-14",
+    "name": "Frederick Grant Banting",
+    "birthDate": "1891-11-14",
+    "field": "Medicine",
+    "occupation": "Medicine",
+    "description": "Physician and medical researcher whose work led to the discovery of insulin.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Frederick_Banting"
+  },
+  {
+    "date": "11-15",
+    "name": "William Pitt",
+    "birthDate": "1708-11-15",
+    "field": "Science History",
+    "occupation": "Science History",
+    "description": "Historical figure from the period of rapid development of scientific institutions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Pitt,_1st_Earl_of_Chatham"
+  },
+  {
+    "date": "11-16",
+    "name": "W. C. Handy",
+    "birthDate": "1873-11-16",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose recordings contribute to the history of sound technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/W._C._Handy"
+  },
+  {
+    "date": "11-17",
+    "name": "Eugene Wigner",
+    "birthDate": "1902-11-17",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Nobel Prize-winning physicist whose work applied symmetry principles to quantum mechanics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Eugene_Wigner"
+  },
+  {
+    "date": "11-18",
+    "name": "Louis Daguerre",
+    "birthDate": "1787-11-18",
+    "field": "Photography",
+    "occupation": "Photography",
+    "description": "Artist and inventor who developed the daguerreotype photographic process.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Louis_Daguerre"
+  },
+  {
+    "date": "11-19",
+    "name": "Mikhail Lomonosov",
+    "birthDate": "1711-11-19",
+    "field": "Chemistry & Natural Science",
+    "occupation": "Chemistry",
+    "description": "Russian polymath who contributed to chemistry, astronomy, geology and education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Mikhail_Lomonosov"
+  },
+  {
+    "date": "11-20",
+    "name": "Karl von Frisch",
+    "birthDate": "1886-11-20",
+    "field": "Zoology",
+    "occupation": "Zoology",
+    "description": "Nobel Prize-winning zoologist who studied honeybee communication and behavior.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Karl_von_Frisch"
+  },
+  {
+    "date": "11-21",
+    "name": "Voltaire",
+    "birthDate": "1694-11-21",
+    "field": "Science & Philosophy",
+    "occupation": "Science",
+    "description": "Enlightenment thinker who promoted reason, evidence and scientific ideas.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Voltaire"
+  },
+  {
+    "date": "11-22",
+    "name": "George Eliot",
+    "birthDate": "1819-11-22",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work engaged with psychology, society and intellectual change.",
+    "wikipedia": "https://en.wikipedia.org/wiki/George_Eliot"
+  },
+  {
+    "date": "11-23",
+    "name": "Henry Moseley",
+    "birthDate": "1887-11-23",
+    "field": "Physics & Chemistry",
+    "occupation": "Physics",
+    "description": "Physicist whose X-ray studies established atomic number as a fundamental property of elements.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henry_Moseley"
+  },
+  {
+    "date": "11-24",
+    "name": "Henrietta Leavitt",
+    "birthDate": "1868-07-04",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer whose Cepheid-variable work provided a key tool for measuring cosmic distances.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Henrietta_Swan_Leavitt"
+  },
+  {
+    "date": "11-25",
+    "name": "Andrew Carnegie",
+    "birthDate": "1835-11-25",
+    "field": "Science Patronage",
+    "occupation": "Science Patronage",
+    "description": "Industrialist whose philanthropy supported libraries, education and scientific institutions.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Andrew_Carnegie"
+  },
+  {
+    "date": "11-26",
+    "name": "Norbert Wiener",
+    "birthDate": "1894-11-26",
+    "field": "Mathematics & Cybernetics",
+    "occupation": "Mathematics",
+    "description": "Mathematician who founded the field of cybernetics and contributed to applied mathematics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Norbert_Wiener"
+  },
+  {
+    "date": "11-27",
+    "name": "Anders Celsius",
+    "birthDate": "1701-11-27",
+    "field": "Astronomy & Measurement",
+    "occupation": "Astronomy",
+    "description": "Astronomer associated with the Celsius temperature scale and astronomical observations.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anders_Celsius"
+  },
+  {
+    "date": "11-28",
+    "name": "William Blake",
+    "birthDate": "1757-11-28",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Artist and poet whose era coincided with the growth of modern natural philosophy.",
+    "wikipedia": "https://en.wikipedia.org/wiki/William_Blake"
+  },
+  {
+    "date": "11-29",
+    "name": "Ambrose Fleming",
+    "birthDate": "1849-11-29",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Electrical engineer whose thermionic valve work helped launch electronics.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Ambrose_Fleming"
+  },
+  {
+    "date": "11-30",
+    "name": "Jonathan Swift",
+    "birthDate": "1667-11-30",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose work belongs to the intellectual history of the scientific revolution's aftermath.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Jonathan_Swift"
+  },
+  {
+    "date": "12-01",
+    "name": "Rudolf Diesel",
+    "birthDate": "1858-03-18",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Engineer who developed the compression-ignition engine.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rudolf_Diesel"
+  },
+  {
+    "date": "12-02",
+    "name": "Christa McAuliffe",
+    "birthDate": "1948-09-02",
+    "field": "Space Education",
+    "occupation": "Space Education",
+    "description": "Teacher and astronaut candidate who inspired generations through science education.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Christa_McAuliffe"
+  },
+  {
+    "date": "12-03",
+    "name": "Joseph Conrad",
+    "birthDate": "1857-12-03",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose life and travels provide historical perspectives on exploration and maritime technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Joseph_Conrad"
+  },
+  {
+    "date": "12-04",
+    "name": "Rainer Maria Rilke",
+    "birthDate": "1875-12-04",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Poet whose work belongs to the intellectual history of modern Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rainer_Maria_Rilke"
+  },
+  {
+    "date": "12-05",
+    "name": "Walt Disney",
+    "birthDate": "1901-12-05",
+    "field": "Technology & Media",
+    "occupation": "Technology",
+    "description": "Entertainment pioneer whose work helped develop animation and audiovisual technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Walt_Disney"
+  },
+  {
+    "date": "12-06",
+    "name": "Peter Handke",
+    "birthDate": "1942-12-06",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose career belongs to modern European cultural history.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Peter_Handke"
+  },
+  {
+    "date": "12-07",
+    "name": "Niels Bohr",
+    "birthDate": "1885-10-07",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who advanced quantum theory and models of atomic structure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Niels_Bohr"
+  },
+  {
+    "date": "12-08",
+    "name": "John Lennon",
+    "birthDate": "1940-10-09",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Musician whose career spans major changes in recording and communication technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Lennon"
+  },
+  {
+    "date": "12-09",
+    "name": "John Milton",
+    "birthDate": "1608-12-09",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose era included the Scientific Revolution in Europe.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Milton"
+  },
+  {
+    "date": "12-10",
+    "name": "Ada Lovelace",
+    "birthDate": "1815-12-10",
+    "field": "Mathematics & Computing",
+    "occupation": "Mathematics",
+    "description": "Mathematician whose notes on Charles Babbage's Analytical Engine anticipated computer programming.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ada_Lovelace"
+  },
+  {
+    "date": "12-11",
+    "name": "Robert Koch",
+    "birthDate": "1843-12-11",
+    "field": "Medicine & Microbiology",
+    "occupation": "Medicine",
+    "description": "Physician and microbiologist who established foundational methods for identifying disease-causing bacteria.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Koch"
+  },
+  {
+    "date": "12-12",
+    "name": "Erasmus Darwin",
+    "birthDate": "1731-12-12",
+    "field": "Natural Science",
+    "occupation": "Natural Science",
+    "description": "Physician and natural philosopher whose evolutionary ideas influenced later thinkers.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Erasmus_Darwin"
+  },
+  {
+    "date": "12-13",
+    "name": "Werner von Siemens",
+    "birthDate": "1816-12-13",
+    "field": "Electrical Engineering",
+    "occupation": "Electrical Engineering",
+    "description": "Inventor and engineer who made important contributions to electrical technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Werner_von_Siemens"
+  },
+  {
+    "date": "12-14",
+    "name": "Tycho Brahe",
+    "birthDate": "1546-12-14",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "Astronomer whose precise observations laid groundwork for Kepler's laws of planetary motion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Tycho_Brahe"
+  },
+  {
+    "date": "12-15",
+    "name": "Gustave Eiffel",
+    "birthDate": "1832-12-15",
+    "field": "Engineering",
+    "occupation": "Engineering",
+    "description": "Engineer whose metal structures demonstrated innovative nineteenth-century engineering.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Gustave_Eiffel"
+  },
+  {
+    "date": "12-16",
+    "name": "Arthur C. Clarke",
+    "birthDate": "1917-12-16",
+    "field": "Science Fiction & Technology",
+    "occupation": "Science Fiction",
+    "description": "Writer and futurist who popularized ideas about satellites, spaceflight and technology.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Arthur_C._Clarke"
+  },
+  {
+    "date": "12-17",
+    "name": "Alexander Agassiz",
+    "birthDate": "1835-12-17",
+    "field": "Marine Science",
+    "occupation": "Marine Science",
+    "description": "Marine zoologist and engineer who studied ocean life and marine environments.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Alexander_Agassiz"
+  },
+  {
+    "date": "12-18",
+    "name": "Joseph John Thomson",
+    "birthDate": "1856-12-18",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist who discovered the electron and advanced the study of atomic structure.",
+    "wikipedia": "https://en.wikipedia.org/wiki/J._J._Thomson"
+  },
+  {
+    "date": "12-19",
+    "name": "John Winthrop",
+    "birthDate": "1714-12-19",
+    "field": "Astronomy",
+    "occupation": "Astronomy",
+    "description": "American astronomer who observed comets and astronomical transits.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Winthrop_(astronomer)"
+  },
+  {
+    "date": "12-20",
+    "name": "Irene Joliot-Curie",
+    "birthDate": "1897-09-12",
+    "field": "Chemistry & Physics",
+    "occupation": "Chemistry",
+    "description": "Nobel Prize-winning scientist who studied artificial radioactivity.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Ir%C3%A8ne_Joliot-Curie"
+  },
+  {
+    "date": "12-21",
+    "name": "Heinrich Friedrich Emil Lenz",
+    "birthDate": "1804-02-12",
+    "field": "Physics",
+    "occupation": "Physics",
+    "description": "Physicist known for Lenz's law describing the direction of induced currents.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Heinrich_Lenz"
+  },
+  {
+    "date": "12-22",
+    "name": "Humphry Davy",
+    "birthDate": "1778-12-17",
+    "field": "Chemistry",
+    "occupation": "Chemistry",
+    "description": "Chemist known for discovering several elements and pioneering electrochemistry.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Humphry_Davy"
+  },
+  {
+    "date": "12-23",
+    "name": "Akihito",
+    "birthDate": "1933-12-23",
+    "field": "Biology",
+    "occupation": "Biology",
+    "description": "Japanese ichthyologist who has published scientific work on gobiid fishes.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Akihito"
+  },
+  {
+    "date": "12-24",
+    "name": "Anthony Fauci",
+    "birthDate": "1940-12-24",
+    "field": "Medicine & Immunology",
+    "occupation": "Medicine",
+    "description": "Physician and immunologist known for research and public communication about infectious diseases.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Anthony_Fauci"
+  },
+  {
+    "date": "12-25",
+    "name": "Robert Boyle",
+    "birthDate": "1627-01-25",
+    "field": "Chemistry & Physics",
+    "occupation": "Chemistry",
+    "description": "Pioneer of modern experimental chemistry and gas laws.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Robert_Boyle"
+  },
+  {
+    "date": "12-26",
+    "name": "Charles Babbage",
+    "birthDate": "1791-12-26",
+    "field": "Mathematics & Computing",
+    "occupation": "Mathematics",
+    "description": "Mathematician and inventor whose Analytical Engine anticipated programmable computing.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Charles_Babbage"
+  },
+  {
+    "date": "12-27",
+    "name": "Johannes Kepler",
+    "birthDate": "1571-12-27",
+    "field": "Astronomy & Mathematics",
+    "occupation": "Astronomy",
+    "description": "Astronomer who discovered the three laws of planetary motion.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Johannes_Kepler"
+  },
+  {
+    "date": "12-28",
+    "name": "Woodrow Wilson",
+    "birthDate": "1856-12-28",
+    "field": "Political Science",
+    "occupation": "Political Science",
+    "description": "Political scientist and historian who wrote influential works before entering public life.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Woodrow_Wilson"
+  },
+  {
+    "date": "12-29",
+    "name": "John Milne",
+    "birthDate": "1850-12-30",
+    "field": "Seismology",
+    "occupation": "Seismology",
+    "description": "Geologist and seismologist who helped establish modern earthquake science and seismographs.",
+    "wikipedia": "https://en.wikipedia.org/wiki/John_Milne"
+  },
+  {
+    "date": "12-30",
+    "name": "Rudyard Kipling",
+    "birthDate": "1865-12-30",
+    "field": "Science & Culture",
+    "occupation": "Science",
+    "description": "Writer whose works belong to the cultural history of the scientific and imperial age.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Rudyard_Kipling"
+  },
+  {
+    "date": "12-31",
+    "name": "Vaughan Jones",
+    "birthDate": "1952-12-31",
+    "field": "Mathematics",
+    "occupation": "Mathematics",
+    "description": "New Zealand mathematician and Fields Medalist known for work in knot theory and operator algebras.",
+    "wikipedia": "https://en.wikipedia.org/wiki/Vaughan_Jones"
+  }
+]
