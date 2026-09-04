@@ -6,16 +6,18 @@
 
   <title>Study Petal 🌷</title>
 
-  <meta
-    name="description"
-    content="Study Petal — Notes that bloom into knowledge. Discover handwritten engineering notes and inspiring scientists born on your birthday."
-  >
+  <meta name="description"
+        content="Study Petal — Notes that bloom into knowledge. Discover handwritten engineering notes and inspiring scientists born on your birthday.">
 
   <style>
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -29,7 +31,7 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(255, 248, 251, 0.95);
+      background: rgba(255, 248, 251, 0.96);
       backdrop-filter: blur(10px);
       border-bottom: 1px solid #f3dce7;
       padding: 15px 7%;
@@ -294,7 +296,6 @@
 
     .note-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 12px 30px rgba(110, 65, 88, 0.1);
     }
 
     .note-icon {
@@ -384,7 +385,6 @@
 
 <body>
 
-  <!-- Navigation -->
   <nav>
     <div class="logo">🌷 Study Petal</div>
 
@@ -395,7 +395,6 @@
   </nav>
 
 
-  <!-- Hero -->
   <section class="hero">
 
     <div class="hero-content">
@@ -421,7 +420,6 @@
   </section>
 
 
-  <!-- Birthday Scientist -->
   <section id="discover">
 
     <h2 class="section-title">
@@ -438,6 +436,7 @@
 
         <div class="input-group">
           <label for="name">Your name</label>
+
           <input
             type="text"
             id="name"
@@ -445,8 +444,10 @@
           >
         </div>
 
+
         <div class="input-group">
           <label for="dob">Your birthday</label>
+
           <input
             type="date"
             id="dob"
@@ -455,12 +456,14 @@
 
       </div>
 
+
       <button
         class="discover-button"
         onclick="discover()"
       >
         🌸 Find My Birthday Scientist
       </button>
+
 
       <div id="result"></div>
 
@@ -469,7 +472,6 @@
   </section>
 
 
-  <!-- Notes -->
   <section class="notes-section" id="notes">
 
     <h2 class="section-title">
@@ -479,6 +481,7 @@
     <p class="section-subtitle">
       Simple notes for students, made with love.
     </p>
+
 
     <div class="search-box">
 
@@ -495,8 +498,10 @@
     <div class="notes-grid" id="notesGrid">
 
 
-      <!-- Note 1 -->
-      <article class="note-card" data-title="SC BCC FCC Crystal Structure">
+      <article
+        class="note-card"
+        data-title="SC BCC FCC Crystal Structure"
+      >
 
         <div class="note-icon">🧊</div>
 
@@ -531,8 +536,10 @@
       </article>
 
 
-      <!-- Note 2 -->
-      <article class="note-card" data-title="Hexagonal Close Packed Structure">
+      <article
+        class="note-card"
+        data-title="Hexagonal Close Packed Structure"
+      >
 
         <div class="note-icon">⬡</div>
 
@@ -567,8 +574,10 @@
       </article>
 
 
-      <!-- Note 3 -->
-      <article class="note-card" data-title="Miller Indices">
+      <article
+        class="note-card"
+        data-title="Miller Indices"
+      >
 
         <div class="note-icon">📐</div>
 
@@ -608,7 +617,6 @@
   </section>
 
 
-  <!-- Footer -->
   <footer>
 
     <p>
@@ -624,16 +632,18 @@
 
   <script>
 
-    /*
-      IMPORTANT:
-      This is your Cloudflare Worker URL.
-    */
+    /* =====================================================
+       STUDY PETAL CLOUDFLARE WORKER
+       ===================================================== */
 
     const API_URL =
       "https://study-petal-api.rmmishyalarashmi.workers.dev";
 
 
-    // Escape HTML so user input is safe
+    /* =====================================================
+       SECURITY
+       ===================================================== */
+
     function escapeHTML(value) {
 
       return String(value || "")
@@ -646,7 +656,10 @@
     }
 
 
-    // Calculate exact years since someone's birth
+    /* =====================================================
+       CALCULATE YEARS AGO
+       ===================================================== */
+
     function calculateYearsAgo(birthDate) {
 
       const birth = new Date(birthDate);
@@ -672,7 +685,10 @@
     }
 
 
-    // Format date
+    /* =====================================================
+       FORMAT DATE
+       ===================================================== */
+
     function formatDate(dateString) {
 
       if (!dateString) {
@@ -693,7 +709,10 @@
     }
 
 
-    // Find scientist
+    /* =====================================================
+       FIND BIRTHDAY SCIENTIST
+       ===================================================== */
+
     async function discover() {
 
       const nameInput =
@@ -754,7 +773,9 @@
 
 
         if (!response.ok) {
-          throw new Error("API request failed");
+          throw new Error(
+            "Birthday API returned an error"
+          );
         }
 
 
@@ -780,7 +801,7 @@
               </p>
 
               <p>
-                Don't worry — your birthday is still scientifically special. ✨
+                Your birthday is still scientifically special. ✨
               </p>
 
             </div>
@@ -803,44 +824,56 @@
               );
 
 
-            const imageHTML =
-              scientist.image
-                ? `
-                  <img
-                    class="scientist-image"
-                    src="${escapeHTML(scientist.image)}"
-                    alt="${escapeHTML(scientist.name)}"
-                    onerror="this.style.display='none'"
-                  >
-                `
-                : `
-                  <div
-                    class="scientist-image"
-                    style="
-                      display:flex;
-                      align-items:center;
-                      justify-content:center;
-                      font-size:3rem;
-                    "
-                  >
-                    🔬
-                  </div>
-                `;
+            let imageHTML;
 
 
-            const wikipediaHTML =
-              scientist.wikipedia
-                ? `
-                  <a
-                    class="wiki-button"
-                    href="${escapeHTML(scientist.wikipedia)}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Read more on Wikipedia →
-                  </a>
-                `
-                : "";
+            if (scientist.image) {
+
+              imageHTML = `
+                <img
+                  class="scientist-image"
+                  src="${escapeHTML(scientist.image)}"
+                  alt="${escapeHTML(scientist.name)}"
+                  onerror="this.style.display='none'"
+                >
+              `;
+
+            } else {
+
+              imageHTML = `
+                <div
+                  class="scientist-image"
+                  style="
+                    display:flex;
+                    align-items:center;
+                    justify-content:center;
+                    font-size:3rem;
+                  "
+                >
+                  🔬
+                </div>
+              `;
+
+            }
+
+
+            let wikipediaHTML = "";
+
+
+            if (scientist.wikipedia) {
+
+              wikipediaHTML = `
+                <a
+                  class="wiki-button"
+                  href="${escapeHTML(scientist.wikipedia)}"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Read more on Wikipedia →
+                </a>
+              `;
+
+            }
 
 
             cards += `
@@ -895,6 +928,16 @@
         );
 
 
+        const firstScientist =
+          data.scientists[0];
+
+
+        const firstYearsAgo =
+          calculateYearsAgo(
+            firstScientist.dob
+          );
+
+
         result.innerHTML = `
 
           <div class="welcome">
@@ -910,7 +953,7 @@
 
             <p>
               They were doing science
-              ${calculateYearsAgo(data.scientists[0].dob)}
+              ${firstYearsAgo}
               years ago — no pressure, pookie. 😭🔬
             </p>
 
@@ -922,14 +965,18 @@
 
       } catch (error) {
 
-        console.error(error);
+        console.error(
+          "Study Petal API Error:",
+          error
+        );
+
 
         result.innerHTML = `
 
           <div class="error">
 
-            🌧️ Oops! We couldn't reach
-            the birthday scientist database.
+            🌧️ We couldn't connect to the
+            Study Petal scientist database.
 
             <br><br>
 
@@ -944,7 +991,10 @@
     }
 
 
-    // Search notes
+    /* =====================================================
+       SEARCH NOTES
+       ===================================================== */
+
     function searchNotes() {
 
       const search =
