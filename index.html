@@ -6,9 +6,6 @@
 
   <title>Study Petal 🌷</title>
 
-  <meta name="description"
-        content="Study Petal — Notes that bloom into knowledge. Discover handwritten engineering notes and inspiring scientists born on your birthday.">
-
   <style>
     * {
       box-sizing: border-box;
@@ -30,10 +27,10 @@
     nav {
       position: sticky;
       top: 0;
-      z-index: 100;
-      background: rgba(255, 248, 251, 0.96);
+      z-index: 1000;
+      background: rgba(255,255,255,0.96);
       backdrop-filter: blur(10px);
-      border-bottom: 1px solid #f3dce7;
+      border-bottom: 1px solid #f2dce7;
       padding: 15px 7%;
       display: flex;
       justify-content: space-between;
@@ -41,20 +38,20 @@
     }
 
     .logo {
-      font-size: 1.5rem;
+      color: #d45c91;
+      font-size: 1.45rem;
       font-weight: 800;
-      color: #d85c91;
     }
 
     nav a {
+      color: #70495b;
       text-decoration: none;
-      color: #71465b;
-      margin-left: 22px;
+      margin-left: 20px;
       font-weight: 600;
     }
 
     nav a:hover {
-      color: #d85c91;
+      color: #d45c91;
     }
 
     .hero {
@@ -65,8 +62,8 @@
       text-align: center;
       padding: 70px 20px;
       background:
-        radial-gradient(circle at top left, #ffe5f0, transparent 35%),
-        radial-gradient(circle at bottom right, #f8e7ff, transparent 35%),
+        radial-gradient(circle at 10% 15%, #ffdce9, transparent 30%),
+        radial-gradient(circle at 90% 85%, #f1ddff, transparent 30%),
         #fff8fb;
     }
 
@@ -76,44 +73,45 @@
 
     .flower {
       font-size: 4rem;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: clamp(3rem, 8vw, 6rem);
-      color: #d85c91;
-      line-height: 1;
-      margin-bottom: 20px;
-    }
-
-    .tagline {
-      font-size: 1.4rem;
-      font-weight: 600;
-      color: #765064;
       margin-bottom: 12px;
     }
 
-    .quote {
-      max-width: 650px;
-      margin: 0 auto 35px;
-      color: #866675;
-      font-style: italic;
+    .hero h1 {
+      color: #cf5589;
+      font-size: clamp(3rem, 8vw, 6rem);
+      line-height: 1;
+      margin-bottom: 18px;
     }
 
-    .hero-button {
+    .tagline {
+      font-size: 1.35rem;
+      color: #765064;
+      font-weight: 600;
+      margin-bottom: 15px;
+    }
+
+    .quote {
+      color: #8a6a7a;
+      font-style: italic;
+      max-width: 650px;
+      margin: auto;
+    }
+
+    .main-button {
       display: inline-block;
+      margin-top: 30px;
       padding: 14px 28px;
-      background: #d85c91;
-      color: white;
       border-radius: 30px;
+      background: #d45c91;
+      color: white;
       text-decoration: none;
-      font-weight: 700;
-      box-shadow: 0 8px 20px rgba(216, 92, 145, 0.25);
+      font-weight: bold;
       transition: 0.2s;
     }
 
-    .hero-button:hover {
-      transform: translateY(-2px);
+    .main-button:hover {
+      transform: translateY(-3px);
+      background: #c34d80;
     }
 
     section {
@@ -122,25 +120,27 @@
 
     .section-title {
       text-align: center;
-      font-size: 2.2rem;
       color: #633d50;
-      margin-bottom: 12px;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
     }
 
     .section-subtitle {
       text-align: center;
-      color: #8b6a79;
+      color: #8a6978;
       margin-bottom: 35px;
     }
+
+    /* DISCOVER */
 
     .discover-box {
       max-width: 850px;
       margin: auto;
       background: white;
-      padding: 35px;
+      border: 1px solid #f1dce6;
       border-radius: 25px;
-      box-shadow: 0 10px 35px rgba(110, 65, 88, 0.08);
-      border: 1px solid #f4dfe9;
+      padding: 35px;
+      box-shadow: 0 10px 35px rgba(110,65,88,0.08);
     }
 
     .form-grid {
@@ -149,30 +149,26 @@
       gap: 18px;
     }
 
-    .input-group {
-      display: flex;
-      flex-direction: column;
-    }
-
-    label {
-      font-weight: 700;
+    .input-group label {
+      display: block;
       margin-bottom: 7px;
+      font-weight: 700;
       color: #684356;
     }
 
     input {
       width: 100%;
       padding: 13px 15px;
-      border: 1px solid #e7ccd9;
+      border: 1px solid #e5c9d7;
       border-radius: 13px;
+      background: #fffafd;
       font-size: 1rem;
       outline: none;
-      background: #fffafd;
     }
 
     input:focus {
-      border-color: #d85c91;
-      box-shadow: 0 0 0 3px rgba(216, 92, 145, 0.1);
+      border-color: #d45c91;
+      box-shadow: 0 0 0 3px rgba(212,92,145,0.1);
     }
 
     .discover-button {
@@ -180,8 +176,8 @@
       margin-top: 22px;
       padding: 14px;
       border: none;
-      border-radius: 15px;
-      background: #d85c91;
+      border-radius: 14px;
+      background: #d45c91;
       color: white;
       font-size: 1rem;
       font-weight: 800;
@@ -189,7 +185,7 @@
     }
 
     .discover-button:hover {
-      background: #c84d82;
+      background: #c34d80;
     }
 
     #result {
@@ -200,73 +196,79 @@
       background: #fff0f6;
       border-radius: 20px;
       padding: 25px;
-      margin-bottom: 20px;
       text-align: center;
+      margin-bottom: 20px;
     }
 
     .scientist-card {
-      background: white;
-      border: 1px solid #f1dce6;
-      border-radius: 22px;
-      padding: 25px;
-      margin-top: 20px;
       display: grid;
-      grid-template-columns: 150px 1fr;
-      gap: 25px;
+      grid-template-columns: 140px 1fr;
+      gap: 22px;
       align-items: center;
-      box-shadow: 0 8px 25px rgba(110, 65, 88, 0.06);
+      background: white;
+      padding: 23px;
+      margin-top: 18px;
+      border-radius: 20px;
+      border: 1px solid #f0dbe5;
+      box-shadow: 0 6px 22px rgba(110,65,88,0.06);
     }
 
     .scientist-image {
-      width: 150px;
-      height: 150px;
-      object-fit: cover;
+      width: 140px;
+      height: 140px;
       border-radius: 20px;
-      background: #f8e8ef;
+      object-fit: cover;
+      background: #f8e6ef;
     }
 
     .scientist-card h3 {
-      color: #c84d82;
-      font-size: 1.5rem;
-      margin-bottom: 5px;
+      color: #c64f82;
+      margin-bottom: 7px;
     }
 
     .scientist-info {
-      color: #79596a;
-      margin-bottom: 8px;
+      color: #765869;
+      margin-bottom: 5px;
     }
 
-    .scientist-description {
-      margin: 12px 0;
-      color: #624858;
+    .sarcastic {
+      margin-top: 10px;
+      padding: 12px 15px;
+      background: #fff4f8;
+      border-radius: 14px;
+      color: #85556d;
     }
 
-    .wiki-button {
+    .source-link {
       display: inline-block;
-      margin-top: 8px;
-      padding: 8px 15px;
-      border-radius: 20px;
-      background: #f8e5ee;
-      color: #9f416b;
+      margin-top: 10px;
+      color: #b44573;
       text-decoration: none;
       font-weight: 700;
-      font-size: 0.9rem;
+    }
+
+    .name-card {
+      margin-top: 20px;
+      background: #fff5f9;
+      padding: 25px;
+      border-radius: 20px;
     }
 
     .loading {
       text-align: center;
       padding: 25px;
-      color: #9a6b80;
-      font-weight: 600;
+      color: #89687a;
     }
 
     .error {
+      padding: 20px;
       background: #fff0f0;
-      color: #a64c4c;
       border-radius: 15px;
-      padding: 18px;
+      color: #a44f4f;
       text-align: center;
     }
+
+    /* NOTES */
 
     .notes-section {
       background: #fff0f6;
@@ -278,11 +280,11 @@
     }
 
     .notes-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
-      gap: 22px;
       max-width: 1100px;
       margin: auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+      gap: 22px;
     }
 
     .note-card {
@@ -290,7 +292,7 @@
       border: 1px solid #f1dce6;
       border-radius: 20px;
       padding: 25px;
-      box-shadow: 0 7px 22px rgba(110, 65, 88, 0.06);
+      box-shadow: 0 6px 20px rgba(110,65,88,0.06);
       transition: 0.2s;
     }
 
@@ -299,8 +301,8 @@
     }
 
     .note-icon {
-      font-size: 2.3rem;
-      margin-bottom: 12px;
+      font-size: 2.2rem;
+      margin-bottom: 10px;
     }
 
     .note-card h3 {
@@ -318,31 +320,30 @@
       gap: 10px;
     }
 
-    .note-button {
+    .note-actions a {
       flex: 1;
       text-align: center;
       text-decoration: none;
       padding: 9px;
       border-radius: 12px;
-      font-weight: 700;
-      font-size: 0.9rem;
+      font-weight: bold;
     }
 
-    .read-button {
-      background: #d85c91;
+    .read {
+      background: #d45c91;
       color: white;
     }
 
-    .download-button {
-      background: #f7e6ee;
-      color: #9b4268;
+    .download {
+      background: #f6e1eb;
+      color: #a0466e;
     }
 
     footer {
-      text-align: center;
       padding: 35px 20px;
       background: #633d50;
       color: #fff0f6;
+      text-align: center;
     }
 
     footer strong {
@@ -350,18 +351,6 @@
     }
 
     @media (max-width: 700px) {
-      nav {
-        padding: 14px 5%;
-      }
-
-      nav a {
-        margin-left: 10px;
-        font-size: 0.9rem;
-      }
-
-      section {
-        padding: 55px 5%;
-      }
 
       .form-grid {
         grid-template-columns: 1fr;
@@ -376,668 +365,901 @@
         margin: auto;
       }
 
-      .discover-box {
-        padding: 25px;
+      nav {
+        padding: 14px 5%;
+      }
+
+      nav a {
+        margin-left: 8px;
+        font-size: 0.85rem;
+      }
+
+      section {
+        padding: 55px 5%;
+      }
+
+      .note-actions {
+        flex-direction: column;
       }
     }
   </style>
 </head>
 
+
 <body>
 
-  <nav>
-    <div class="logo">🌷 Study Petal</div>
+<nav>
 
-    <div>
-      <a href="#discover">Discover</a>
-      <a href="#notes">Notes</a>
-    </div>
-  </nav>
+  <div class="logo">
+    🌷 Study Petal
+  </div>
 
+  <div>
+    <a href="#discover">Discover</a>
+    <a href="#notes">Notes</a>
+  </div>
 
-  <section class="hero">
-
-    <div class="hero-content">
-
-      <div class="flower">🌷</div>
-
-      <h1>Study Petal</h1>
-
-      <p class="tagline">
-        Notes that bloom into knowledge.
-      </p>
-
-      <p class="quote">
-        “Education is not preparation for life; education is life itself.”
-      </p>
-
-      <a href="#discover" class="hero-button">
-        Discover Something Special ✨
-      </a>
-
-    </div>
-
-  </section>
+</nav>
 
 
-  <section id="discover">
+<!-- HERO -->
 
-    <h2 class="section-title">
-      🌟 Who Shares Your Birthday?
-    </h2>
+<section class="hero">
 
-    <p class="section-subtitle">
-      Enter your name and birthday and discover scientists born on the same day.
+  <div class="hero-content">
+
+    <div class="flower">🌷</div>
+
+    <h1>Study Petal</h1>
+
+    <p class="tagline">
+      Notes that bloom into knowledge.
     </p>
 
-    <div class="discover-box">
+    <p class="quote">
+      “The beautiful thing about learning is that nobody can take it away from you.”
+    </p>
 
-      <div class="form-grid">
+    <a class="main-button" href="#discover">
+      ✨ Begin Your Journey
+    </a>
 
-        <div class="input-group">
-          <label for="name">Your name</label>
+  </div>
 
-          <input
-            type="text"
-            id="name"
-            placeholder="Enter your name"
-          >
-        </div>
+</section>
 
 
-        <div class="input-group">
-          <label for="dob">Your birthday</label>
+<!-- DISCOVER -->
 
-          <input
-            type="date"
-            id="dob"
-          >
-        </div>
+<section id="discover">
+
+  <h2 class="section-title">
+    🔬 Who Shares Your Birthday?
+  </h2>
+
+  <p class="section-subtitle">
+    Enter your name and birthday. Let's see who was doing science on your special day. 🌷
+  </p>
+
+
+  <div class="discover-box">
+
+    <div class="form-grid">
+
+      <div class="input-group">
+
+        <label for="name">
+          🌸 Your Name
+        </label>
+
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your name"
+          autocomplete="name"
+        >
 
       </div>
 
 
-      <button
-        class="discover-button"
-        onclick="discover()"
-      >
-        🌸 Find My Birthday Scientist
-      </button>
+      <div class="input-group">
 
+        <label for="dob">
+          📅 Your Birthday
+        </label>
 
-      <div id="result"></div>
+        <input
+          id="dob"
+          type="date"
+          autocomplete="bday"
+        >
 
-    </div>
-
-  </section>
-
-
-  <section class="notes-section" id="notes">
-
-    <h2 class="section-title">
-      📚 Handwritten Notes
-    </h2>
-
-    <p class="section-subtitle">
-      Simple notes for students, made with love.
-    </p>
-
-
-    <div class="search-box">
-
-      <input
-        type="text"
-        id="noteSearch"
-        placeholder="🔎 Search notes..."
-        oninput="searchNotes()"
-      >
+      </div>
 
     </div>
 
 
-    <div class="notes-grid" id="notesGrid">
+    <button
+      class="discover-button"
+      onclick="discover()"
+    >
+      🌷 Discover My Scientist
+    </button>
 
 
-      <article
-        class="note-card"
-        data-title="SC BCC FCC Crystal Structure"
-      >
+    <div id="result"></div>
 
-        <div class="note-icon">🧊</div>
+  </div>
 
-        <h3>
-          SC, BCC & FCC Crystal Structure
-        </h3>
-
-        <p>
-          Atoms, coordination number, packing efficiency and crystal structure diagrams.
-        </p>
-
-        <div class="note-actions">
-
-          <a
-            class="note-button read-button"
-            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
-            target="_blank"
-          >
-            Read
-          </a>
-
-          <a
-            class="note-button download-button"
-            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
-            download
-          >
-            Download
-          </a>
-
-        </div>
-
-      </article>
+</section>
 
 
-      <article
-        class="note-card"
-        data-title="Hexagonal Close Packed Structure"
-      >
+<!-- NOTES -->
 
-        <div class="note-icon">⬡</div>
+<section
+  id="notes"
+  class="notes-section"
+>
 
-        <h3>
-          Hexagonal Close Packed Structure
-        </h3>
+  <h2 class="section-title">
+    📚 Study Garden
+  </h2>
 
-        <p>
-          HCP structure with derivation and important concepts.
-        </p>
-
-        <div class="note-actions">
-
-          <a
-            class="note-button read-button"
-            href="Hexagonal Close Packed Structure - Derivation .pdf"
-            target="_blank"
-          >
-            Read
-          </a>
-
-          <a
-            class="note-button download-button"
-            href="Hexagonal Close Packed Structure - Derivation .pdf"
-            download
-          >
-            Download
-          </a>
-
-        </div>
-
-      </article>
+  <p class="section-subtitle">
+    Your handwritten notes, slowly growing into a little library.
+  </p>
 
 
-      <article
-        class="note-card"
-        data-title="Miller Indices"
-      >
+  <div class="search-box">
 
-        <div class="note-icon">📐</div>
+    <input
+      id="noteSearch"
+      type="search"
+      placeholder="🔎 Search your notes..."
+      autocomplete="off"
+      oninput="searchNotes()"
+    >
 
-        <h3>
-          Miller Indices
-        </h3>
-
-        <p>
-          Procedure, derivation and d-spacing in cubic lattice.
-        </p>
-
-        <div class="note-actions">
-
-          <a
-            class="note-button read-button"
-            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
-            target="_blank"
-          >
-            Read
-          </a>
-
-          <a
-            class="note-button download-button"
-            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
-            download
-          >
-            Download
-          </a>
-
-        </div>
-
-      </article>
+  </div>
 
 
-    </div>
-
-  </section>
-
-
-  <footer>
-
-    <p>
-      🌷 <strong>Study Petal</strong>
-    </p>
-
-    <p>
-      Notes that bloom into knowledge.
-    </p>
-
-  </footer>
+  <div
+    class="notes-grid"
+    id="notesGrid"
+  >
 
 
-  <script>
+    <!-- NOTE 1 -->
 
-    /* =====================================================
-       STUDY PETAL CLOUDFLARE WORKER
-       ===================================================== */
+    <article
+      class="note-card"
+      data-title="SC BCC FCC Crystal Structure"
+    >
 
-    const API_URL =
-      "https://study-petal-api.rmmishyalarashmi.workers.dev";
+      <div class="note-icon">🧊</div>
 
+      <h3>
+        SC, BCC & FCC Crystal Structure
+      </h3>
 
-    /* =====================================================
-       SECURITY
-       ===================================================== */
+      <p>
+        Atoms, coordination number, packing efficiency
+        and crystal structure diagrams.
+      </p>
 
-    function escapeHTML(value) {
+      <div class="note-actions">
 
-      return String(value || "")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;")
-        .replace(/'/g, "&#039;");
+        <a
+          class="read"
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
 
-    }
+        <a
+          class="download"
+          href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+          download
+        >
+          ⬇ Download
+        </a>
 
+      </div>
 
-    /* =====================================================
-       CALCULATE YEARS AGO
-       ===================================================== */
-
-    function calculateYearsAgo(birthDate) {
-
-      const birth = new Date(birthDate);
-      const today = new Date();
-
-      let years =
-        today.getFullYear() -
-        birth.getFullYear();
-
-      const birthdayThisYear =
-        new Date(
-          today.getFullYear(),
-          birth.getMonth(),
-          birth.getDate()
-        );
-
-      if (today < birthdayThisYear) {
-        years--;
-      }
-
-      return years;
-
-    }
+    </article>
 
 
-    /* =====================================================
-       FORMAT DATE
-       ===================================================== */
+    <!-- NOTE 2 -->
 
-    function formatDate(dateString) {
+    <article
+      class="note-card"
+      data-title="HCP Hexagonal Close Packed Structure"
+    >
 
-      if (!dateString) {
-        return "Birth date unavailable";
-      }
+      <div class="note-icon">⬡</div>
 
-      const date = new Date(dateString);
+      <h3>
+        HCP Derivation
+      </h3>
 
-      return date.toLocaleDateString(
-        "en-US",
-        {
-          year: "numeric",
-          month: "long",
-          day: "numeric"
-        }
+      <p>
+        Hexagonal Close Packed structure
+        and its derivation.
+      </p>
+
+      <div class="note-actions">
+
+        <a
+          class="read"
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
+
+        <a
+          class="download"
+          href="Hexagonal Close Packed Structure - Derivation .pdf"
+          download
+        >
+          ⬇ Download
+        </a>
+
+      </div>
+
+    </article>
+
+
+    <!-- NOTE 3 -->
+
+    <article
+      class="note-card"
+      data-title="Miller Indices d Spacing Cubic Lattice"
+    >
+
+      <div class="note-icon">📐</div>
+
+      <h3>
+        Miller Indices
+      </h3>
+
+      <p>
+        Procedure, derivation and d-spacing
+        in cubic lattice.
+      </p>
+
+      <div class="note-actions">
+
+        <a
+          class="read"
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          target="_blank"
+        >
+          📖 Read
+        </a>
+
+        <a
+          class="download"
+          href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+          download
+        >
+          ⬇ Download
+        </a>
+
+      </div>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<footer>
+
+  🌷 <strong>Study Petal</strong>
+
+  <br>
+
+  Notes that bloom into knowledge.
+
+  <br><br>
+
+  Notes that bloom. Students that grow. ♡
+
+</footer>
+
+
+<script>
+
+/* =====================================================
+   SCIENTIST DATABASE
+   ===================================================== */
+
+let scientists = [];
+
+
+/* =====================================================
+   LOAD scientists.json
+   ===================================================== */
+
+async function loadScientists() {
+
+  try {
+
+    const response =
+      await fetch("scientists.json");
+
+    if (!response.ok) {
+
+      throw new Error(
+        "scientists.json could not be loaded."
       );
 
     }
 
+    scientists =
+      await response.json();
 
-    /* =====================================================
-       FIND BIRTHDAY SCIENTIST
-       ===================================================== */
+    console.log(
+      "Study Petal scientist database loaded:",
+      scientists.length,
+      "entries"
+    );
 
-    async function discover() {
+  } catch (error) {
 
-      const nameInput =
-        document.getElementById("name");
+    console.error(error);
 
-      const dobInput =
-        document.getElementById("dob");
+    scientists = [];
 
-      const result =
-        document.getElementById("result");
+  }
 
-
-      const name =
-        nameInput.value.trim();
-
-      const dob =
-        dobInput.value;
+}
 
 
-      if (!name || !dob) {
+/* =====================================================
+   DISCOVER
+   ===================================================== */
 
-        result.innerHTML = `
-          <div class="error">
-            🌷 Please enter both your name and birthday.
-          </div>
-        `;
+async function discover() {
 
-        return;
+  const name =
+    document
+      .getElementById("name")
+      .value
+      .trim();
+
+  const dob =
+    document
+      .getElementById("dob")
+      .value;
+
+  const result =
+    document
+      .getElementById("result");
+
+
+  if (!name || !dob) {
+
+    result.innerHTML = `
+
+      <div class="error">
+
+        🌷 Please enter your name and birthday, pookie!
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  if (scientists.length === 0) {
+
+    await loadScientists();
+
+  }
+
+
+  if (scientists.length === 0) {
+
+    result.innerHTML = `
+
+      <div class="error">
+
+        🌱 The scientist garden could not be loaded.
+
+        <br><br>
+
+        Make sure <strong>scientists.json</strong>
+        is in the same GitHub repository as
+        <strong>index.html</strong>.
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  const birthDate =
+    new Date(
+      dob + "T00:00:00"
+    );
+
+
+  const month =
+    String(
+      birthDate.getMonth() + 1
+    ).padStart(2, "0");
+
+
+  const day =
+    String(
+      birthDate.getDate()
+    ).padStart(2, "0");
+
+
+  const key =
+    `${month}-${day}`;
+
+
+  result.innerHTML = `
+
+    <div class="loading">
+
+      🌱 Searching the Study Petal library...
+
+      <br>
+
+      🔬 Finding your birthday scientist...
+
+    </div>
+
+  `;
+
+
+  /*
+    Find every scientist whose database
+    date matches the user's month and day.
+  */
+
+  const matches =
+    scientists.filter(
+      scientist =>
+        scientist.date === key
+    );
+
+
+  if (matches.length === 0) {
+
+    result.innerHTML = `
+
+      <div class="welcome">
+
+        <h3>
+          🌷 Hi ${escapeHTML(name)}!
+        </h3>
+
+        <p>
+          We haven't added a scientist for
+          your birthday yet.
+        </p>
+
+        <p>
+          The Study Petal garden is still growing. 🌱
+        </p>
+
+      </div>
+
+    `;
+
+    return;
+
+  }
+
+
+  let cards = "";
+
+
+  matches.forEach(
+    scientist => {
+
+      const scientistBirth =
+        parseHistoricalDate(
+          scientist.birthDate
+        );
+
+
+      let yearsAgo = null;
+
+
+      if (scientistBirth) {
+
+        yearsAgo =
+          calculateYearsAgo(
+            scientistBirth
+          );
 
       }
 
 
-      const date =
-        new Date(dob + "T00:00:00");
+      let imageHTML = "";
 
 
-      const month =
-        date.getMonth() + 1;
+      if (scientist.image) {
 
-      const day =
-        date.getDate();
+        imageHTML = `
 
+          <img
+            class="scientist-image"
+            src="${escapeAttribute(scientist.image)}"
+            alt="${escapeAttribute(scientist.name)}"
+            onerror="this.style.display='none'"
+          >
 
-      result.innerHTML = `
-        <div class="loading">
-          🌱 Searching the world's knowledge...<br>
-          🔬 Looking for your birthday scientist...
-        </div>
-      `;
+        `;
 
+      } else {
 
-      try {
+        imageHTML = `
 
-        const response =
-          await fetch(
-            `${API_URL}/birthday?month=${month}&day=${day}`
-          );
+          <div
+            class="scientist-image"
+            style="
+              display:flex;
+              align-items:center;
+              justify-content:center;
+              font-size:3.5rem;
+            "
+          >
+            🔬
+          </div>
 
+        `;
 
-        if (!response.ok) {
-          throw new Error(
-            "Birthday API returned an error"
-          );
-        }
-
-
-        const data =
-          await response.json();
-
-
-        if (
-          !data.scientists ||
-          data.scientists.length === 0
-        ) {
-
-          result.innerHTML = `
-            <div class="welcome">
-
-              <h3>
-                🌷 Hi ${escapeHTML(name)}!
-              </h3>
-
-              <p>
-                We couldn't find a matching scientist
-                in our current database for your birthday.
-              </p>
-
-              <p>
-                Your birthday is still scientifically special. ✨
-              </p>
-
-            </div>
-          `;
-
-          return;
-
-        }
+      }
 
 
-        let cards = "";
+      let sourceHTML = "";
 
 
-        data.scientists.forEach(
-          (scientist) => {
+      if (scientist.wikipedia) {
 
-            const yearsAgo =
-              calculateYearsAgo(
-                scientist.dob
-              );
+        sourceHTML = `
 
+          <a
+            class="source-link"
+            href="${escapeAttribute(scientist.wikipedia)}"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Learn more ↗
+          </a>
 
-            let imageHTML;
+        `;
 
-
-            if (scientist.image) {
-
-              imageHTML = `
-                <img
-                  class="scientist-image"
-                  src="${escapeHTML(scientist.image)}"
-                  alt="${escapeHTML(scientist.name)}"
-                  onerror="this.style.display='none'"
-                >
-              `;
-
-            } else {
-
-              imageHTML = `
-                <div
-                  class="scientist-image"
-                  style="
-                    display:flex;
-                    align-items:center;
-                    justify-content:center;
-                    font-size:3rem;
-                  "
-                >
-                  🔬
-                </div>
-              `;
-
-            }
+      }
 
 
-            let wikipediaHTML = "";
+      cards += `
 
+        <div class="scientist-card">
 
-            if (scientist.wikipedia) {
+          ${imageHTML}
 
-              wikipediaHTML = `
-                <a
-                  class="wiki-button"
-                  href="${escapeHTML(scientist.wikipedia)}"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Read more on Wikipedia →
-                </a>
-              `;
-
-            }
-
-
-            cards += `
-
-              <div class="scientist-card">
-
-                ${imageHTML}
-
-                <div>
-
-                  <h3>
-                    🔬 ${escapeHTML(scientist.name)}
-                  </h3>
-
-                  <div class="scientist-info">
-                    🎂 Born ${escapeHTML(
-                      formatDate(scientist.dob)
-                    )}
-                  </div>
-
-                  <div class="scientist-info">
-                    ⏳ That was ${yearsAgo} years ago.
-                  </div>
-
-                  <div class="scientist-info">
-                    🧪 ${escapeHTML(
-                      scientist.occupation || "Scientist"
-                    )}
-                  </div>
-
-                  ${
-                    scientist.description
-                      ? `
-                        <p class="scientist-description">
-                          ${escapeHTML(
-                            scientist.description
-                          )}
-                        </p>
-                      `
-                      : ""
-                  }
-
-                  ${wikipediaHTML}
-
-                </div>
-
-              </div>
-
-            `;
-
-          }
-        );
-
-
-        const firstScientist =
-          data.scientists[0];
-
-
-        const firstYearsAgo =
-          calculateYearsAgo(
-            firstScientist.dob
-          );
-
-
-        result.innerHTML = `
-
-          <div class="welcome">
+          <div>
 
             <h3>
-              🌷 Hi ${escapeHTML(name)}!
+              🔬 ${escapeHTML(scientist.name)}
             </h3>
 
-            <p>
-              You share your birthday with
-              some fascinating people. ✨
-            </p>
+            <div class="scientist-info">
+
+              🎂 Born:
+              ${escapeHTML(
+                scientist.birthDate || "Unknown"
+              )}
+
+            </div>
+
+
+            ${
+              yearsAgo !== null
+              ? `
+
+                <div class="scientist-info">
+
+                  ⏳ They were born
+                  <strong>
+                    ${yearsAgo} years
+                  </strong>
+                  before you.
+
+                </div>
+
+                <div class="sarcastic">
+
+                  They were already busy changing
+                  the world while you hadn't even
+                  spawned yet. 😭🌷
+
+                  <br><br>
+
+                  No pressure, pookie.
+                  Your character arc is still loading. ✨
+
+                </div>
+
+              `
+              : ""
+            }
+
+
+            <div class="scientist-info">
+
+              🔬 Field:
+              ${escapeHTML(
+                scientist.field ||
+                "Science"
+              )}
+
+            </div>
+
 
             <p>
-              They were doing science
-              ${firstYearsAgo}
-              years ago — no pressure, pookie. 😭🔬
+
+              ${escapeHTML(
+                scientist.description ||
+                "A remarkable contributor to science."
+              )}
+
             </p>
+
+
+            ${sourceHTML}
 
           </div>
 
-          ${cards}
+        </div>
 
-        `;
-
-      } catch (error) {
-
-        console.error(
-          "Study Petal API Error:",
-          error
-        );
-
-
-        result.innerHTML = `
-
-          <div class="error">
-
-            🌧️ We couldn't connect to the
-            Study Petal scientist database.
-
-            <br><br>
-
-            Please try again in a moment.
-
-          </div>
-
-        `;
-
-      }
+      `;
 
     }
+  );
 
 
-    /* =====================================================
-       SEARCH NOTES
-       ===================================================== */
+  result.innerHTML = `
 
-    function searchNotes() {
+    <div class="welcome">
 
-      const search =
-        document
-          .getElementById("noteSearch")
-          .value
-          .toLowerCase()
-          .trim();
+      <h3>
+        🌷 Hello, ${escapeHTML(name)}!
+      </h3>
+
+      <p>
+        Your birthday is
+        <strong>
+          ${formatPrettyDate(
+            birthDate
+          )}
+        </strong>.
+      </p>
+
+      <p>
+        And here are the scientific minds
+        sharing your calendar day. 🔬✨
+      </p>
+
+    </div>
+
+    ${cards}
+
+    <div class="name-card">
+
+      <h3>
+        💌 About Your Name
+      </h3>
+
+      <p>
+        <strong>
+          ${escapeHTML(name)}
+        </strong>
+      </p>
+
+      <p>
+        Your name has its own story,
+        just like your journey. 🌱
+      </p>
+
+      <p>
+        We'll add the automatic name-meaning
+        system next.
+      </p>
+
+    </div>
+
+  `;
+
+}
 
 
-      const notes =
-        document.querySelectorAll(
-          ".note-card"
-        );
+/* =====================================================
+   YEAR CALCULATION
+   ===================================================== */
+
+function calculateYearsAgo(birthDate) {
+
+  const today =
+    new Date();
+
+  let years =
+    today.getFullYear() -
+    birthDate.getFullYear();
 
 
-      notes.forEach(
-        (note) => {
+  const birthdayThisYear =
+    new Date(
+      today.getFullYear(),
+      birthDate.getMonth(),
+      birthDate.getDate()
+    );
 
-          const title =
-            note
-              .getAttribute("data-title")
-              .toLowerCase();
+
+  if (today < birthdayThisYear) {
+
+    years--;
+
+  }
 
 
-          if (
-            title.includes(search)
-          ) {
+  return years;
 
-            note.style.display = "";
+}
 
-          } else {
 
-            note.style.display = "none";
+/* =====================================================
+   HISTORICAL DATE PARSER
+   ===================================================== */
 
-          }
+function parseHistoricalDate(value) {
 
-        }
-      );
+  if (!value) {
+    return null;
+  }
+
+
+  /*
+    Handles normal YYYY-MM-DD dates.
+  */
+
+  const normal =
+    /^(\d{4})-(\d{2})-(\d{2})$/.exec(
+      value
+    );
+
+
+  if (normal) {
+
+    const year =
+      Number(normal[1]);
+
+    const month =
+      Number(normal[2]);
+
+    const day =
+      Number(normal[3]);
+
+
+    return new Date(
+      year,
+      month - 1,
+      day
+    );
+
+  }
+
+
+  return null;
+
+}
+
+
+/* =====================================================
+   PRETTY DATE
+   ===================================================== */
+
+function formatPrettyDate(date) {
+
+  return date.toLocaleDateString(
+    "en-US",
+    {
+      day: "numeric",
+      month: "long",
+      year: "numeric"
+    }
+  );
+
+}
+
+
+/* =====================================================
+   SEARCH NOTES
+   ===================================================== */
+
+function searchNotes() {
+
+  const search =
+    document
+      .getElementById("noteSearch")
+      .value
+      .toLowerCase()
+      .trim();
+
+
+  const notes =
+    document.querySelectorAll(
+      ".note-card"
+    );
+
+
+  notes.forEach(
+    note => {
+
+      const title =
+        note
+          .getAttribute("data-title")
+          .toLowerCase();
+
+
+      note.style.display =
+        title.includes(search)
+        ? ""
+        : "none";
 
     }
+  );
 
-  </script>
+}
+
+
+/* =====================================================
+   SECURITY HELPERS
+   ===================================================== */
+
+function escapeHTML(value) {
+
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+
+}
+
+
+function escapeAttribute(value) {
+
+  return String(value || "")
+    .replace(/"/g, "&quot;");
+
+}
+
+
+/* =====================================================
+   STARTUP
+   ===================================================== */
+
+loadScientists();
+
+</script>
 
 </body>
 </html>
