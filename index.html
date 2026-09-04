@@ -1,847 +1,564 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Study Petal 🌷</title>
+  <title>Study Petal 🌷</title>
 
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-        html {
-            scroll-behavior: smooth;
-        }
+    body {
+      font-family: "Trebuchet MS", Arial, sans-serif;
+      background: #fff8fb;
+      color: #4a3040;
+      line-height: 1.6;
+    }
 
-        body {
-            margin: 0;
-            font-family: Georgia, "Times New Roman", serif;
-            background: #fff8fc;
-            color: #5b4656;
-        }
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: #fff;
+      padding: 15px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 12px rgba(120, 60, 90, 0.08);
+    }
 
-        /* ---------- TOP NAVIGATION ---------- */
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #d66b9c;
+    }
 
-        nav {
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            background: rgba(255, 248, 252, 0.95);
-            border-bottom: 1px solid #f1dce7;
-            padding: 15px 7%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    nav a {
+      text-decoration: none;
+      color: #5a4050;
+      margin-left: 20px;
+      font-weight: bold;
+    }
 
-        .logo {
-            font-size: 23px;
-            font-weight: bold;
-            color: #bd7192;
-        }
+    nav a:hover {
+      color: #d66b9c;
+    }
 
-        nav a {
-            text-decoration: none;
-            color: #6d5363;
-            margin-left: 20px;
-            font-size: 15px;
-        }
+    .hero {
+      text-align: center;
+      padding: 80px 20px 60px;
+      background: linear-gradient(135deg, #ffe6f0, #fff8fb);
+    }
 
-        nav a:hover {
-            color: #bd7192;
-        }
+    .hero h1 {
+      font-size: 3.2rem;
+      color: #c95789;
+      margin-bottom: 10px;
+    }
 
-        /* ---------- HERO ---------- */
+    .hero p {
+      font-size: 1.15rem;
+      color: #725667;
+      margin-bottom: 25px;
+    }
 
-        .hero {
-            min-height: 90vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-            padding: 60px 20px;
-            position: relative;
-            overflow: hidden;
-        }
+    .quote {
+      max-width: 700px;
+      margin: 25px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 18px;
+      box-shadow: 0 5px 20px rgba(120, 60, 90, 0.08);
+      font-style: italic;
+    }
 
-        .hero::before {
-            content: "✿";
-            position: absolute;
-            top: 12%;
-            left: 10%;
-            font-size: 45px;
-            color: #e7b6ca;
-            transform: rotate(-20deg);
-        }
+    section {
+      padding: 60px 8%;
+    }
 
-        .hero::after {
-            content: "❀";
-            position: absolute;
-            bottom: 15%;
-            right: 10%;
-            font-size: 50px;
-            color: #e7b6ca;
-            transform: rotate(20deg);
-        }
+    .section-title {
+      text-align: center;
+      color: #c95789;
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
 
-        .hero-content {
-            max-width: 800px;
-        }
+    .personal-box {
+      max-width: 650px;
+      margin: auto;
+      background: white;
+      padding: 30px;
+      border-radius: 22px;
+      box-shadow: 0 6px 25px rgba(120, 60, 90, 0.1);
+    }
 
-        .flower {
-            font-size: 50px;
-            margin-bottom: 5px;
-        }
+    input {
+      width: 100%;
+      padding: 13px;
+      margin: 8px 0 15px;
+      border: 1px solid #edc5d6;
+      border-radius: 12px;
+      font-size: 1rem;
+    }
 
-        h1 {
-            font-size: clamp(45px, 8vw, 80px);
-            margin: 5px 0;
-            color: #bd7192;
-            letter-spacing: 2px;
-        }
+    button {
+      width: 100%;
+      padding: 13px;
+      border: none;
+      border-radius: 12px;
+      background: #d66b9c;
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+    }
 
-        .tagline {
-            font-size: 21px;
-            font-style: italic;
-            margin: 10px 0 40px;
-        }
+    button:hover {
+      background: #c95789;
+    }
 
-        .quote-box {
-            max-width: 650px;
-            margin: auto;
-            padding: 25px;
-            background: #fff;
-            border: 1px solid #f0d7e4;
-            border-radius: 25px;
-            box-shadow: 0 10px 30px rgba(180, 110, 145, 0.08);
-        }
+    #result {
+      margin-top: 25px;
+      padding: 20px;
+      background: #fff0f6;
+      border-radius: 16px;
+      display: none;
+    }
 
-        .quote {
-            font-size: 20px;
-            line-height: 1.6;
-        }
+    .notes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+    }
 
-        .quote-author {
-            margin-top: 12px;
-            font-size: 14px;
-            color: #987284;
-        }
+    .note-card {
+      background: white;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 5px 20px rgba(120, 60, 90, 0.08);
+      transition: transform 0.2s;
+    }
 
-        .start-button {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 14px 28px;
-            border-radius: 30px;
-            background: #e9b8cc;
-            color: #5b4656;
-            text-decoration: none;
-            transition: 0.3s;
-        }
+    .note-card:hover {
+      transform: translateY(-5px);
+    }
 
-        .start-button:hover {
-            transform: translateY(-3px);
-        }
+    .note-card h3 {
+      color: #c95789;
+      margin-bottom: 10px;
+    }
 
-        /* ---------- SECTIONS ---------- */
+    .note-card p {
+      color: #725667;
+      margin-bottom: 18px;
+    }
 
-        section {
-            padding: 80px 7%;
-        }
+    .note-buttons {
+      display: flex;
+      gap: 10px;
+    }
 
-        .section-title {
-            text-align: center;
-            font-size: 38px;
-            color: #bd7192;
-            margin-bottom: 10px;
-        }
+    .note-buttons a {
+      flex: 1;
+      text-align: center;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 10px;
+      background: #d66b9c;
+      color: white;
+      font-weight: bold;
+    }
 
-        .section-subtitle {
-            text-align: center;
-            margin-bottom: 40px;
-            color: #8d7180;
-        }
+    .note-buttons a.download {
+      background: #f1a6c5;
+    }
 
-        /* ---------- PERSONAL CARD ---------- */
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #ffe6f0;
+      color: #725667;
+    }
 
-        .personal-section {
-            background: #fdf1f7;
-        }
+    .flower {
+      font-size: 2rem;
+    }
 
-        .personal-card {
-            max-width: 650px;
-            margin: auto;
-            background: white;
-            padding: 35px;
-            border-radius: 30px;
-            box-shadow: 0 15px 40px rgba(150, 90, 120, 0.08);
-        }
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2.4rem;
+      }
 
-        .personal-card h3 {
-            text-align: center;
-            font-size: 24px;
-            margin-top: 0;
-        }
+      nav {
+        padding: 15px 5%;
+      }
 
-        label {
-            display: block;
-            margin: 18px 0 7px;
-            font-weight: bold;
-        }
-
-        input {
-            width: 100%;
-            padding: 14px;
-            border: 1px solid #e8cbd8;
-            border-radius: 15px;
-            font-size: 16px;
-            outline: none;
-        }
-
-        input:focus {
-            border-color: #bd7192;
-        }
-
-        .discover-button {
-            width: 100%;
-            margin-top: 25px;
-            padding: 14px;
-            border: none;
-            border-radius: 25px;
-            background: #bd7192;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        .discover-button:hover {
-            opacity: 0.9;
-        }
-
-        /* ---------- RESULT ---------- */
-
-        #result {
-            display: none;
-            max-width: 800px;
-            margin: 40px auto 0;
-            background: #fff;
-            padding: 35px;
-            border-radius: 30px;
-            border: 1px solid #f0d7e4;
-            text-align: center;
-        }
-
-        #result h3 {
-            color: #bd7192;
-            font-size: 28px;
-        }
-
-        .sarcasm {
-            background: #fff4f8;
-            padding: 20px;
-            border-radius: 20px;
-            margin-top: 20px;
-            line-height: 1.7;
-        }
-
-        /* ---------- NOTES ---------- */
-
-        .notes-container {
-            max-width: 1100px;
-            margin: auto;
-        }
-
-        .search-box {
-            max-width: 600px;
-            margin: 0 auto 40px;
-        }
-
-        .notes-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 25px;
-        }
-
-        .note-card {
-            background: white;
-            padding: 25px;
-            border-radius: 25px;
-            border: 1px solid #f0d7e4;
-            box-shadow: 0 8px 25px rgba(150, 90, 120, 0.06);
-            transition: 0.3s;
-        }
-
-        .note-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .note-icon {
-            font-size: 35px;
-        }
-
-        .note-card h3 {
-            color: #bd7192;
-            margin-bottom: 8px;
-        }
-
-        .note-card p {
-            color: #806676;
-            line-height: 1.5;
-        }
-
-        .note-buttons {
-            display: flex;
-            gap: 10px;
-            margin-top: 18px;
-        }
-
-        .note-buttons a {
-            flex: 1;
-            text-align: center;
-            padding: 10px;
-            border-radius: 18px;
-            text-decoration: none;
-            font-size: 14px;
-        }
-
-        .read {
-            background: #f5dce7;
-            color: #6d5363;
-        }
-
-        .download {
-            background: #bd7192;
-            color: white;
-        }
-
-        /* ---------- FOOTER ---------- */
-
-        footer {
-            text-align: center;
-            padding: 40px 20px;
-            background: #fdf1f7;
-            color: #806676;
-        }
-
-        footer strong {
-            color: #bd7192;
-        }
-
-        /* ---------- MOBILE ---------- */
-
-        @media (max-width: 600px) {
-
-            nav {
-                padding: 13px 5%;
-            }
-
-            nav a {
-                margin-left: 8px;
-                font-size: 13px;
-            }
-
-            section {
-                padding: 60px 5%;
-            }
-
-            .personal-card {
-                padding: 25px;
-            }
-
-            .section-title {
-                font-size: 31px;
-            }
-        }
-    </style>
+      nav a {
+        margin-left: 10px;
+        font-size: 0.9rem;
+      }
+    }
+  </style>
 </head>
-
 
 <body>
 
-    <!-- NAVIGATION -->
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="logo">🌷 Study Petal</div>
 
-    <nav>
-        <div class="logo">🌷 Study Petal</div>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#notes">Notes</a>
+    </div>
+  </nav>
 
-        <div>
-            <a href="#discover">Discover</a>
-            <a href="#notes">Notes</a>
-        </div>
-    </nav>
 
+  <!-- HERO -->
+  <section class="hero" id="home">
 
-    <!-- HERO -->
+    <div class="flower">🌷</div>
 
-    <header class="hero">
+    <h1>Study Petal</h1>
 
-        <div class="hero-content">
+    <p>
+      Notes that bloom into knowledge.
+    </p>
 
-            <div class="flower">🌷</div>
+    <div class="quote">
+      “The beautiful thing about learning is that nobody can take it away from you.”
+      <br>
+      — B. B. King
+    </div>
 
-            <h1>Study Petal</h1>
+  </section>
 
-            <p class="tagline">
-                Notes that bloom into knowledge.
-            </p>
 
-            <div class="quote-box">
+  <!-- PERSONALIZED SECTION -->
+  <section>
 
-                <div class="quote">
-                    “The beautiful thing about learning is that nobody
-                    can take it away from you.”
-                </div>
+    <h2 class="section-title">
+      A Little Something For You 🌸
+    </h2>
 
-                <div class="quote-author">
-                    — B. B. King
-                </div>
+    <div class="personal-box">
 
-            </div>
+      <label>Your Name</label>
 
-            <a href="#discover" class="start-button">
-                ✿ Begin your journey ✿
-            </a>
+      <input
+        type="text"
+        id="name"
+        placeholder="Enter your name"
+      >
 
-        </div>
+      <label>Your Date of Birth</label>
 
-    </header>
+      <input
+        type="date"
+        id="dob"
+      >
 
+      <button onclick="showResult()">
+        Discover Your Study Petal 🌷
+      </button>
 
-    <!-- PERSONAL DISCOVERY -->
+      <div id="result"></div>
 
-    <section id="discover" class="personal-section">
+    </div>
 
-        <h2 class="section-title">
-            A little about you 🌸
-        </h2>
+  </section>
 
-        <p class="section-subtitle">
-            Before we study... let's get to know you, pookie. 🎀
-        </p>
 
-        <div class="personal-card">
+  <!-- NOTES -->
+  <section id="notes">
 
-            <h3>✨ Meet your birthday scientist ✨</h3>
+    <h2 class="section-title">
+      📚 Notes Library
+    </h2>
 
-            <label for="name">Your name</label>
+    <div class="notes-grid">
 
-            <input
-                type="text"
-                id="name"
-                placeholder="Enter your name"
-            >
 
-            <label for="dob">Your birthday</label>
+      <!-- SC BCC FCC -->
+      <div class="note-card">
 
-            <input
-                type="date"
-                id="dob"
-            >
-
-            <button
-                class="discover-button"
-                onclick="discover()"
-            >
-                ✨ Discover ✨
-            </button>
-
-        </div>
-
-
-        <!-- RESULT -->
-
-        <div id="result">
-
-            <h3 id="welcome"></h3>
-
-            <p id="scientist"></p>
-
-            <div class="sarcasm">
-
-                <p id="sarcasticMessage"></p>
-
-                <p id="encouragement"></p>
-
-                <hr>
-
-                <h3>💌 Your name</h3>
-
-                <p id="nameMeaning"></p>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- NOTES -->
-
-    <section id="notes">
-
-        <h2 class="section-title">
-            🌱 Study Garden
-        </h2>
-
-        <p class="section-subtitle">
-            Okay, enough existential motivation. Let's study. ☕📚
-        </p>
-
-
-        <div class="notes-container">
-
-            <div class="search-box">
-
-                <input
-                    type="text"
-                    id="search"
-                    placeholder="🔍 Search your notes..."
-                    onkeyup="searchNotes()"
-                >
-
-            </div>
-
-
-            <div class="notes-grid" id="notesGrid">
-
-
-                <!-- NOTE 1 -->
-
-                <div class="note-card">
-
-                    <div class="note-icon">📄</div>
-
-                    <h3>SC, BCC & FCC</h3>
-
-                    <p>
-                        Engineering Physics · Crystal Structures
-                    </p>
-
-                    <div class="note-buttons">
-
-                        <a
-                            class="read"
-                            href="#"
-                        >
-                            📖 Read
-                        </a>
-
-                        <a
-                            class="download"
-                            href="#"
-                            download
-                        >
-                            ⬇ Download
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- NOTE 2 -->
-
-                <div class="note-card">
-
-                    <div class="note-icon">📄</div>
-
-                    <h3>HCP Derivation</h3>
-
-                    <p>
-                        Engineering Physics · Crystal Structures
-                    </p>
-
-                    <div class="note-buttons">
-
-                        <a
-                            class="read"
-                            href="#"
-                        >
-                            📖 Read
-                        </a>
-
-                        <a
-                            class="download"
-                            href="#"
-                            download
-                        >
-                            ⬇ Download
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-                <!-- NOTE 3 -->
-
-                <div class="note-card">
-
-                    <div class="note-icon">📄</div>
-
-                    <h3>Miller Indices</h3>
-
-                    <p>
-                        Engineering Physics · Unit 1
-                    </p>
-
-                    <div class="note-buttons">
-
-                        <a
-                            class="read"
-                            href="#"
-                        >
-                            📖 Read
-                        </a>
-
-                        <a
-                            class="download"
-                            href="#"
-                            download
-                        >
-                            ⬇ Download
-                        </a>
-
-                    </div>
-
-                </div>
-
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FOOTER -->
-
-    <footer>
+        <h3>SC, BCC & FCC</h3>
 
         <p>
-            🌷 <strong>Study Petal</strong>
+          Crystal structures, coordination number and packing efficiency.
         </p>
+
+        <div class="note-buttons">
+
+          <a
+            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+            target="_blank"
+          >
+            Read 📖
+          </a>
+
+          <a
+            class="download"
+            href="SC, BCC and FCC Crystal Structure Notes with Diagram - Atoms, Coordination Number, Packing Efficiency.pdf"
+            download
+          >
+            Download ↓
+          </a>
+
+        </div>
+
+      </div>
+
+
+      <!-- HCP -->
+      <div class="note-card">
+
+        <h3>HCP Derivation</h3>
 
         <p>
-            A little note can help someone bloom. ♡
+          Hexagonal Close Packed structure and its derivation.
         </p>
 
-    </footer>
+        <div class="note-buttons">
+
+          <a
+            href="Hexagonal Close Packed Structure - Derivation .pdf"
+            target="_blank"
+          >
+            Read 📖
+          </a>
+
+          <a
+            class="download"
+            href="Hexagonal Close Packed Structure - Derivation .pdf"
+            download
+          >
+            Download ↓
+          </a>
+
+        </div>
+
+      </div>
 
 
+      <!-- MILLER INDICES -->
+      <div class="note-card">
 
-    <script>
+        <h3>Miller Indices</h3>
 
-        /*
-         * -------------------------------
-         * BIRTHDAY SCIENTIST
-         * -------------------------------
-         *
-         * This is currently a DEMO.
-         *
-         * Later we will connect it to
-         * a proper scientist database.
-         */
+        <p>
+          Miller indices, procedure and d-spacing in cubic lattice.
+        </p>
 
-        const scientists = {
+        <div class="note-buttons">
 
-            "11-14": {
-                name: "Joseph McMullen",
-                field: "scientist",
-                work: "scientific research"
-            },
+          <a
+            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+            target="_blank"
+          >
+            Read 📖
+          </a>
 
-            "03-14": {
-                name: "Albert Einstein",
-                field: "physics",
-                work: "the theory of relativity"
-            },
+          <a
+            class="download"
+            href="Miller Indices, Procedure and Derivation (d- Spacing in Cubic Lattice).pdf"
+            download
+          >
+            Download ↓
+          </a>
 
-            "01-08": {
-                name: "Stephen Hawking",
-                field: "physics",
-                work: "research on black holes and cosmology"
-            }
+        </div>
 
-        };
+      </div>
 
 
-        function discover() {
+    </div>
 
-            const name =
-                document.getElementById("name").value.trim();
-
-            const dob =
-                document.getElementById("dob").value;
-
-            if (name === "" || dob === "") {
-
-                alert("Pookie, you forgot to enter your name and birthday. 😭🌷");
-
-                return;
-            }
+  </section>
 
 
-            const date =
-                new Date(dob + "T00:00:00");
+  <!-- FOOTER -->
+  <footer>
 
-            const month =
-                String(date.getMonth() + 1).padStart(2, "0");
+    🌷 Study Petal
 
-            const day =
-                String(date.getDate()).padStart(2, "0");
+    <br>
 
-            const year =
-                date.getFullYear();
+    Notes that bloom into knowledge.
 
+    <br><br>
 
-            const birthday =
-                month + "-" + day;
+    Made with 📚 + ☕ + a little chaos.
 
-
-            document.getElementById("result").style.display = "block";
+  </footer>
 
 
-            document.getElementById("welcome").innerText =
-                "🌷 Hello, " + name + "!";
+  <script>
+
+    function showResult() {
+
+      const name =
+        document.getElementById("name").value.trim();
+
+      const dob =
+        document.getElementById("dob").value;
+
+      const result =
+        document.getElementById("result");
 
 
-            if (scientists[birthday]) {
+      if (!name || !dob) {
 
-                const scientist =
-                    scientists[birthday];
+        result.style.display = "block";
 
+        result.innerHTML =
+          "🌷 Please enter both your name and date of birth, pookie!";
 
-                const yearsAgo =
-                    year - 1900;
-
-
-                document.getElementById("scientist").innerHTML =
-                    "Apparently, <strong>" +
-                    scientist.name +
-                    "</strong> was also born on this day. " +
-                    "They worked in " +
-                    scientist.field +
-                    " and are associated with " +
-                    scientist.work +
-                    ".";
+        return;
+      }
 
 
-                document.getElementById("sarcasticMessage").innerText =
-                    "They were doing serious science while you were busy being born. " +
-                    "No pressure, pookie. 😭";
+      const birthDate =
+        new Date(dob);
+
+      const month =
+        String(birthDate.getMonth() + 1).padStart(2, "0");
+
+      const day =
+        String(birthDate.getDate()).padStart(2, "0");
+
+      const birthday =
+        month + "-" + day;
 
 
-                document.getElementById("encouragement").innerText =
-                    "Your journey doesn't have to look like theirs. " +
-                    "Maybe someone will be reading about what YOU created someday. " +
-                    "Keep going. 🌱";
+      /*
+        Scientist database.
+        More verified scientists can be added later.
+      */
 
+      const scientists = {
 
-            } else {
+        "01-08": {
+          name: "Stephen Hawking",
+          field: "Physics",
+          work: "black holes and cosmology"
+        },
 
-                document.getElementById("scientist").innerText =
-                    "We haven't added a birthday scientist for this date yet. 🌷";
-
-
-                document.getElementById("sarcasticMessage").innerText =
-                    "Apparently the scientists are hiding today. " +
-                    "We'll find more of them. 😭";
-
-
-                document.getElementById("encouragement").innerText =
-                    "No famous scientist? Doesn't matter. " +
-                    "You don't need to share a birthday with someone famous to do something meaningful. ♡";
-
-            }
-
-
-            /*
-             * Temporary name meaning.
-             *
-             * Later we can make this much better.
-             */
-
-            const meanings = {
-
-                "monu":
-                    "A sweet nickname often used affectionately. 🎀",
-
-                "rashmi":
-                    "A name associated with rays of light and brightness. ☀️",
-
-                "ravi":
-                    "A name associated with the Sun. ☀️",
-
-                "arun":
-                    "A name associated with dawn and the reddish glow of sunrise. 🌅"
-
-            };
-
-
-            const lowerName =
-                name.toLowerCase();
-
-
-            if (meanings[lowerName]) {
-
-                document.getElementById("nameMeaning").innerText =
-                    meanings[lowerName];
-
-            } else {
-
-                document.getElementById("nameMeaning").innerText =
-                    "Your name is special, pookie. 🌷 " +
-                    "We'll add a proper name-meaning database soon.";
-
-            }
-
+        "03-14": {
+          name: "Albert Einstein",
+          field: "Physics",
+          work: "the theory of relativity"
         }
 
-
-        /*
-         * -------------------------------
-         * NOTE SEARCH
-         * -------------------------------
-         */
-
-        function searchNotes() {
-
-            const search =
-                document
-                .getElementById("search")
-                .value
-                .toLowerCase();
+      };
 
 
-            const cards =
-                document
-                .querySelectorAll(".note-card");
+      let scientist =
+        scientists[birthday];
 
 
-            cards.forEach(function(card) {
-
-                const text =
-                    card.innerText.toLowerCase();
+      let scientistHTML = "";
 
 
-                if (text.includes(search)) {
+      if (scientist) {
 
-                    card.style.display = "";
+        const birthYear =
+          birthday === "03-14" ? 1879 : 1942;
 
-                } else {
+        const yearsAgo =
+          new Date().getFullYear() - birthYear;
 
-                    card.style.display = "none";
 
-                }
+        scientistHTML = `
+          <h3>🔬 Birthday Scientist</h3>
 
-            });
+          <p>
+            You share your birthday with
+            <strong>${scientist.name}</strong>!
+          </p>
 
-        }
+          <p>
+            They were working in ${scientist.field},
+            exploring ${scientist.work}.
+          </p>
 
-    </script>
+          <p>
+            That was about <strong>${yearsAgo} years ago</strong>.
+            No pressure, pookie. 😭🌷
+          </p>
+        `;
+
+      } else {
+
+        scientistHTML = `
+          <h3>🔬 Your Birthday Scientist</h3>
+
+          <p>
+            We're still growing our scientist database! 🌱
+          </p>
+
+          <p>
+            Study Petal will add more brilliant minds here soon.
+          </p>
+        `;
+
+      }
+
+
+      /*
+        Basic name meanings.
+        This can be expanded later.
+      */
+
+      const meanings = {
+
+        "monu":
+          "Monu is often used as a sweet nickname and carries a warm, affectionate feel. 🌷",
+
+        "rashmi":
+          "Rashmi is a name associated with a ray of light or sunshine. ✨",
+
+        "ravi":
+          "Ravi is a name associated with the Sun. ☀️",
+
+        "arun":
+          "Arun is associated with dawn or the reddish glow of sunrise. 🌅"
+
+      };
+
+
+      const meaning =
+        meanings[name.toLowerCase()] ||
+        "Your name has its own little story waiting to bloom. 🌸";
+
+
+      result.style.display = "block";
+
+
+      result.innerHTML = `
+
+        <h3>🌷 Hello, ${name}!</h3>
+
+        ${scientistHTML}
+
+        <hr style="margin:20px 0;border:none;border-top:1px solid #edc5d6;">
+
+        <h3>✨ Your Name</h3>
+
+        <p>
+          ${meaning}
+        </p>
+
+      `;
+
+    }
+
+  </script>
 
 </body>
 </html>
-```
