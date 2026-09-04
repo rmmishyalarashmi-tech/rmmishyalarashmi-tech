@@ -1,11 +1,847 @@
+```html
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Study Petal 🌷</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, "Times New Roman", serif;
+            background: #fff8fc;
+            color: #5b4656;
+        }
+
+        /* ---------- TOP NAVIGATION ---------- */
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: rgba(255, 248, 252, 0.95);
+            border-bottom: 1px solid #f1dce7;
+            padding: 15px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 23px;
+            font-weight: bold;
+            color: #bd7192;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #6d5363;
+            margin-left: 20px;
+            font-size: 15px;
+        }
+
+        nav a:hover {
+            color: #bd7192;
+        }
+
+        /* ---------- HERO ---------- */
+
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 60px 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "✿";
+            position: absolute;
+            top: 12%;
+            left: 10%;
+            font-size: 45px;
+            color: #e7b6ca;
+            transform: rotate(-20deg);
+        }
+
+        .hero::after {
+            content: "❀";
+            position: absolute;
+            bottom: 15%;
+            right: 10%;
+            font-size: 50px;
+            color: #e7b6ca;
+            transform: rotate(20deg);
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .flower {
+            font-size: 50px;
+            margin-bottom: 5px;
+        }
+
+        h1 {
+            font-size: clamp(45px, 8vw, 80px);
+            margin: 5px 0;
+            color: #bd7192;
+            letter-spacing: 2px;
+        }
+
+        .tagline {
+            font-size: 21px;
+            font-style: italic;
+            margin: 10px 0 40px;
+        }
+
+        .quote-box {
+            max-width: 650px;
+            margin: auto;
+            padding: 25px;
+            background: #fff;
+            border: 1px solid #f0d7e4;
+            border-radius: 25px;
+            box-shadow: 0 10px 30px rgba(180, 110, 145, 0.08);
+        }
+
+        .quote {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+
+        .quote-author {
+            margin-top: 12px;
+            font-size: 14px;
+            color: #987284;
+        }
+
+        .start-button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 14px 28px;
+            border-radius: 30px;
+            background: #e9b8cc;
+            color: #5b4656;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        .start-button:hover {
+            transform: translateY(-3px);
+        }
+
+        /* ---------- SECTIONS ---------- */
+
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 38px;
+            color: #bd7192;
+            margin-bottom: 10px;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #8d7180;
+        }
+
+        /* ---------- PERSONAL CARD ---------- */
+
+        .personal-section {
+            background: #fdf1f7;
+        }
+
+        .personal-card {
+            max-width: 650px;
+            margin: auto;
+            background: white;
+            padding: 35px;
+            border-radius: 30px;
+            box-shadow: 0 15px 40px rgba(150, 90, 120, 0.08);
+        }
+
+        .personal-card h3 {
+            text-align: center;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        label {
+            display: block;
+            margin: 18px 0 7px;
+            font-weight: bold;
+        }
+
+        input {
+            width: 100%;
+            padding: 14px;
+            border: 1px solid #e8cbd8;
+            border-radius: 15px;
+            font-size: 16px;
+            outline: none;
+        }
+
+        input:focus {
+            border-color: #bd7192;
+        }
+
+        .discover-button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 14px;
+            border: none;
+            border-radius: 25px;
+            background: #bd7192;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .discover-button:hover {
+            opacity: 0.9;
+        }
+
+        /* ---------- RESULT ---------- */
+
+        #result {
+            display: none;
+            max-width: 800px;
+            margin: 40px auto 0;
+            background: #fff;
+            padding: 35px;
+            border-radius: 30px;
+            border: 1px solid #f0d7e4;
+            text-align: center;
+        }
+
+        #result h3 {
+            color: #bd7192;
+            font-size: 28px;
+        }
+
+        .sarcasm {
+            background: #fff4f8;
+            padding: 20px;
+            border-radius: 20px;
+            margin-top: 20px;
+            line-height: 1.7;
+        }
+
+        /* ---------- NOTES ---------- */
+
+        .notes-container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .search-box {
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .notes-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .note-card {
+            background: white;
+            padding: 25px;
+            border-radius: 25px;
+            border: 1px solid #f0d7e4;
+            box-shadow: 0 8px 25px rgba(150, 90, 120, 0.06);
+            transition: 0.3s;
+        }
+
+        .note-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .note-icon {
+            font-size: 35px;
+        }
+
+        .note-card h3 {
+            color: #bd7192;
+            margin-bottom: 8px;
+        }
+
+        .note-card p {
+            color: #806676;
+            line-height: 1.5;
+        }
+
+        .note-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 18px;
+        }
+
+        .note-buttons a {
+            flex: 1;
+            text-align: center;
+            padding: 10px;
+            border-radius: 18px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .read {
+            background: #f5dce7;
+            color: #6d5363;
+        }
+
+        .download {
+            background: #bd7192;
+            color: white;
+        }
+
+        /* ---------- FOOTER ---------- */
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #fdf1f7;
+            color: #806676;
+        }
+
+        footer strong {
+            color: #bd7192;
+        }
+
+        /* ---------- MOBILE ---------- */
+
+        @media (max-width: 600px) {
+
+            nav {
+                padding: 13px 5%;
+            }
+
+            nav a {
+                margin-left: 8px;
+                font-size: 13px;
+            }
+
+            section {
+                padding: 60px 5%;
+            }
+
+            .personal-card {
+                padding: 25px;
+            }
+
+            .section-title {
+                font-size: 31px;
+            }
+        }
+    </style>
 </head>
 
+
 <body>
-    <h1>🌷 Study Petal</h1>
-    <p>Notes that bloom into knowledge.</p>
+
+    <!-- NAVIGATION -->
+
+    <nav>
+        <div class="logo">🌷 Study Petal</div>
+
+        <div>
+            <a href="#discover">Discover</a>
+            <a href="#notes">Notes</a>
+        </div>
+    </nav>
+
+
+    <!-- HERO -->
+
+    <header class="hero">
+
+        <div class="hero-content">
+
+            <div class="flower">🌷</div>
+
+            <h1>Study Petal</h1>
+
+            <p class="tagline">
+                Notes that bloom into knowledge.
+            </p>
+
+            <div class="quote-box">
+
+                <div class="quote">
+                    “The beautiful thing about learning is that nobody
+                    can take it away from you.”
+                </div>
+
+                <div class="quote-author">
+                    — B. B. King
+                </div>
+
+            </div>
+
+            <a href="#discover" class="start-button">
+                ✿ Begin your journey ✿
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <!-- PERSONAL DISCOVERY -->
+
+    <section id="discover" class="personal-section">
+
+        <h2 class="section-title">
+            A little about you 🌸
+        </h2>
+
+        <p class="section-subtitle">
+            Before we study... let's get to know you, pookie. 🎀
+        </p>
+
+        <div class="personal-card">
+
+            <h3>✨ Meet your birthday scientist ✨</h3>
+
+            <label for="name">Your name</label>
+
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+            <label for="dob">Your birthday</label>
+
+            <input
+                type="date"
+                id="dob"
+            >
+
+            <button
+                class="discover-button"
+                onclick="discover()"
+            >
+                ✨ Discover ✨
+            </button>
+
+        </div>
+
+
+        <!-- RESULT -->
+
+        <div id="result">
+
+            <h3 id="welcome"></h3>
+
+            <p id="scientist"></p>
+
+            <div class="sarcasm">
+
+                <p id="sarcasticMessage"></p>
+
+                <p id="encouragement"></p>
+
+                <hr>
+
+                <h3>💌 Your name</h3>
+
+                <p id="nameMeaning"></p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- NOTES -->
+
+    <section id="notes">
+
+        <h2 class="section-title">
+            🌱 Study Garden
+        </h2>
+
+        <p class="section-subtitle">
+            Okay, enough existential motivation. Let's study. ☕📚
+        </p>
+
+
+        <div class="notes-container">
+
+            <div class="search-box">
+
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="🔍 Search your notes..."
+                    onkeyup="searchNotes()"
+                >
+
+            </div>
+
+
+            <div class="notes-grid" id="notesGrid">
+
+
+                <!-- NOTE 1 -->
+
+                <div class="note-card">
+
+                    <div class="note-icon">📄</div>
+
+                    <h3>SC, BCC & FCC</h3>
+
+                    <p>
+                        Engineering Physics · Crystal Structures
+                    </p>
+
+                    <div class="note-buttons">
+
+                        <a
+                            class="read"
+                            href="#"
+                        >
+                            📖 Read
+                        </a>
+
+                        <a
+                            class="download"
+                            href="#"
+                            download
+                        >
+                            ⬇ Download
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NOTE 2 -->
+
+                <div class="note-card">
+
+                    <div class="note-icon">📄</div>
+
+                    <h3>HCP Derivation</h3>
+
+                    <p>
+                        Engineering Physics · Crystal Structures
+                    </p>
+
+                    <div class="note-buttons">
+
+                        <a
+                            class="read"
+                            href="#"
+                        >
+                            📖 Read
+                        </a>
+
+                        <a
+                            class="download"
+                            href="#"
+                            download
+                        >
+                            ⬇ Download
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NOTE 3 -->
+
+                <div class="note-card">
+
+                    <div class="note-icon">📄</div>
+
+                    <h3>Miller Indices</h3>
+
+                    <p>
+                        Engineering Physics · Unit 1
+                    </p>
+
+                    <div class="note-buttons">
+
+                        <a
+                            class="read"
+                            href="#"
+                        >
+                            📖 Read
+                        </a>
+
+                        <a
+                            class="download"
+                            href="#"
+                            download
+                        >
+                            ⬇ Download
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <p>
+            🌷 <strong>Study Petal</strong>
+        </p>
+
+        <p>
+            A little note can help someone bloom. ♡
+        </p>
+
+    </footer>
+
+
+
+    <script>
+
+        /*
+         * -------------------------------
+         * BIRTHDAY SCIENTIST
+         * -------------------------------
+         *
+         * This is currently a DEMO.
+         *
+         * Later we will connect it to
+         * a proper scientist database.
+         */
+
+        const scientists = {
+
+            "11-14": {
+                name: "Joseph McMullen",
+                field: "scientist",
+                work: "scientific research"
+            },
+
+            "03-14": {
+                name: "Albert Einstein",
+                field: "physics",
+                work: "the theory of relativity"
+            },
+
+            "01-08": {
+                name: "Stephen Hawking",
+                field: "physics",
+                work: "research on black holes and cosmology"
+            }
+
+        };
+
+
+        function discover() {
+
+            const name =
+                document.getElementById("name").value.trim();
+
+            const dob =
+                document.getElementById("dob").value;
+
+            if (name === "" || dob === "") {
+
+                alert("Pookie, you forgot to enter your name and birthday. 😭🌷");
+
+                return;
+            }
+
+
+            const date =
+                new Date(dob + "T00:00:00");
+
+            const month =
+                String(date.getMonth() + 1).padStart(2, "0");
+
+            const day =
+                String(date.getDate()).padStart(2, "0");
+
+            const year =
+                date.getFullYear();
+
+
+            const birthday =
+                month + "-" + day;
+
+
+            document.getElementById("result").style.display = "block";
+
+
+            document.getElementById("welcome").innerText =
+                "🌷 Hello, " + name + "!";
+
+
+            if (scientists[birthday]) {
+
+                const scientist =
+                    scientists[birthday];
+
+
+                const yearsAgo =
+                    year - 1900;
+
+
+                document.getElementById("scientist").innerHTML =
+                    "Apparently, <strong>" +
+                    scientist.name +
+                    "</strong> was also born on this day. " +
+                    "They worked in " +
+                    scientist.field +
+                    " and are associated with " +
+                    scientist.work +
+                    ".";
+
+
+                document.getElementById("sarcasticMessage").innerText =
+                    "They were doing serious science while you were busy being born. " +
+                    "No pressure, pookie. 😭";
+
+
+                document.getElementById("encouragement").innerText =
+                    "Your journey doesn't have to look like theirs. " +
+                    "Maybe someone will be reading about what YOU created someday. " +
+                    "Keep going. 🌱";
+
+
+            } else {
+
+                document.getElementById("scientist").innerText =
+                    "We haven't added a birthday scientist for this date yet. 🌷";
+
+
+                document.getElementById("sarcasticMessage").innerText =
+                    "Apparently the scientists are hiding today. " +
+                    "We'll find more of them. 😭";
+
+
+                document.getElementById("encouragement").innerText =
+                    "No famous scientist? Doesn't matter. " +
+                    "You don't need to share a birthday with someone famous to do something meaningful. ♡";
+
+            }
+
+
+            /*
+             * Temporary name meaning.
+             *
+             * Later we can make this much better.
+             */
+
+            const meanings = {
+
+                "monu":
+                    "A sweet nickname often used affectionately. 🎀",
+
+                "rashmi":
+                    "A name associated with rays of light and brightness. ☀️",
+
+                "ravi":
+                    "A name associated with the Sun. ☀️",
+
+                "arun":
+                    "A name associated with dawn and the reddish glow of sunrise. 🌅"
+
+            };
+
+
+            const lowerName =
+                name.toLowerCase();
+
+
+            if (meanings[lowerName]) {
+
+                document.getElementById("nameMeaning").innerText =
+                    meanings[lowerName];
+
+            } else {
+
+                document.getElementById("nameMeaning").innerText =
+                    "Your name is special, pookie. 🌷 " +
+                    "We'll add a proper name-meaning database soon.";
+
+            }
+
+        }
+
+
+        /*
+         * -------------------------------
+         * NOTE SEARCH
+         * -------------------------------
+         */
+
+        function searchNotes() {
+
+            const search =
+                document
+                .getElementById("search")
+                .value
+                .toLowerCase();
+
+
+            const cards =
+                document
+                .querySelectorAll(".note-card");
+
+
+            cards.forEach(function(card) {
+
+                const text =
+                    card.innerText.toLowerCase();
+
+
+                if (text.includes(search)) {
+
+                    card.style.display = "";
+
+                } else {
+
+                    card.style.display = "none";
+
+                }
+
+            });
+
+        }
+
+    </script>
+
 </body>
 </html>
+```
